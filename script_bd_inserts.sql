@@ -1445,16 +1445,6 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 4);
 
-CREATE TABLE elementos_sede (
-id NUMBER GENERATED ALWAYS AS IDENTITY,
-id_elemento NUMBER NOT NULL,
-id_sede NUMBER NOT NULL,
-cantidad NUMBER(6) NOT NULL,
-CONSTRAINT PK_elementos_sede PRIMARY KEY (id),
-CONSTRAINT FK_elementos_sede_elemento FOREIGN KEY (id_elemento) REFERENCES elemento (id),
-CONSTRAINT FK_elementos_sede_sede FOREIGN KEY (id_sede) REFERENCES sede (id)
-)TABLESPACE ts_sedes;
-
 --elementos_sede
 
 -- Bogota (capital)
@@ -2359,32 +2349,6 @@ GRANT SELECT ON productos_venta TO C##rol_administrativo;
 GRANT CREATE SESSION TO C##rol_administrativo;
 GRANT CREATE SYNONYM TO C##rol_administrativo;
 
-
---tablespace temporal para un usuario
-CREATE TEMPORARY TABLESPACE tts_gerente
-TEMPFILE 'C:\database_admin\tts_gerente.dbf'
-SIZE 10M
-AUTOEXTEND ON
-NEXT 5M
-MAXSIZE 100M;
-
-CREATE TABLESPACE ts_default_users
-DATAFILE 'C:\database_admin\ts_default_users.dbf'
-SIZE 5M;
-
-CREATE USER C##gerente
-IDENTIFIED BY "g1$2024E&";
-
-GRANT C##rol_administrativo TO C##gerente;
-
-DROP USER C##gerente CASCADE;
-ALTER USER C##gerente TEMPORARY TABLESPACE tts_gerente;
-
-select name from SYSTEM_PRIVILEGE_MAP where name like '%SYNONYM%';
-
-select TABLESPACE_NAME name from DBA_TABLESPACES;
-
-select * from USER_TABLESPACES;
 
 --Eliminacion de tablas
 --DROP TABLE pais CASCADE CONSTRAINTS;
