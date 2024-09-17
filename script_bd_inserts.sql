@@ -49,6 +49,77 @@ AUTOEXTEND ON
 NEXT 10M
 MAXSIZE 500M;
 
+--ROLES
+-----------------------------------------------------
+--programador_backend
+CREATE ROLE C##rol_programador_backend;
+
+GRANT CREATE SESSION TO C##rol_programador_backend;
+GRANT CREATE TABLE TO C##rol_programador_backend;
+GRANT CREATE VIEW TO C##rol_programador_backend;
+GRANT CREATE SYNONYM TO C##rol_programador_backend;
+GRANT EXECUTE ANY PROCEDURE TO C##rol_programador_backend;
+GRANT CREATE TABLESPACE TO C##rol_programador_backend;
+
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON pais TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON estado TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON ciudad TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON sede TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON elemento TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON elementos_sede TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON caracteristica TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON caracteristicas_sede TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON departamento TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON cargo TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON empleado TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON membresia TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON cliente TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON historial_visitas TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON producto TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON productos_sede TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON venta TO C##rol_programador_backend;
+GRANT SELECT,INSERT, UPDATE, DELETE, ALTER ON productos_venta TO C##rol_programador_backend;
+
+--adminsitrador
+CREATE ROLE C##rol_administrativo;
+
+GRANT CREATE SESSION TO C##rol_administrativo;
+
+GRANT SELECT ON pais TO C##rol_administrativo;
+GRANT SELECT ON estado TO C##rol_administrativo;
+GRANT SELECT ON ciudad TO C##rol_administrativo;
+GRANT SELECT ON sede TO C##rol_administrativo;
+GRANT SELECT ON elemento TO C##rol_administrativo;
+GRANT SELECT ON elementos_sede TO C##rol_administrativo;
+GRANT SELECT ON caracteristica TO C##rol_administrativo;
+GRANT SELECT ON caracteristicas_sede TO C##rol_administrativo;
+GRANT SELECT ON departamento TO C##rol_administrativo;
+GRANT SELECT ON cargo TO C##rol_administrativo;
+GRANT SELECT ON empleado TO C##rol_administrativo;
+GRANT SELECT ON membresia TO C##rol_administrativo;
+GRANT SELECT ON cliente TO C##rol_administrativo;
+GRANT SELECT ON historial_visitas TO C##rol_administrativo;
+GRANT SELECT ON producto TO C##rol_administrativo;
+GRANT SELECT ON productos_sede TO C##rol_administrativo;
+GRANT SELECT ON venta TO C##rol_administrativo;
+GRANT SELECT ON productos_venta TO C##rol_administrativo;
+-----------------------------------------------------
+
+--USUARIOS
+-----------------------------------------------------
+CREATE USER C##usuario_backend_1 IDENTIFIED BY "usBCK012024#a1";
+GRANT C##rol_programador_backend TO C##usuario_backend;
+
+CREATE USER C##usuario_backend_2 IDENTIFIED BY "usBCK022024#c9";
+GRANT C##rol_programador_backend TO C##usuario_backend;
+
+CREATE USER C##usuario_administrativo_1 IDENTIFIED BY "usADM012024#f0";
+GRANT C##rol_administrativo TO C##usuario_administrativo_1;
+
+CREATE USER C##usuario_administrativo_1 IDENTIFIED BY "usADM022024#h7";
+GRANT C##rol_administrativo TO C##usuario_administrativo_1;
+-----------------------------------------------------
+
 --Creaci�n de las tablas
 CREATE TABLE pais (
 id NUMBER GENERATED ALWAYS AS IDENTITY,
