@@ -332,58 +332,46 @@ INSERT INTO pais (pais) VALUES ('España');
 
 -----------------------------------------------------
 --Estados
-INSERT INTO estado (estado, id_pais) VALUES ('Buenos Aires', 1);
-INSERT INTO estado (estado, id_pais) VALUES ('Cordoba', 1);
-INSERT INTO estado (estado, id_pais) VALUES ('Tucuman', 1);
-INSERT INTO estado (estado, id_pais) VALUES ('Region metropolitana', 2);
-INSERT INTO estado (estado, id_pais) VALUES ('Region de Valparaiso', 2);
-INSERT INTO estado (estado, id_pais) VALUES ('Region de Biobbio', 2);
-INSERT INTO estado (estado, id_pais) VALUES ('Cundinamarca', 3);
-INSERT INTO estado (estado, id_pais) VALUES ('Antioquia', 3);
-INSERT INTO estado (estado, id_pais) VALUES ('Quindio', 3);
-INSERT INTO estado (estado, id_pais) VALUES ('San Jose', 4);
-INSERT INTO estado (estado, id_pais) VALUES ('Limon', 4);
-INSERT INTO estado (estado, id_pais) VALUES ('Guanacaste', 4);
-INSERT INTO estado (estado, id_pais) VALUES ('Pichincha', 5);
-INSERT INTO estado (estado, id_pais) VALUES ('Guayas', 5);
-INSERT INTO estado (estado, id_pais) VALUES ('Azuay', 5);
-INSERT INTO estado (estado, id_pais) VALUES ('Lima', 47);
-INSERT INTO estado (estado, id_pais) VALUES ('Mexico DF', 6);
-INSERT INTO estado (estado, id_pais) VALUES ('Jalisco', 6);
-INSERT INTO estado (estado, id_pais) VALUES ('Puebla de Zaragoza', 6);
-INSERT INTO estado (estado, id_pais) VALUES ('Panama', 7);
-INSERT INTO estado (estado, id_pais) VALUES ('Veraguas', 7);
-INSERT INTO estado (estado, id_pais) VALUES ('Los Santos', 7);
-INSERT INTO estado (estado, id_pais) VALUES ('Arequipa', 8);
-INSERT INTO estado (estado, id_pais) VALUES ('Ayacucho', 8);
-INSERT INTO estado (estado, id_pais) VALUES ('Cataluna', 9);
-INSERT INTO estado (estado, id_pais) VALUES ('Madrid', 9);
+INSERT INTO estado (estado, id_pais) VALUES ('Buenos Aires', 1);--1
+INSERT INTO estado (estado, id_pais) VALUES ('Region metropolitana', 2);--2
+INSERT INTO estado (estado, id_pais) VALUES ('Cundinamarca', 3);--3
+INSERT INTO estado (estado, id_pais) VALUES ('Antioquia', 3);--4
+INSERT INTO estado (estado, id_pais) VALUES ('Quindio', 3);--5
+INSERT INTO estado (estado, id_pais) VALUES ('Pichincha', 5);--6
+INSERT INTO estado (estado, id_pais) VALUES ('Guayas', 5);--7
+INSERT INTO estado (estado, id_pais) VALUES ('Azuay', 5);--8
+INSERT INTO estado (estado, id_pais) VALUES ('Lima', 47);--9
+INSERT INTO estado (estado, id_pais) VALUES ('Mexico DF', 6);--10
+INSERT INTO estado (estado, id_pais) VALUES ('Jalisco', 6);--11
+INSERT INTO estado (estado, id_pais) VALUES ('Panama', 7);--12
+INSERT INTO estado (estado, id_pais) VALUES ('Cataluna', 9);--13
+INSERT INTO estado (estado, id_pais) VALUES ('Madrid', 9);--14
 -----------------------------------------------------
 
 -----------------------------------------------------
 --Ciudades
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Bogota', 7);--1
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Soacha', 7);--2
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Medellin', 8);--3
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Envigado', 8);--4
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Armenia', 9);--5
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Quito', 13);--6
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Sangoli', 13); --7
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guayaquil', 14);--8
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cuenca', 15);--9
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Lima', 16);--10
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Miraflores', 16);--11
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Bogota', 3);--1
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Soacha', 3);--2
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Medellin', 4);--3
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Envigado', 4);--4
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Armenia', 5);--5
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Quito', 6);--6
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Sangoli', 6); --7
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guayaquil', 7);--8
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cuenca', 8);--9
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Lima', 9);--10
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Miraflores', 9);--11
 INSERT INTO ciudad (ciudad, id_estado) VALUES ('Buenos Aires', 1);--12
 INSERT INTO ciudad (ciudad, id_estado) VALUES ('La Plata', 1);--13
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santiago', 4);--14
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Ciudad de Mexico', 17);--15
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Iztapalapa', 17);--16
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guadalajara', 18);--17
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Panama', 20);--18
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Barcelona', 25);--19
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Tarragona', 25);--20
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Madrid', 26);--21
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 26);--22
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santiago', 2);--14
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Ciudad de Mexico', 10);--15
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Iztapalapa', 10);--16
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guadalajara', 11);--17
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Panama', 12);--18
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Barcelona', 13);--19
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Tarragona', 13);--20
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Madrid', 14);--21
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 14);--22
 -----------------------------------------------------
 
 -----------------------------------------------------
