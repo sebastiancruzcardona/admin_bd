@@ -567,11 +567,11 @@ INSERT INTO caracteristica (caracteristica) VALUES ('Gimansio');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona de cardio');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona de funcional');
 INSERT INTO caracteristica (caracteristica) VALUES ('area de boxeo y artes marciales');
+INSERT INTO caracteristica (caracteristica) VALUES ('Tienda');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona de rehabilitaci�n y fisioterapia');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona para niños');
 INSERT INTO caracteristica (caracteristica) VALUES ('Piscina');
 INSERT INTO caracteristica (caracteristica) VALUES ('Turco');
-INSERT INTO caracteristica (caracteristica) VALUES ('Tienda');
 
 --Departamentos
 INSERT INTO departamento (departamento) VALUES ('Entrenamiento');
@@ -711,7 +711,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Centro Gua
 -- Daule
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Daule', 'Avenida León Febres Cordero #15-30', '3001122334', 13);
 
--- Cuenca (capital)
+-- Cuenca (capital) 19
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Cuenca', 'Calle Bolívar #20-15', '3002233445', 14);
 
 -- Lima (capital)
@@ -727,7 +727,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Arequipa',
 -- Ayacucho
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Ayacucho', 'Avenida Cusco #5-20', '3007788990', 18);
 
--- Buenos Aires (capital)
+-- Buenos Aires (capital) 25
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Palermo', 'Avenida Santa Fe #45-30', '3008899001', 19);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Recoleta', 'Calle Pueyrredón #10-20', '3009900112', 19);
 
@@ -737,7 +737,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede La Plata',
 -- Avellaneda
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Avellaneda', 'Avenida Mitre #15-30', '3001122334', 21);
 
--- Córdoba (capital)
+-- Córdoba (capital) 29
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Nueva Córdoba', 'Avenida Hipólito Yrigoyen #20-30', '3002233445', 22);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Centro Córdoba', 'Calle Independencia #45-10', '3003344556', 22);
 
@@ -750,7 +750,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Río Cuart
 -- San Miguel de Tucumán (capital)
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Tucumán', 'Calle 25 de Mayo #10-20', '3006677889', 25);
 
--- Santiago (capital)
+-- Santiago (capital) 34
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Providencia', 'Avenida Providencia #30-20', '3007788990', 26);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Las Condes', 'Avenida Apoquindo #45-15', '3008899001', 26);
 
@@ -760,7 +760,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Puente Alt
 -- Maipú
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Maipú', 'Avenida Pajaritos #15-10', '3000011223', 28);
 
--- Valparaíso (capital)
+-- Valparaíso (capital)38
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Valparaíso', 'Calle Esmeralda #20-30', '3001122334', 29);
 
 -- Viña del Mar
@@ -769,7 +769,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Viña del 
 -- Concepción
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Concepción', 'Calle Caupolicán #12-15', '3003344556', 31);
 
--- Ciudad de México (capital)
+-- Ciudad de México (capital) 41
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Polanco', 'Avenida Presidente Masaryk #45-30', '3004455667', 32);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Roma', 'Calle Álvaro Obregón #20-15', '3005566778', 32);
 
@@ -779,14 +779,14 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Iztapalapa
 -- Coyoacán
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Coyoacán', 'Avenida Coyo #15-20', '3006677889', 34);
 
--- Guadalajara (capital)
+-- Guadalajara (capital)45
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Guadalajara Centro', 'Avenida Juárez #45-10', '3008899001', 35);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Guadalajara Sur', 'Calle López Cotilla #20-30', '3009900112', 35);
 
 -- Zapopan
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Zapopan Centro', 'Avenida Vallarta #55-15', '3000011223', 36);
 
--- Puebla (capital)
+-- Puebla (capital) 48
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Puebla Centro', 'Calle 5 de Febrero #25-10', '3001122334', 37);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Angelópolis', 'Boulevard Atlixco #15-20', '3002233445', 37);
 
@@ -796,7 +796,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Cholula', 
 -- Tehuacán
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Tehuacán', 'Avenida 5 de Mayo #30-25', '3004455667', 39);
 
--- San José (capital)
+-- San José (capital)52
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede San José Centro', 'Avenida Central #15-20', '3005566778', 40);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Escazú', 'Calle San Rafael #20-10', '3006677889', 40);
 
@@ -821,7 +821,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Nicoya', '
 -- Santa Cruz
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Santa Cruz', 'Calle 1 #10-30', '3003344556', 47);
 
--- Panamá (capital)
+-- Panamá (capital) 61
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Panamá Centro', 'Avenida Balboa #25-10', '3004455667', 48);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Albrook', 'Calle 72 #15-20', '3005566778', 48);
 
@@ -840,7 +840,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Guararé',
 -- La Villa de Los Santos
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede La Villa de Los Santos', 'Calle 5 #15-20', '3000011223', 53);
 
--- Barcelona (capital)
+-- Barcelona (capital)68
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Barcelona Centro', 'Calle Gran Vía #45-30', '3001122334', 54);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Eixample', 'Avenida Diagonal #10-15', '3002233445', 54);
 
@@ -850,7 +850,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Tarragona'
 -- Lleida
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Lleida', 'Avenida Cataluña #15-30', '3004455667', 56);
 
--- Madrid (capital)
+-- Madrid (capital)72
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Centro', 'Gran Vía #20-10', '3005566778', 57);
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Norte', 'Avenida de América #15-25', '3006677889', 57);
 
@@ -861,8 +861,7 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Alcalá de
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Getafe', 'Calle Madrid #25-15', '3008899001', 59);
 
 --caracteristicas_sede
--- Bogota (capital)
--- Sede Norte (todas las caracteristicas)
+--Sede 1
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 3);
@@ -873,29 +872,35 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 9);
 
--- Sede Centro (algunas caracteristicas)
+--Sede 2
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (2, 5);
 
--- Sede Occidente (algunas caracteristicas)
+--Sede 3
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 2);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (3, 5);
 
--- Facatativa
--- Sede Facatativa (algunas caracteristicas)
+--sede 4
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (4, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (4, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (4, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (4, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (4, 5);
 
--- Soacha
--- Sede Soacha (algunas caracteristicas)
+--sede 5
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 3);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (5, 5);
 
--- Medellin (capital)
--- Sede Poblado (todas las caracteristicas)
+--sede 6
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 3);
@@ -906,26 +911,28 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (6, 9);
 
--- Sede Laureles (algunas caracteristicas)
+--sede 7
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 2);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 9);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (7, 5);
 
--- Bello
--- Sede Bello (algunas caracteristicas)
+--sede 8
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (8, 7);
 
--- Envigado
--- Sede Envigado (algunas caracteristicas)
+--sede 9
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 3);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (9, 5);
 
--- Armenia (capital)
--- Sede Armenia (todas las caracteristicas)
+--sede 10
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 3);
@@ -936,15 +943,14 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (10, 9);
 
--- Calarca
--- Sede Calarca (algunas caracteristicas)
+--sede 11
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 2);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (11, 5);
 
--- Quito (capital)
--- Sede Norte Quito (todas las caracteristicas)
+--sede 12
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 3);
@@ -955,65 +961,28 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 9);
 
--- Sede Centro Quito (algunas caracteristicas)
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 1);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 3);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 6);
-
--- Sangolque
--- Sede Sangolque (algunas caracteristicas)
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 1);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 9);
-
--- Cayambe
--- Sede Cayambe (algunas caracteristicas)
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 1);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 7);
-
--- Guayaquil (capital)
--- Sede Norte Guayaquil (debe tener todas las caracteristicas)
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 1);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 2);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 3);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (12, 9);
-
--- Sede Centro Guayaquil (no puede tener todas las caracteristicas)
+--sede 13
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (13, 5);
 
--- Cuenca (capital)
--- Sede Cuenca (debe tener todas las caracteristicas)
+--sede 14
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (14, 9);
 
--- Miraflores (no puede tener todas las caracteristicas)
+--sede 15
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (15, 7);
 
--- Arequipa (capital)
--- Sede Arequipa (debe tener todas las caracteristicas)
+--sede 16
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 3);
@@ -1024,86 +993,75 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (16, 9);
 
--- Ayacucho (no puede tener todas las caracteristicas)
+--sede 17
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (17, 6);
 
--- Buenos Aires (capital)
--- Sede Palermo (debe tener todas las caracteristicas)
+--sede 18
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (18, 9);
 
--- Sede Recoleta (debe tener todas las caracteristicas)
+--sede 19
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 5);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (19, 9);
 
--- La Plata (no puede tener todas las caracteristicas)
+--sede 20
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 5);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (20, 9);
 
--- Avellaneda (no puede tener todas las caracteristicas)
+--sede 21
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (21, 5);
 
--- Cordoba (capital)
--- Sede Nueva Cordoba (debe tener todas las caracteristicas)
+--sede 22
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (22, 9);
 
--- Sede Centro Cordoba (no puede tener todas las caracteristicas)
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 1);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 2);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 7);
-
--- Sede Villa Carlos Paz (no puede tener todas las caracteristicas)
+--sede 23
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 5);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (23, 9);
 
--- Sede Rio Cuarto (no puede tener todas las caracteristicas)
+--sede 24
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (24, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (24, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (24, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (24, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (24, 5);
 
--- San Miguel de Tucuman (capital)
--- Sede Tucuman (debe tener todas las caracteristicas)
+--sede 25
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 3);
@@ -1114,76 +1072,67 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (25, 9);
 
--- Santiago (capital)
--- Sede Providencia (no puede tener todas las caracteristicas)
+--sede 26
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (26, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (26, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (26, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (26, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (26, 5);
 
--- Sede Las Condes (debe tener todas las caracteristicas)
+--sede 27
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (27, 9);
 
--- Puente Alto (no puede tener todas las caracteristicas)
+--sede 28
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (28, 6);
 
--- Maipe (no puede tener todas las caracteristicas)
+--sede 29
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 5);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (29, 9);
 
--- Valparaiso (capital)
--- Sede Valparaiso (debe tener todas las caracteristicas)
+--sede 30
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (30, 9);
 
--- Villa del Mar (no puede tener todas las caracteristicas)
+--sede 31
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (31, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (31, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (31, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (31, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (31, 5);
 
--- Concepciin (no puede tener todas las caracteristicas)
+--sede 32
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (32, 8);
 
--- Ciudad de Mexico (capital)
--- Sede Polanco (no puede tener todas las caracteristicas)
+--sede 33
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 9);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (33, 5);
 
--- Sede Roma (debe tener todas las caracteristicas)
+--sede 34
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 3);
@@ -1194,126 +1143,110 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (34, 9);
 
--- Guadalajara (capital)
--- Sede Guadalajara Centro (debe tener todas las caracteristicas)
+--sede 35
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (35, 9);
 
--- Sede Guadalajara Sur (no puede tener todas las caracteristicas)
+--sede 36
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (36, 6);
 
--- Sede Guadalajara Norte (no puede tener todas las caracteristicas)
+--sede 37
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (37, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (37, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (37, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (37, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (37, 5);
 
--- Sede Guadalajara Poniente (no puede tener todas las caracteristicas)
+--sede 38
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 5);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (38, 9);
 
--- Monterrey (capital)
--- Sede Monterrey Centro (debe tener todas las caracteristicas)
+--sede 39
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (39, 9);
 
--- Sede Monterrey Sur (no puede tener todas las caracteristicas)
+--sede 40
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (40, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (40, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (40, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (40, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (40, 5);
 
--- Sede Monterrey Norte (no puede tener todas las caracteristicas)
+--sede 41
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 5);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (41, 9);
 
--- San Luis Potosa (capital)
--- Sede San Luis Potosa Centro (debe tener todas las caracteristicas)
+--sede 42
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (42, 9);
 
--- Sede San Luis Potosa Norte (no puede tener todas las caracteristicas)
+--sede 43
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (43, 7);
 
--- Querataro (capital)
--- Sede Querataro Centro (debe tener todas las caracteristicas)
+--sede 44
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (44, 9);
 
--- Sede Querataro Norte (no puede tener todas las caracteristicas)
+--sede 45
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 5);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (45, 9);
 
--- Puebla (capital)
--- Sede Puebla Centro (debe tener todas las caracteristicas)
+--sede 46
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 6);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (46, 9);
 
--- Sede Puebla Sur (no puede tener todas las caracteristicas)
+--sede 47
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (47, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (47, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (47, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (47, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (47, 5);
 
--- Santa Cruz (capital)
--- Sede Santa Cruz Centro (debe tener todas las caracteristicas)
+--sede 48
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 3);
@@ -1324,8 +1257,95 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (48, 9);
 
--- Panama (capital)
--- Sede Panama Centro (debe tener todas las caracteristicas)
+--sede 49
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (49, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (49, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (49, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (49, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (49, 5);
+
+--sede 50
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (50, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (50, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (50, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (50, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (50, 5);
+
+--sede 51
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (51, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (51, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (51, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (51, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (51, 5);
+
+--sede 52
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 5);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 6);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 7);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (52, 9);
+
+--sede 53
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (53, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (53, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (53, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (53, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (53, 5);
+
+--sede 54
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (54, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (54, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (54, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (54, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (54, 5);
+
+--sede 55
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (55, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (55, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (55, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (55, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (55, 5);
+
+--sede 56
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (56, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (56, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (56, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (56, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (56, 5);
+
+--sede 57
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (57, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (57, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (57, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (57, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (57, 5);
+
+--sede 58
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (58, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (58, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (58, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (58, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (58, 5);
+
+--sede 59
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (59, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (59, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (59, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (59, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (59, 5);
+
+--sede 60
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (60, 1);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (60, 2);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (60, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (60, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (60, 5);
+
+--sede 61
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 3);
@@ -1336,51 +1356,49 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (61, 9);
 
--- Sede Albrook (no puede tener todas las caracteristicas)
+--sede 62
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (62, 6);
 
--- San Miguelito
+--sede 63
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 8);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (63, 5);
 
--- Santiago de Veraguas
+--sede 64
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (64, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (64, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (64, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (64, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (64, 5);
 
--- Las Tablas
+--sede 65
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 7);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 9);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (65, 5);
 
--- Guarara
+--sede 66
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (66, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (66, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (66, 3);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (66, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (66, 5);
 
--- La Villa de Los Santos
+--sede 67
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (67, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (67, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (67, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (67, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (67, 5);
 
--- Barcelona (capital)
--- Sede Barcelona Centro (debe tener todas las caracteristicas)
+--sede 68
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 3);
@@ -1391,29 +1409,28 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (68, 9);
 
--- Sede Eixample (no puede tener todas las caracteristicas)
+--sede 69
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (69, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (69, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (69, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (69, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (69, 5);
 
--- Tarragona
+--sede 70
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 5);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (70, 9);
 
--- Lleida
+--sede 71
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (71, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (71, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (71, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (71, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (71, 5);
 
--- Madrid (capital)
--- Sede Madrid Centro (debe tener todas las caracteristicas)
+--sede 72
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 3);
@@ -1424,26 +1441,26 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 7);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 8);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (72, 9);
 
--- Sede Madrid Norte (no puede tener todas las caracteristicas)
+--sede 73
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 4);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 8);
-INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 9);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (73, 5);
 
--- Alcala de Henares
+--sede 74
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (74, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (74, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (74, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (74, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (74, 5);
 
--- Getafe
+--sede 75
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 1);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 4);
+INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 5);
 
 --elementos_sede
 
