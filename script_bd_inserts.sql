@@ -423,8 +423,8 @@ INSERT INTO ciudad (ciudad, id_estado) VALUES ('Alcala de Henares', 26);
 INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 26);
 -----------------------------------------------------
 
+-----------------------------------------------------
 --Elementos
--- Elementos
 INSERT INTO elemento (elemento, marca) VALUES ('Cinta de correr', 'NordicTrack');
 INSERT INTO elemento (elemento, marca) VALUES ('Bicicleta estática', 'Schwinn');
 INSERT INTO elemento (elemento, marca) VALUES ('Elíptica', 'ProForm');
@@ -511,8 +511,10 @@ INSERT INTO elemento (elemento, marca) VALUES ('Soporte para folletos', 'Display
 INSERT INTO elemento (elemento, marca) VALUES ('Sistema de punto de venta', 'Square');
 INSERT INTO elemento (elemento, marca) VALUES ('Carro de almacenamiento', 'Seville Classics');
 INSERT INTO elemento (elemento, marca) VALUES ('Iluminación para vitrinas', 'Philips');
+-----------------------------------------------------
 
---Caracter�stica
+-----------------------------------------------------
+--Caracteristica
 INSERT INTO caracteristica (caracteristica) VALUES ('Gimansio');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona de cardio');
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona de funcional');
@@ -522,7 +524,9 @@ INSERT INTO caracteristica (caracteristica) VALUES ('Zona de rehabilitaci�n y 
 INSERT INTO caracteristica (caracteristica) VALUES ('Zona para niños');
 INSERT INTO caracteristica (caracteristica) VALUES ('Piscina');
 INSERT INTO caracteristica (caracteristica) VALUES ('Turco');
+-----------------------------------------------------
 
+-----------------------------------------------------
 --Departamentos
 INSERT INTO departamento (departamento) VALUES ('Entrenamiento');
 INSERT INTO departamento (departamento) VALUES ('Fisioterapia');
@@ -533,7 +537,9 @@ INSERT INTO departamento (departamento) VALUES ('Nutricion');
 INSERT INTO departamento (departamento) VALUES ('Legal');
 INSERT INTO departamento (departamento) VALUES ('Marketing');
 INSERT INTO departamento (departamento) VALUES ('Administrativo');
+-----------------------------------------------------
 
+-----------------------------------------------------
 --Cargos
 INSERT INTO cargo (cargo, id_departamento) VALUES ('Entrenador Personal', 1);
 INSERT INTO cargo (cargo, id_departamento) VALUES ('Instructor de Clases Grupales', 1);
@@ -559,7 +565,9 @@ INSERT INTO cargo (cargo, id_departamento) VALUES ('Gerente de general', 9);
 INSERT INTO cargo (cargo, id_departamento) VALUES ('Gerente de sede', 9);
 INSERT INTO cargo (cargo, id_departamento) VALUES ('Contador', 9);
 INSERT INTO cargo (cargo, id_departamento) VALUES ('Asistente Administrativo', 9);
+-----------------------------------------------------
 
+-----------------------------------------------------
 -- Membresías
 INSERT INTO membresia (membresia, descripcion, precio_mes, precio_anual) VALUES
 ('Básica', 'Acceso 4 días a la semana a todas las instalaciones y 4 clases grupales durante un mes.', 30.00, 300.00);
@@ -593,7 +601,9 @@ INSERT INTO membresia (membresia, descripcion, precio_mes, precio_anual) VALUES
 
 INSERT INTO membresia (membresia, precio_mes, precio_anual) VALUES
 ('No miembro', 0, 0);
+-----------------------------------------------------
 
+-----------------------------------------------------
 -- Productos
 INSERT INTO producto (producto, descripcion) VALUES ('Proteína Whey', 'Proteína de suero de leche para aumentar masa muscular.');
 INSERT INTO producto (producto, descripcion) VALUES ('Creatina Monohidrato', 'Suplemento para mejorar el rendimiento y la fuerza.');
@@ -615,7 +625,9 @@ INSERT INTO producto (producto, descripcion) VALUES ('Suero de Leche Isolado', '
 INSERT INTO producto (producto, descripcion) VALUES ('ZMA', 'Suplemento de zinc, magnesio y vitamina B6 para mejorar el sueño y la recuperación.');
 INSERT INTO producto (producto, descripcion) VALUES ('Ácido Hialurónico', 'Suplemento para la salud de las articulaciones y la piel.');
 INSERT INTO producto (producto, descripcion) VALUES ('Beta-Alanina', 'Suplemento para mejorar la resistencia muscular y reducir la fatiga.');
+-----------------------------------------------------
 
+-----------------------------------------------------
 -- Sedes
 -- Bogotá (capital)
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte', 'Calle 100 #15-20', '3001234567', 1);
@@ -809,8 +821,9 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Alcalá de
 
 -- Getafe
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Getafe', 'Calle Madrid #25-15', '3008899001', 59);
+-----------------------------------------------------
 
-
+-----------------------------------------------------
 --caracteristicas_sede
 --Sede 1
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (1, 1);
@@ -1412,11 +1425,12 @@ INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 2);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 3);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 4);
 INSERT INTO caracteristicas_sede (id_sede, id_caracteristica) VALUES (75, 5);
+-----------------------------------------------------
 
+-----------------------------------------------------
 --elementos_sede
 
--- Bogota (capital)
--- Sede Norte (todas las caracteristicas)
+--sede 1
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 1, 10);
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 1, 20);
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 1, 10);
@@ -2095,7 +2109,9 @@ INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 10, 1);
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 10, 1);
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (84, 10, 1);
 INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (86, 10, 1);
+-----------------------------------------------------
 
+-----------------------------------------------------
 --empleados
 --sede 1
 -- Entrenadores y Personal de Entrenamiento
@@ -2174,7 +2190,9 @@ INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, 
 INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carmen', 'Hernández', '0000000050', TO_DATE('1982-01-15', 'YYYY-MM-DD'), '6521112241', 'carmen.hernandez@ejemplo.com.co', 1, 3, 11); -- Auxiliar de Servicios Generales
 INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000051', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '6601112243', 'juan.sanchez@ejemplo.com.co', 1, 3, 11); -- Auxiliar de Servicios Generales
 INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000052', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '6701112242', 'isabel.diaz@ejemplo.com.co', 1, 3, 10); -- Jefe de Mantenimiento
+-----------------------------------------------------
 
+-----------------------------------------------------
 -- Clientes para Sede Norte (Bogotá)
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Carlos', 'Gómez', '0000000053', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez1@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 1, 1);
@@ -2264,7 +2282,9 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Camila', 'Ramos', '0000000081', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3100123456', 'camila.ramos3@yipmail.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 3, 10);
+-----------------------------------------------------
 
+-----------------------------------------------------
 --productos_sede
 -- sede 1
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 1, 50.00, 30);
@@ -2287,35 +2307,13 @@ INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 1, 
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 1, 65.00, 1);
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 1, 50.00, 20);
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 1, 55.00, 25);
+-----------------------------------------------------
 
 --historial de visitas
 
 --venta
 
 --productos venta
-
---Creacion de roles
-CREATE ROLE C##rol_administrativo;
-GRANT SELECT ON pais TO C##rol_administrativo;
-GRANT SELECT ON estado TO C##rol_administrativo;
-GRANT SELECT ON ciudad TO C##rol_administrativo;
-GRANT SELECT ON sede TO C##rol_administrativo;
-GRANT SELECT ON elemento TO C##rol_administrativo;
-GRANT SELECT ON elementos_sede TO C##rol_administrativo;
-GRANT SELECT ON caracteristica TO C##rol_administrativo;
-GRANT SELECT ON caracteristicas_sede TO C##rol_administrativo;
-GRANT SELECT ON cliente TO C##rol_administrativo;
-GRANT SELECT ON membresia TO C##rol_administrativo;
-GRANT SELECT ON historial_visitas TO C##rol_administrativo;
-GRANT SELECT ON departamento TO C##rol_administrativo;
-GRANT SELECT ON cargo TO C##rol_administrativo;
-GRANT SELECT ON empleado TO C##rol_administrativo;
-GRANT SELECT ON producto TO C##rol_administrativo;
-GRANT SELECT ON productos_sede TO C##rol_administrativo;
-GRANT SELECT ON venta TO C##rol_administrativo;
-GRANT SELECT ON productos_venta TO C##rol_administrativo;
-GRANT CREATE SESSION TO C##rol_administrativo;
-GRANT CREATE SYNONYM TO C##rol_administrativo;
 
 
 --Eliminacion de tablas
