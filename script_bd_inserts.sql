@@ -332,95 +332,58 @@ INSERT INTO pais (pais) VALUES ('España');
 
 -----------------------------------------------------
 --Estados
-INSERT INTO estado (estado, id_pais) VALUES ('Buenos Aires', 1);--1
-INSERT INTO estado (estado, id_pais) VALUES ('Cordoba', 1);--2
-INSERT INTO estado (estado, id_pais) VALUES ('Tucuman', 1);--3
-INSERT INTO estado (estado, id_pais) VALUES ('Region metropolitana', 2);--4
-INSERT INTO estado (estado, id_pais) VALUES ('Region de Valparaiso', 2);--5
-INSERT INTO estado (estado, id_pais) VALUES ('Region de Biobbio', 2);--6
-INSERT INTO estado (estado, id_pais) VALUES ('Cundinamarca', 3); --7
-INSERT INTO estado (estado, id_pais) VALUES ('Antioquia', 3);--8
-INSERT INTO estado (estado, id_pais) VALUES ('Quindio', 3);--9
-INSERT INTO estado (estado, id_pais) VALUES ('San Jose', 4); --10
-INSERT INTO estado (estado, id_pais) VALUES ('Limon', 4);--11
-INSERT INTO estado (estado, id_pais) VALUES ('Guanacaste', 4);--12
-INSERT INTO estado (estado, id_pais) VALUES ('Pichincha', 5);--13
-INSERT INTO estado (estado, id_pais) VALUES ('Guayas', 5);--14
-INSERT INTO estado (estado, id_pais) VALUES ('Azuay', 5);--15
-INSERT INTO estado (estado, id_pais) VALUES ('Lima', 47);--16
-INSERT INTO estado (estado, id_pais) VALUES ('Mexico DF', 6);--17
-INSERT INTO estado (estado, id_pais) VALUES ('Jalisco', 6);--18
-INSERT INTO estado (estado, id_pais) VALUES ('Puebla de Zaragoza', 6);--19
-INSERT INTO estado (estado, id_pais) VALUES ('Panama', 7);--20
-INSERT INTO estado (estado, id_pais) VALUES ('Veraguas', 7);--21
-INSERT INTO estado (estado, id_pais) VALUES ('Los Santos', 7);--22
-INSERT INTO estado (estado, id_pais) VALUES ('Arequipa', 8);--23
-INSERT INTO estado (estado, id_pais) VALUES ('Ayacucho', 8);--24
-INSERT INTO estado (estado, id_pais) VALUES ('Cataluna', 9);--25
-INSERT INTO estado (estado, id_pais) VALUES ('Madrid', 9);--26
+INSERT INTO estado (estado, id_pais) VALUES ('Buenos Aires', 1);
+INSERT INTO estado (estado, id_pais) VALUES ('Cordoba', 1);
+INSERT INTO estado (estado, id_pais) VALUES ('Tucuman', 1);
+INSERT INTO estado (estado, id_pais) VALUES ('Region metropolitana', 2);
+INSERT INTO estado (estado, id_pais) VALUES ('Region de Valparaiso', 2);
+INSERT INTO estado (estado, id_pais) VALUES ('Region de Biobbio', 2);
+INSERT INTO estado (estado, id_pais) VALUES ('Cundinamarca', 3);
+INSERT INTO estado (estado, id_pais) VALUES ('Antioquia', 3);
+INSERT INTO estado (estado, id_pais) VALUES ('Quindio', 3);
+INSERT INTO estado (estado, id_pais) VALUES ('San Jose', 4);
+INSERT INTO estado (estado, id_pais) VALUES ('Limon', 4);
+INSERT INTO estado (estado, id_pais) VALUES ('Guanacaste', 4);
+INSERT INTO estado (estado, id_pais) VALUES ('Pichincha', 5);
+INSERT INTO estado (estado, id_pais) VALUES ('Guayas', 5);
+INSERT INTO estado (estado, id_pais) VALUES ('Azuay', 5);
+INSERT INTO estado (estado, id_pais) VALUES ('Lima', 47);
+INSERT INTO estado (estado, id_pais) VALUES ('Mexico DF', 6);
+INSERT INTO estado (estado, id_pais) VALUES ('Jalisco', 6);
+INSERT INTO estado (estado, id_pais) VALUES ('Puebla de Zaragoza', 6);
+INSERT INTO estado (estado, id_pais) VALUES ('Panama', 7);
+INSERT INTO estado (estado, id_pais) VALUES ('Veraguas', 7);
+INSERT INTO estado (estado, id_pais) VALUES ('Los Santos', 7);
+INSERT INTO estado (estado, id_pais) VALUES ('Arequipa', 8);
+INSERT INTO estado (estado, id_pais) VALUES ('Ayacucho', 8);
+INSERT INTO estado (estado, id_pais) VALUES ('Cataluna', 9);
+INSERT INTO estado (estado, id_pais) VALUES ('Madrid', 9);
 -----------------------------------------------------
 
 -----------------------------------------------------
 --Ciudades
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Bogota', 7);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Facatativa', 7);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Soacha', 7);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Medellin', 8);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Bello', 8);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Envigado', 8);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Armenia', 9);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Calarca', 9);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Quito', 13);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Sangolque', 13);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cayambe', 13);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guayaquil', 14);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Daule', 14);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cuenca', 15);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Lima', 16);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Miraflores', 16);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Arequipa', 23);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Ayacucho', 24);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Buenos Aires', 1);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('La Plata', 1);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Avellaneda', 1);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cordoba', 2);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Villa Carlos Paz', 2);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Rio Cuarto', 2);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('San Miguel de Tucuman', 3);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santiago', 4);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Puente Alto', 4);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Maipo', 4);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Valparaiso', 5);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Vida del Mar', 5);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Concepcion', 6);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Ciudad de Mexico', 17);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Iztapalapa', 17);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Coyoacan', 17);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guadalajara', 18);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Zapopan', 18);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Puebla', 19);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cholula', 19);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Tehuacan', 19);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('San Jose', 10);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Desamparados', 10);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Alajuela', 10);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Limon', 11);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guapiles', 11);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Liberia', 12);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Nicoya', 12);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santa Cruz', 12);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Panama', 20);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('San Miguelito', 20);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santiago de Veraguas', 21);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Las Tablas', 22);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guarara', 22);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('La Villa de Los Santos', 22);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Barcelona', 25);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Tarragona', 25);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Lleida', 25);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Madrid', 26);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Alcala de Henares', 26);
-INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 26);
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Bogota', 7);--1
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Soacha', 7);--2
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Medellin', 8);--3
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Envigado', 8);--4
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Armenia', 9);--5
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Quito', 13);--6
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Sangoli', 13); --7
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guayaquil', 14);--8
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Cuenca', 15);--9
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Lima', 16);--10
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Miraflores', 16);--11
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Buenos Aires', 1);--12
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('La Plata', 1);--13
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Santiago', 4);--14
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Ciudad de Mexico', 17);--15
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Iztapalapa', 17);--16
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Guadalajara', 18);--17
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Panama', 20);--18
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Barcelona', 25);--19
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Tarragona', 25);--20
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Madrid', 26);--21
+INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 26);--22
 -----------------------------------------------------
 
 -----------------------------------------------------
@@ -634,74 +597,74 @@ INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte', 'C
 INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Centro', 'Carrera 7 #45-10', '3009876543', 1);
 
 -- Soacha 3
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Soacha', 'Carrera 10 #4-15', '3008765432', 3);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Soacha', 'Carrera 10 #4-15', '3008765432', 2);
 
 -- Medellín (capital) 4-5
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Poblado', 'Calle 10 #43-25', '3001231234', 4);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Laureles', 'Avenida Nutibara #70-30', '3009876541', 4);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Poblado', 'Calle 10 #43-25', '3001231234', 3);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Laureles', 'Avenida Nutibara #70-30', '3009876541', 3);
 
 -- Envigado 6
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Envigado', 'Calle 38 Sur #15-20', '3002211445', 6);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Envigado', 'Calle 38 Sur #15-20', '3002211445', 4);
 
 -- Armenia (capital) 7
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Armenia', 'Carrera 14 #18-20', '3003344556', 7);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Armenia', 'Carrera 14 #18-20', '3003344556', 5);
 
 -- Quito (capital) 8
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte Quito', 'Avenida Amazonas #35-20', '3005566778', 9);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte Quito', 'Avenida Amazonas #35-20', '3005566778', 6);
 
 -- Sangolquí 9
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Sangolquí', 'Avenida General Rumiñahui #5-25', '3007788990', 10);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Sangolquí', 'Avenida General Rumiñahui #5-25', '3007788990', 7);
 
 -- Guayaquil (capital) 10
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte Guayaquil', 'Avenida 9 de Octubre #30-15', '3009900112', 12);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Norte Guayaquil', 'Avenida 9 de Octubre #30-15', '3009900112', 8);
 
 -- Cuenca (capital) 11
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Cuenca', 'Calle Bolívar #20-15', '3002233445', 14);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Cuenca', 'Calle Bolívar #20-15', '3002233445', 9);
 
 -- Lima (capital) 12
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Lima Sur', 'Avenida Javier Prado #45-20', '3003344556', 15);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Lima Sur', 'Avenida Javier Prado #45-20', '3003344556', 10);
 
 -- Miraflores 13
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Miraflores', 'Avenida Pardo #12-30', '3005566778', 16);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Miraflores', 'Avenida Pardo #12-30', '3005566778', 11);
 
 -- Buenos Aires (capital) 14-15
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Palermo', 'Avenida Santa Fe #45-30', '3008899001', 19);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Recoleta', 'Calle Pueyrredón #10-20', '3009900112', 19);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Palermo', 'Avenida Santa Fe #45-30', '3008899001', 12);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Recoleta', 'Calle Pueyrredón #10-20', '3009900112', 12);
 
 -- La Plata 16
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede La Plata', 'Calle 7 #34-25', '3000011223', 20);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede La Plata', 'Calle 7 #34-25', '3000011223', 13);
 
 -- Santiago (capital) 17-18
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Providencia', 'Avenida Providencia #30-20', '3007788990', 26);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Las Condes', 'Avenida Apoquindo #45-15', '3008899001', 26);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Providencia', 'Avenida Providencia #30-20', '3007788990', 14);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Las Condes', 'Avenida Apoquindo #45-15', '3008899001', 14);
 
--- Ciudad de México (capital) 19-20
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Polanco', 'Avenida Presidente Masaryk #45-30', '3004455667', 32);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Roma', 'Calle Álvaro Obregón #20-15', '3005566778', 32);
+-- Ciudad de Mexico (capital) 19-20
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Polanco', 'Avenida Presidente Masaryk #45-30', '3004455667', 15);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Roma', 'Calle Álvaro Obregón #20-15', '3005566778', 15);
 
 -- Iztapalapa 21
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Iztapalapa', 'Avenida Tláhuac #15-20', '3006677889', 33);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Iztapalapa', 'Avenida Tláhuac #15-20', '3006677889', 16);
 
 -- Guadalajara (capital) 22
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Guadalajara Centro', 'Avenida Juárez #45-10', '3008899001', 35);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Guadalajara Centro', 'Avenida Juárez #45-10', '3008899001', 17);
 
--- Panamá (capital) 23-24
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Panamá Centro', 'Avenida Balboa #25-10', '3004455667', 48);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Albrook', 'Calle 72 #15-20', '3005566778', 48);
+-- Panama (capital) 23-24
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Panamá Centro', 'Avenida Balboa #25-10', '3004455667', 18);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Albrook', 'Calle 72 #15-20', '3005566778', 18);
 
 -- Barcelona (capital) 25-26
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Barcelona Centro', 'Calle Gran Vía #45-30', '3001122334', 54);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Eixample', 'Avenida Diagonal #10-15', '3002233445', 54);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Barcelona Centro', 'Calle Gran Vía #45-30', '3001122334', 19);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Eixample', 'Avenida Diagonal #10-15', '3002233445', 19);
 
 -- Tarragona 27
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Tarragona', 'Calle Ramón y Cajal #20-25', '3003344556', 55);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Tarragona', 'Calle Ramón y Cajal #20-25', '3003344556', 20);
 
 -- Madrid (capital) 28-29
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Centro', 'Gran Vía #20-10', '3005566778', 57);
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Norte', 'Avenida de América #15-25', '3006677889', 57);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Centro', 'Gran Vía #20-10', '3005566778', 21);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Madrid Norte', 'Avenida de América #15-25', '3006677889', 21);
 
 -- Getafe 30
-INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Getafe', 'Calle Madrid #25-15', '3008899001', 59);
+INSERT INTO sede (sede, direccion, telefono, id_ciudad) VALUES ('Sede Getafe', 'Calle Madrid #25-15', '3008899001', 22);
 -----------------------------------------------------
 
 -----------------------------------------------------
