@@ -3699,44 +3699,436 @@ INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, 
 --sede 25
 
 -- Entrenadores y Personal de Entrenamiento
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000301', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000301', 'ana.gomez@def.com', 1, 23, 1); -- Entrenador Personal
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000302', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000302', 'roge.gomez@def.com', 1, 23, 1); -- Entrenador Personal
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Eustaquio', 'Pérez', '0000000303', TO_DATE('1980-02-16', 'YYYY-MM-DD'), '3000000303', 'eus.gomez@def.com', 1, 23, 1); -- Entrenador Personal
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000304', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000304', 'luis.perez@def.com', 1, 23, 2); -- Instructor de Clases Grupales
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000305', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000305', 'carlos.morales@def.com', 1, 23, 3); -- Coordinador de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000328', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000328', 'ana.gomez@efg.com', 1, 25, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000329', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000329', 'roge.gomez@efg.com', 1, 25, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Eustaquio', 'Pérez', '0000000330', TO_DATE('1980-02-16', 'YYYY-MM-DD'), '3000000330', 'eus.gomez@efg.com', 1, 25, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000331', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000331', 'luis.perez@efg.com', 1, 25, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000332', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000332', 'carlos.morales@efg.com', 1, 25, 3); -- Coordinador de Entrenamiento
 -- Fisioterapeutas y Asistentes
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Sofía', 'Vásquez', '0000000306', TO_DATE('1986-02-14', 'YYYY-MM-DD'), '3000000306', 'sofia.vasquez@def.com', 1, 23, 4); -- Fisioterapeuta
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Julio', 'Ramírez', '0000000307', TO_DATE('1990-06-25', 'YYYY-MM-DD'), '3000000307', 'julio.ramirez@def.com', 1, 23, 5); -- Rehabilitador Deportivo
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Laura', 'García', '0000000308', TO_DATE('1989-03-17', 'YYYY-MM-DD'), '3000000308', 'laura.garcia@def.com', 1, 23, 6); -- Asistente de Fisioterapia
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Sofía', 'Vásquez', '0000000333', TO_DATE('1986-02-14', 'YYYY-MM-DD'), '3000000333', 'sofia.vasquez@efg.com', 1, 25, 4); -- Fisioterapeuta
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Julio', 'Ramírez', '0000000334', TO_DATE('1990-06-25', 'YYYY-MM-DD'), '3000000334', 'julio.ramirez@efg.com', 1, 25, 5); -- Rehabilitador Deportivo
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Laura', 'García', '0000000335', TO_DATE('1989-03-17', 'YYYY-MM-DD'), '3000000335', 'laura.garcia@efg.com', 1, 25, 6); -- Asistente de Fisioterapia
 -- Instructores para Niños
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Miguel', 'Hernández', '0000000309', TO_DATE('1992-07-08', 'YYYY-MM-DD'), '3000000309', 'miguel.hernandez@def.com', 1, 23, 7); -- Instructor de Actividades para Niños
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Claudia', 'Martínez', '0000000310', TO_DATE('1984-12-05', 'YYYY-MM-DD'), '3000000310', 'claudia.martinez@def.com', 1, 23, 8); -- Cuidador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Miguel', 'Hernández', '0000000336', TO_DATE('1992-07-08', 'YYYY-MM-DD'), '3000000336', 'miguel.hernandez@efg.com', 1, 25, 7); -- Instructor de Actividades para Niños
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Claudia', 'Martínez', '0000000337', TO_DATE('1984-12-05', 'YYYY-MM-DD'), '3000000337', 'claudia.martinez@efg.com', 1, 25, 8); -- Cuidador
 -- Mantenimiento y Atención al Cliente
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000311', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000311', 'andres.pineda@def.com', 1, 23, 9); -- Operario de Mantenimiento
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrea', 'Pineda', '0000000312', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000312', 'andrea.pineda@def.com', 1, 23, 9); -- Operario de Mantenimiento
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000313', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000313', 'ruperto.pineda@def.com', 1, 23, 11); -- Auxiliar de Servicios Generales
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carmen', 'Hernández', '0000000314', TO_DATE('1982-01-15', 'YYYY-MM-DD'), '3000000314', 'carme.hdz@def.com', 1, 23, 11); -- Auxiliar de Servicios Generales
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000315', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000315', 'juan.sanchez@def.com', 1, 23, 11); -- Auxiliar de Servicios Generales
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000316', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000316', 'isabel.diaz@def.com', 1, 23, 10); -- Jefe de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000338', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000338', 'andres.pineda@efg.com', 1, 25, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrea', 'Pineda', '0000000339', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000339', 'andrea.pineda@efg.com', 1, 25, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000340', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000340', 'ruperto.pineda@efg.com', 1, 25, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carmen', 'Hernández', '0000000341', TO_DATE('1982-01-15', 'YYYY-MM-DD'), '3000000341', 'carme.hdz@efg.com', 1, 25, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000342', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000342', 'juan.sanchez@efg.com', 1, 25, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000343', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000343', 'isabel.diaz@efg.com', 1, 25, 10); -- Jefe de Mantenimiento
 -- Atención al Cliente y Nutrición
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000317', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000317', 'valeria.moreno@def.com', 1, 23, 12); -- Auxiliar de Atención al Cliente
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000318', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000318', 'camilo.gomez@def.com', 1, 23, 13); -- Coordinador de Servicio al Cliente
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000319', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000319', 'gabriela.rios@def.com', 1, 23, 14); -- Nutricionista
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000320', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000320', 'felipe.cruz@def.com', 1, 23, 15); -- Asesor de Suplementación
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000344', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000344', 'valeria.moreno@efg.com', 1, 25, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000345', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000345', 'camilo.gomez@efg.com', 1, 25, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000346', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000346', 'gabriela.rios@efg.com', 1, 25, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000347', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000347', 'felipe.cruz@efg.com', 1, 25, 15); -- Asesor de Suplementación
 -- Otros roles
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Martín', 'Núñez', '0000000321', TO_DATE('1986-06-28', 'YYYY-MM-DD'), '3000000321', 'martin.nunez@def.com', 1, 23, 18); -- Gerente de Marketing
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Paola', 'Castro', '0000000322', TO_DATE('1990-10-15', 'YYYY-MM-DD'), '3000000322', 'paola.castro@def.com', 1, 23, 19); -- Publicista
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Esteban', 'Ardila', '0000000323', TO_DATE('1985-08-11', 'YYYY-MM-DD'), '3000000323', 'esteban.ardila@def.com', 1, 23, 20); -- Diseñador
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Mariana', 'Ardila', '0000000324', TO_DATE('1989-08-12', 'YYYY-MM-DD'), '3000000324', 'mariana.ardila@def.com', 1, 23, 20); -- Diseñador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Martín', 'Núñez', '0000000348', TO_DATE('1986-06-28', 'YYYY-MM-DD'), '3000000348', 'martin.nunez@efg.com', 1, 25, 18); -- Gerente de Marketing
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Paola', 'Castro', '0000000349', TO_DATE('1990-10-15', 'YYYY-MM-DD'), '3000000349', 'paola.castro@efg.com', 1, 25, 19); -- Publicista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Esteban', 'Ardila', '0000000350', TO_DATE('1985-08-11', 'YYYY-MM-DD'), '3000000350', 'esteban.ardila@efg.com', 1, 25, 20); -- Diseñador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Mariana', 'Ardila', '0000000351', TO_DATE('1989-08-12', 'YYYY-MM-DD'), '3000000351', 'mariana.ardila@efg.com', 1, 25, 20); -- Diseñador
 -- Gerentes y Contador
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000325', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000325', 'daniela.salazar@def.com', 1, 23, 22); -- Gerente de Sede
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000326', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000326', 'alejandro.valencia@def.com', 1, 23, 23); -- Contador
-INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000327', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000327', 'natalia.paniagua@def.com', 1, 23, 24); -- Asistente Administrativo
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000352', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000352', 'daniela.salazar@efg.com', 1, 25, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000353', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000353', 'alejandro.valencia@efg.com', 1, 25, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000354', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000354', 'natalia.paniagua@efg.com', 1, 25, 24); -- Asistente Administrativo
+
+--sede 28
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000355', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000355', 'ana.gomez@fgh.com', 1, 28, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000356', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000356', 'roge.gomez@fgh.com', 1, 28, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Eustaquio', 'Pérez', '0000000357', TO_DATE('1980-02-16', 'YYYY-MM-DD'), '3000000357', 'eus.gomez@fgh.com', 1, 28, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000358', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000358', 'luis.perez@fgh.com', 1, 28, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000359', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000359', 'carlos.morales@fgh.com', 1, 28, 3); -- Coordinador de Entrenamiento
+-- Fisioterapeutas y Asistentes
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Sofía', 'Vásquez', '0000000360', TO_DATE('1986-02-14', 'YYYY-MM-DD'), '3000000360', 'sofia.vasquez@fgh.com', 1, 28, 4); -- Fisioterapeuta
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Julio', 'Ramírez', '0000000361', TO_DATE('1990-06-25', 'YYYY-MM-DD'), '3000000361', 'julio.ramirez@fgh.com', 1, 28, 5); -- Rehabilitador Deportivo
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Laura', 'García', '0000000362', TO_DATE('1989-03-17', 'YYYY-MM-DD'), '3000000362', 'laura.garcia@fgh.com', 1, 28, 6); -- Asistente de Fisioterapia
+-- Instructores para Niños
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Miguel', 'Hernández', '0000000363', TO_DATE('1992-07-08', 'YYYY-MM-DD'), '3000000363', 'miguel.hernandez@fgh.com', 1, 28, 7); -- Instructor de Actividades para Niños
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Claudia', 'Martínez', '0000000364', TO_DATE('1984-12-05', 'YYYY-MM-DD'), '3000000364', 'claudia.martinez@fgh.com', 1, 28, 8); -- Cuidador
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000365', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000365', 'andres.pineda@fgh.com', 1, 28, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrea', 'Pineda', '0000000366', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000366', 'andrea.pineda@fgh.com', 1, 28, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000367', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000367', 'ruperto.pineda@fgh.com', 1, 28, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carmen', 'Hernández', '0000000368', TO_DATE('1982-01-15', 'YYYY-MM-DD'), '3000000368', 'carme.hdz@fgh.com', 1, 28, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000369', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000369', 'juan.sanchez@fgh.com', 1, 28, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000370', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000370', 'isabel.diaz@fgh.com', 1, 28, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000371', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000371', 'valeria.moreno@fgh.com', 1, 28, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000372', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000372', 'camilo.gomez@fgh.com', 1, 28, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000373', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000373', 'gabriela.rios@fgh.com', 1, 28, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000374', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000374', 'felipe.cruz@fgh.com', 1, 28, 15); -- Asesor de Suplementación
+-- Otros roles
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Martín', 'Núñez', '0000000375', TO_DATE('1986-06-28', 'YYYY-MM-DD'), '3000000375', 'martin.nunez@fgh.com', 1, 28, 18); -- Gerente de Marketing
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Paola', 'Castro', '0000000376', TO_DATE('1990-10-15', 'YYYY-MM-DD'), '3000000376', 'paola.castro@fgh.com', 1, 28, 19); -- Publicista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Esteban', 'Ardila', '0000000377', TO_DATE('1985-08-11', 'YYYY-MM-DD'), '3000000377', 'esteban.ardila@fgh.com', 1, 28, 20); -- Diseñador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Mariana', 'Ardila', '0000000378', TO_DATE('1989-08-12', 'YYYY-MM-DD'), '3000000378', 'mariana.ardila@fgh.com', 1, 28, 20); -- Diseñador
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000379', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000379', 'daniela.salazar@fgh.com', 1, 28, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000380', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000380', 'alejandro.valencia@fgh.com', 1, 28, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000381', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000381', 'natalia.paniagua@fgh.com', 1, 28, 24); -- Asistente Administrativo
+
+
+--Sedes pequeñas
+--sede 2
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000382', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000382', 'ana.gomez@ghi.com', 1, 2, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000383', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000383', 'roge.gomez@ghi.com', 1, 2, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000384', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000384', 'luis.perez@ghi.com', 1, 2, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000385', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000385', 'carlos.morales@ghi.com', 1, 2, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000386', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000386', 'andres.pineda@ghi.com', 1, 2, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000387', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000387', 'ruperto.pineda@ghi.com', 1, 2, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000388', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000388', 'juan.sanchez@ghi.com', 1, 2, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000389', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000389', 'isabel.diaz@ghi.com', 1, 2, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000390', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000390', 'valeria.moreno@ghi.com', 1, 2, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000391', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000391', 'camilo.gomez@ghi.com', 1, 2, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000392', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000392', 'gabriela.rios@ghi.com', 1, 2, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000393', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000393', 'felipe.cruz@ghi.com', 1, 2, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000394', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000394', 'daniela.salazar@ghi.com', 1, 2, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000395', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000395', 'alejandro.valencia@ghi.com', 1, 2, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000396', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000396', 'natalia.paniagua@ghi.com', 1, 2, 24); -- Asistente Administrativo
+
+--sede 3
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000397', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000397', 'ana.gomez@hij.com', 1, 3, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000398', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000398', 'roge.gomez@hij.com', 1, 3, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000399', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000399', 'luis.perez@hij.com', 1, 3, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000400', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000400', 'carlos.morales@hij.com', 1, 3, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000401', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000401', 'andres.pineda@hij.com', 1, 3, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000402', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000402', 'ruperto.pineda@hij.com', 1, 3, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000403', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000403', 'juan.sanchez@hij.com', 1, 3, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000404', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000404', 'isabel.diaz@hij.com', 1, 3, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000405', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000405', 'valeria.moreno@hij.com', 1, 3, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000406', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000406', 'camilo.gomez@hij.com', 1, 3, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000407', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000407', 'gabriela.rios@hij.com', 1, 3, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000408', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000408', 'felipe.cruz@hij.com', 1, 3, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000409', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000409', 'daniela.salazar@hij.com', 1, 3, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000410', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000410', 'alejandro.valencia@hij.com', 1, 3, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000411', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000411', 'natalia.paniagua@hij.com', 1, 3, 24); -- Asistente Administrativo
+
+--sede 5
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000412', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000412', 'ana.gomez@hij.com', 1, 5, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000413', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000413', 'roge.gomez@hij.com', 1, 5, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000414', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000414', 'luis.perez@hij.com', 1, 5, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000415', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000415', 'carlos.morales@hij.com', 1, 5, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000416', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000416', 'andres.pineda@hij.com', 1, 5, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000417', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000417', 'ruperto.pineda@hij.com', 1, 5, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000418', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000418', 'juan.sanchez@hij.com', 1, 5, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000419', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000419', 'isabel.diaz@hij.com', 1, 5, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000420', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000420', 'valeria.moreno@hij.com', 1, 5, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000421', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000421', 'camilo.gomez@hij.com', 1, 5, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000422', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000422', 'gabriela.rios@hij.com', 1, 5, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000423', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000423', 'felipe.cruz@hij.com', 1, 5, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000424', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000424', 'daniela.salazar@hij.com', 1, 5, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000425', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000425', 'alejandro.valencia@hij.com', 1, 5, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000426', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000426', 'natalia.paniagua@hij.com', 1, 5, 24); -- Asistente Administrativo
+
+--sede 6
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000427', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000427', 'ana.gomez@ijk.com', 1, 6, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000428', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000428', 'roge.gomez@ijk.com', 1, 6, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000429', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000429', 'luis.perez@ijk.com', 1, 6, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000430', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000430', 'carlos.morales@ijk.com', 1, 6, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000431', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000431', 'andres.pineda@ijk.com', 1, 6, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000432', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000432', 'ruperto.pineda@ijk.com', 1, 6, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000433', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000433', 'juan.sanchez@ijk.com', 1, 6, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000434', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000434', 'isabel.diaz@ijk.com', 1, 6, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000435', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000435', 'valeria.moreno@ijk.com', 1, 6, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000436', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000436', 'camilo.gomez@ijk.com', 1, 6, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000437', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000437', 'gabriela.rios@ijk.com', 1, 6, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000438', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000438', 'felipe.cruz@ijk.com', 1, 6, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000439', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000439', 'daniela.salazar@ijk.com', 1, 6, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000440', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000440', 'alejandro.valencia@ijk.com', 1, 6, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000441', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000441', 'natalia.paniagua@ijk.com', 1, 6, 24); -- Asistente Administrativo
+
+--sede 9
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000442', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000442', 'ana.gomez@jkl.com', 1, 9, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000443', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000443', 'roge.gomez@jkl.com', 1, 9, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000444', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000444', 'luis.perez@jkl.com', 1, 9, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000445', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000445', 'carlos.morales@jkl.com', 1, 9, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000446', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000446', 'andres.pineda@jkl.com', 1, 9, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000447', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000447', 'ruperto.pineda@jkl.com', 1, 9, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000448', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000448', 'juan.sanchez@jkl.com', 1, 9, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000449', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000449', 'isabel.diaz@jkl.com', 1, 9, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000450', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000450', 'valeria.moreno@jkl.com', 1, 9, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000451', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000451', 'camilo.gomez@jkl.com', 1, 9, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000452', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000452', 'gabriela.rios@jkl.com', 1, 9, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000453', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000453', 'felipe.cruz@jkl.com', 1, 9, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000454', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000454', 'daniela.salazar@jkl.com', 1, 9, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000455', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000455', 'alejandro.valencia@jkl.com', 1, 9, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000456', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000456', 'natalia.paniagua@jkl.com', 1, 9, 24); -- Asistente Administrativo
+
+--sede 13
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000457', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000457', 'ana.gomez@klm.com', 1, 13, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000458', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000458', 'roge.gomez@klm.com', 1, 13, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000459', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000459', 'luis.perez@klm.com', 1, 13, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000460', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000460', 'carlos.morales@klm.com', 1, 13, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000461', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000461', 'andres.pineda@klm.com', 1, 13, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000462', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000462', 'ruperto.pineda@klm.com', 1, 13, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000463', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000463', 'juan.sanchez@klm.com', 1, 13, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000464', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000464', 'isabel.diaz@klm.com', 1, 13, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000465', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000465', 'valeria.moreno@klm.com', 1, 13, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000466', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000466', 'camilo.gomez@klm.com', 1, 13, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000467', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000467', 'gabriela.rios@klm.com', 1, 13, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000468', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000468', 'felipe.cruz@klm.com', 1, 13, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000469', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000469', 'daniela.salazar@klm.com', 1, 13, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000470', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000470', 'alejandro.valencia@klm.com', 1, 13, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000471', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000471', 'natalia.paniagua@klm.com', 1, 13, 24); -- Asistente Administrativo
+
+--sede 15
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000472', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000472', 'ana.gomez@lmn.com', 1, 15, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000473', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000473', 'roge.gomez@lmn.com', 1, 15, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000474', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000474', 'luis.perez@lmn.com', 1, 15, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000475', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000475', 'carlos.morales@lmn.com', 1, 15, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000476', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000476', 'andres.pineda@lmn.com', 1, 15, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000477', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000477', 'ruperto.pineda@lmn.com', 1, 15, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000478', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000478', 'juan.sanchez@lmn.com', 1, 15, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000479', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000479', 'isabel.diaz@lmn.com', 1, 15, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000480', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000480', 'valeria.moreno@lmn.com', 1, 15, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000481', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000481', 'camilo.gomez@lmn.com', 1, 15, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000482', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000482', 'gabriela.rios@lmn.com', 1, 15, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000483', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000483', 'felipe.cruz@lmn.com', 1, 15, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000484', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000484', 'daniela.salazar@lmn.com', 1, 15, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000485', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000485', 'alejandro.valencia@lmn.com', 1, 15, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000486', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000486', 'natalia.paniagua@lmn.com', 1, 15, 24); -- Asistente Administrativo
+
+--sede 16
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000487', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000487', 'ana.gomez@mno.com', 1, 16, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000488', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000488', 'roge.gomez@mno.com', 1, 16, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000489', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000489', 'luis.perez@mno.com', 1, 16, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000490', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000490', 'carlos.morales@mno.com', 1, 16, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000491', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000491', 'andres.pineda@mno.com', 1, 16, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000492', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000492', 'ruperto.pineda@mno.com', 1, 16, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000493', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000493', 'juan.sanchez@mno.com', 1, 16, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000494', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000494', 'isabel.diaz@mno.com', 1, 16, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000495', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000495', 'valeria.moreno@mno.com', 1, 16, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000496', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000496', 'camilo.gomez@mno.com', 1, 16, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000497', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000497', 'gabriela.rios@mno.com', 1, 16, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000498', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000498', 'felipe.cruz@mno.com', 1, 16, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000499', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000499', 'daniela.salazar@mno.com', 1, 16, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000500', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000500', 'alejandro.valencia@mno.com', 1, 16, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000501', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000501', 'natalia.paniagua@mno.com', 1, 16, 24); -- Asistente Administrativo
+
+--sede 18
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000502', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000502', 'ana.gomez@nop.com', 1, 18, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000503', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000503', 'roge.gomez@nop.com', 1, 18, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000504', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000504', 'luis.perez@nop.com', 1, 18, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000505', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000505', 'carlos.morales@nop.com', 1, 18, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000506', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000506', 'andres.pineda@nop.com', 1, 18, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000507', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000507', 'ruperto.pineda@nop.com', 1, 18, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000508', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000508', 'juan.sanchez@nop.com', 1, 18, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000509', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000509', 'isabel.diaz@nop.com', 1, 18, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000510', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000510', 'valeria.moreno@nop.com', 1, 18, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000511', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000511', 'camilo.gomez@nop.com', 1, 18, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000512', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000512', 'gabriela.rios@nop.com', 1, 18, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000513', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000513', 'felipe.cruz@nop.com', 1, 18, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000514', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000514', 'daniela.salazar@nop.com', 1, 18, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000515', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000515', 'alejandro.valencia@nop.com', 1, 18, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000516', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000516', 'natalia.paniagua@nop.com', 1, 18, 24); -- Asistente Administrativo
+
+--sede 20
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000517', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000517', 'ana.gomez@opq.com', 1, 20, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000518', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000518', 'roge.gomez@opq.com', 1, 20, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000519', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000519', 'luis.perez@opq.com', 1, 20, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000520', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000520', 'carlos.morales@opq.com', 1, 20, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000521', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000521', 'andres.pineda@opq.com', 1, 20, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000522', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000522', 'ruperto.pineda@opq.com', 1, 20, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000523', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000523', 'juan.sanchez@opq.com', 1, 20, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000524', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000524', 'isabel.diaz@opq.com', 1, 20, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000525', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000525', 'valeria.moreno@opq.com', 1, 20, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000526', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000526', 'camilo.gomez@opq.com', 1, 20, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000527', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000527', 'gabriela.rios@opq.com', 1, 20, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000528', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000528', 'felipe.cruz@opq.com', 1, 20, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000529', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000529', 'daniela.salazar@opq.com', 1, 20, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000530', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000530', 'alejandro.valencia@opq.com', 1, 20, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000531', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000531', 'natalia.paniagua@opq.com', 1, 20, 24); -- Asistente Administrativo
+
+--sede 21
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000532', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000532', 'ana.gomez@pqr.com', 1, 21, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000533', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000533', 'roge.gomez@pqr.com', 1, 21, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000534', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000534', 'luis.perez@pqr.com', 1, 21, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000535', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000535', 'carlos.morales@pqr.com', 1, 21, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000536', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000536', 'andres.pineda@pqr.com', 1, 21, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000537', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000537', 'ruperto.pineda@pqr.com', 1, 21, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000538', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000538', 'juan.sanchez@pqr.com', 1, 21, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000539', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000539', 'isabel.diaz@pqr.com', 1, 21, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000540', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000540', 'valeria.moreno@pqr.com', 1, 21, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000541', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000541', 'camilo.gomez@pqr.com', 1, 21, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000542', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000542', 'gabriela.rios@pqr.com', 1, 21, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000543', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000543', 'felipe.cruz@pqr.com', 1, 21, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000544', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000544', 'daniela.salazar@pqr.com', 1, 21, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000545', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000545', 'alejandro.valencia@pqr.com', 1, 21, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000546', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000546', 'natalia.paniagua@pqr.com', 1, 21, 24); -- Asistente Administrativo
+
+--sede 24
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000547', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000547', 'ana.gomez@qrs.com', 1, 24, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000548', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000548', 'roge.gomez@qrs.com', 1, 24, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000549', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000549', 'luis.perez@qrs.com', 1, 24, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000550', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000550', 'carlos.morales@qrs.com', 1, 24, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000551', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000551', 'andres.pineda@qrs.com', 1, 24, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000552', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000552', 'ruperto.pineda@qrs.com', 1, 24, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000553', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000553', 'juan.sanchez@qrs.com', 1, 24, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000554', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000554', 'isabel.diaz@qrs.com', 1, 24, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000555', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000555', 'valeria.moreno@qrs.com', 1, 24, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000556', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000556', 'camilo.gomez@qrs.com', 1, 24, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000557', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000557', 'gabriela.rios@qrs.com', 1, 24, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000558', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000558', 'felipe.cruz@qrs.com', 1, 24, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000559', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000559', 'daniela.salazar@qrs.com', 1, 24, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000560', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000560', 'alejandro.valencia@qrs.com', 1, 24, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000561', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000561', 'natalia.paniagua@qrs.com', 1, 24, 24); -- Asistente Administrativo
+
+--sede 26
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000562', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000562', 'ana.gomez@rst.com', 1, 26, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000563', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000563', 'roge.gomez@rst.com', 1, 26, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000564', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000564', 'luis.perez@rst.com', 1, 26, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000565', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000565', 'carlos.morales@rst.com', 1, 26, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000566', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000566', 'andres.pineda@rst.com', 1, 26, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000567', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000567', 'ruperto.pineda@rst.com', 1, 26, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000568', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000568', 'juan.sanchez@rst.com', 1, 26, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000569', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000569', 'isabel.diaz@rst.com', 1, 26, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000570', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000570', 'valeria.moreno@rst.com', 1, 26, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000571', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000571', 'camilo.gomez@rst.com', 1, 26, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000572', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000572', 'gabriela.rios@rst.com', 1, 26, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000573', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000573', 'felipe.cruz@rst.com', 1, 26, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000574', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000574', 'daniela.salazar@rst.com', 1, 26, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000575', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000575', 'alejandro.valencia@rst.com', 1, 26, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000576', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000576', 'natalia.paniagua@rst.com', 1, 26, 24); -- Asistente Administrativo
+
+--sede 27
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000577', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000577', 'ana.gomez@stu.com', 1, 27, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000578', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000578', 'roge.gomez@stu.com', 1, 27, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000579', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000579', 'luis.perez@stu.com', 1, 27, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000580', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000580', 'carlos.morales@stu.com', 1, 27, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000581', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000581', 'andres.pineda@stu.com', 1, 27, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000582', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '300000082', 'ruperto.pineda@stu.com', 1, 27, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000583', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000583', 'juan.sanchez@stu.com', 1, 27, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000584', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000584', 'isabel.diaz@stu.com', 1, 27, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000585', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000585', 'valeria.moreno@stu.com', 1, 27, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000586', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000586', 'camilo.gomez@stu.com', 1, 27, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000587', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000587', 'gabriela.rios@stu.com', 1, 27, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000588', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000588', 'felipe.cruz@stu.com', 1, 27, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000589', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000589', 'daniela.salazar@stu.com', 1, 27, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000590', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000590', 'alejandro.valencia@stu.com', 1, 27, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000591', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000591', 'natalia.paniagua@stu.com', 1, 27, 24); -- Asistente Administrativo
+
+--sede 29
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000592', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000592', 'ana.gomez@tuv.com', 1, 29, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000593', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000593', 'roge.gomez@tuv.com', 1, 29, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000594', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000594', 'luis.perez@tuv.com', 1, 29, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000595', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000595', 'carlos.morales@tuv.com', 1, 29, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000596', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000596', 'andres.pineda@tuv.com', 1, 29, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000597', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000597', 'ruperto.pineda@tuv.com', 1, 29, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000598', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000598', 'juan.sanchez@tuv.com', 1, 29, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000599', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000599', 'isabel.diaz@tuv.com', 1, 29, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000600', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000600', 'valeria.moreno@tuv.com', 1, 29, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000601', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000601', 'camilo.gomez@tuv.com', 1, 29, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000602', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000602', 'gabriela.rios@tuv.com', 1, 29, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000603', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000603', 'felipe.cruz@tuv.com', 1, 29, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000604', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000604', 'daniela.salazar@tuv.com', 1, 29, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000605', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000605', 'alejandro.valencia@tuv.com', 1, 29, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000606', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000606', 'natalia.paniagua@tuv.com', 1, 29, 24); -- Asistente Administrativo
+
+--sede 30
+
+-- Entrenadores y Personal de Entrenamiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ana', 'Gómez', '0000000607', TO_DATE('1985-04-15', 'YYYY-MM-DD'), '3000000607', 'ana.gomez@tuv.com', 1, 30, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Rogelio', 'Gómez', '0000000608', TO_DATE('1986-04-16', 'YYYY-MM-DD'), '3000000608', 'roge.gomez@tuv.com', 1, 30, 1); -- Entrenador Personal
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Luis', 'Pérez', '0000000609', TO_DATE('1983-08-22', 'YYYY-MM-DD'), '3000000609', 'luis.perez@tuv.com', 1, 30, 2); -- Instructor de Clases Grupales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Carlos', 'Morales', '0000000610', TO_DATE('1987-11-30', 'YYYY-MM-DD'), '3000000610', 'carlos.morales@tuv.com', 1, 30, 3); -- Coordinador de Entrenamiento
+-- Mantenimiento y Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Andrés', 'Pineda', '0000000611', TO_DATE('1981-01-12', 'YYYY-MM-DD'), '3000000611', 'andres.pineda@tuv.com', 1, 30, 9); -- Operario de Mantenimiento
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Ruperto', 'Pineda', '0000000612', TO_DATE('1981-01-13', 'YYYY-MM-DD'), '3000000612', 'ruperto.pineda@tuv.com', 1, 30, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Juan', 'Sánchez', '0000000613', TO_DATE('1990-05-19', 'YYYY-MM-DD'), '3000000613', 'juan.sanchez@tuv.com', 1, 30, 11); -- Auxiliar de Servicios Generales
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Isabel', 'Díaz', '0000000614', TO_DATE('1995-09-23', 'YYYY-MM-DD'), '3000000614', 'isabel.diaz@tuv.com', 1, 30, 10); -- Jefe de Mantenimiento
+-- Atención al Cliente y Nutrición
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Valeria', 'Moreno', '0000000615', TO_DATE('1988-11-11', 'YYYY-MM-DD'), '3000000615', 'valeria.moreno@tuv.com', 1, 30, 12); -- Auxiliar de Atención al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Camilo', 'Gómez', '0000000616', TO_DATE('1987-04-20', 'YYYY-MM-DD'), '3000000616', 'camilo.gomez@tuv.com', 1, 30, 13); -- Coordinador de Servicio al Cliente
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Gabriela', 'Ríos', '0000000617', TO_DATE('1991-10-29', 'YYYY-MM-DD'), '3000000617', 'gabriela.rios@tuv.com', 1, 30, 14); -- Nutricionista
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Felipe', 'Cruz', '0000000618', TO_DATE('1994-03-12', 'YYYY-MM-DD'), '3000000618', 'felipe.cruz@tuv.com', 1, 30, 15); -- Asesor de Suplementación
+-- Gerentes y Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Daniela', 'Salazar', '0000000619', TO_DATE('1988-01-29', 'YYYY-MM-DD'), '3000000619', 'daniela.salazar@tuv.com', 1, 30, 22); -- Gerente de Sede
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Alejandro', 'Valencia', '0000000620', TO_DATE('1986-04-20', 'YYYY-MM-DD'), '3000000620', 'alejandro.valencia@tuv.com', 1, 30, 23); -- Contador
+INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, estado, id_sede, id_cargo) VALUES ('Natalia', 'Paniagua', '0000000621', TO_DATE('1992-11-05', 'YYYY-MM-DD'), '3000000621', 'natalia.paniagua@tuv.com', 1, 30, 24); -- Asistente Administrativo
+
 
 -----------------------------------------------------
 
 -----------------------------------------------------
--- Clientes para Sede Norte (Bogotá)
+-- Clientes sede 1
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Carlos', 'Gómez', '0000000053', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez1@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 1, 1);
 
@@ -3767,7 +4159,7 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Camila', 'Ramos', '0000000062', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3100123456', 'camila.ramos1@yipmail.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 1, 10);
 
--- Clientes para Sede Centro (Bogotá)
+-- Clientes sede 2
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Carlos', 'Gómez', '0000000063', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez2@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 2, 1);
 
@@ -3795,7 +4187,7 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Felipe', 'Moreno', '0000000071', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3109012345', 'felipe.moreno2@yipmail.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 2, 9);
 
--- Clientes para Sede Occidente (Bogotá)
+-- Clientes sede 3
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Carlos', 'Gómez', '0000000072', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez3@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 3, 1);
 
