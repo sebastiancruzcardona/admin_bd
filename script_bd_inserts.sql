@@ -376,92 +376,92 @@ INSERT INTO ciudad (ciudad, id_estado) VALUES ('Getafe', 14);--22
 
 -----------------------------------------------------
 --Elementos
-INSERT INTO elemento (elemento, marca) VALUES ('Cinta de correr', 'NordicTrack');
-INSERT INTO elemento (elemento, marca) VALUES ('Bicicleta estática', 'Schwinn');
-INSERT INTO elemento (elemento, marca) VALUES ('Elíptica', 'ProForm');
-INSERT INTO elemento (elemento, marca) VALUES ('Banco de pesas', 'Body-Solid');
-INSERT INTO elemento (elemento, marca) VALUES ('Juego de mancuernas', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de remo', 'Concept2');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de poleas', 'Valor Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Estera de yoga', 'Manduka');
-INSERT INTO elemento (elemento, marca) VALUES ('Balón medicinal', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Kettlebell', 'Onnit');
-INSERT INTO elemento (elemento, marca) VALUES ('Pesas rusas', 'TRX');
-INSERT INTO elemento (elemento, marca) VALUES ('Caja pliométrica', 'Titan Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Soga de batalla', 'AmazonBasics');
-INSERT INTO elemento (elemento, marca) VALUES ('Colchoneta de ejercicios', 'Gaiam');
-INSERT INTO elemento (elemento, marca) VALUES ('Cuerda para saltar', 'WOD Nation');
-INSERT INTO elemento (elemento, marca) VALUES ('Barra olímpica', 'CAP Barbell');
-INSERT INTO elemento (elemento, marca) VALUES ('Banco ajustable', 'Rep Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Prensa de piernas', 'BodyCraft');
-INSERT INTO elemento (elemento, marca) VALUES ('Estación de dominadas', 'Iron Gym');
-INSERT INTO elemento (elemento, marca) VALUES ('Estación de fondos', 'Stamina');
-INSERT INTO elemento (elemento, marca) VALUES ('Estación de abdominales', 'Perfect Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Step de aeróbicos', 'Reebok');
-INSERT INTO elemento (elemento, marca) VALUES ('Banda de resistencia', 'Fit Simplify');
-INSERT INTO elemento (elemento, marca) VALUES ('Rueda abdominal', 'Valeo');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de esquiador', 'Skierg');
-INSERT INTO elemento (elemento, marca) VALUES ('Remo ergómetro', 'Hydrow');
-INSERT INTO elemento (elemento, marca) VALUES ('Silla romana', 'Titan Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Multiestación de entrenamiento', 'Weider');
-INSERT INTO elemento (elemento, marca) VALUES ('Pesa rusa ajustable', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Sistema de entrenamiento en suspensión', 'TRX');
-INSERT INTO elemento (elemento, marca) VALUES ('Rodillo de espuma', 'TriggerPoint');
-INSERT INTO elemento (elemento, marca) VALUES ('Chaleco lastrado', 'RUNmax');
-INSERT INTO elemento (elemento, marca) VALUES ('Escaladora', 'StairMaster');
-INSERT INTO elemento (elemento, marca) VALUES ('Caja de pesas', 'Cap Barbell');
-INSERT INTO elemento (elemento, marca) VALUES ('Estación de sentadillas', 'Fitness Reality');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de press de hombros', 'Valor Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de glúteos', 'Body-Solid');
-INSERT INTO elemento (elemento, marca) VALUES ('Chaleco de sauna', 'TNT Pro Series');
-INSERT INTO elemento (elemento, marca) VALUES ('Barra de dominadas', 'Ultimate Body Press');
-INSERT INTO elemento (elemento, marca) VALUES ('Discos de competición', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Cinta de yoga', 'Manduka');
-INSERT INTO elemento (elemento, marca) VALUES ('Cinturón de levantamiento de pesas', 'Harbinger');
-INSERT INTO elemento (elemento, marca) VALUES ('Guantes de entrenamiento', 'Nike');
-INSERT INTO elemento (elemento, marca) VALUES ('Soporte de discos', 'Body-Solid');
-INSERT INTO elemento (elemento, marca) VALUES ('Máquina de pecho', 'Life Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Estación de barras paralelas', 'Lebert Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Cuerda de escalada', 'Titan Fitness');
-INSERT INTO elemento (elemento, marca) VALUES ('Soporte para mancuernas', 'Body-Solid');
-INSERT INTO elemento (elemento, marca) VALUES ('Disco de 5kg', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Disco de 10kg', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Disco de 15kg', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Disco de 20kg', 'Rogue');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 2kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 4kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 6kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 8kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 10kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 12kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 14kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 16kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 18kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 20kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 22kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 24kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 26kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 28kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 30kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 32kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 34kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 36kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 38kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 40kg', 'Bowflex');
-INSERT INTO elemento (elemento, marca) VALUES ('Chaleco salvavidas', 'Speedo');
-INSERT INTO elemento (elemento, marca) VALUES ('Flotador de entrenamiento', 'AquaJogger');
-INSERT INTO elemento (elemento, marca) VALUES ('Red de seguridad para piscina', 'Pool Guard');
-INSERT INTO elemento (elemento, marca) VALUES ('Escalera para piscina', 'Intex');
-INSERT INTO elemento (elemento, marca) VALUES ('Sistema de filtración de piscina', 'Hayward');
-INSERT INTO elemento (elemento, marca) VALUES ('Vitrina de exhibición', 'Ikea');
-INSERT INTO elemento (elemento, marca) VALUES ('Mostrador de atención', 'Ikea');
-INSERT INTO elemento (elemento, marca) VALUES ('Estantería de almacenamiento', 'AmazonBasics');
-INSERT INTO elemento (elemento, marca) VALUES ('Caja registradora', 'Sharp');
-INSERT INTO elemento (elemento, marca) VALUES ('Refrigerador para bebidas', 'Frigidaire');
-INSERT INTO elemento (elemento, marca) VALUES ('Soporte para folletos', 'Displays2go');
-INSERT INTO elemento (elemento, marca) VALUES ('Sistema de punto de venta', 'Square');
-INSERT INTO elemento (elemento, marca) VALUES ('Carro de almacenamiento', 'Seville Classics');
-INSERT INTO elemento (elemento, marca) VALUES ('Iluminación para vitrinas', 'Philips');
+INSERT INTO elemento (elemento, marca) VALUES ('Cinta de correr', 'NordicTrack'); --1
+INSERT INTO elemento (elemento, marca) VALUES ('Bicicleta estática', 'Schwinn'); --2
+INSERT INTO elemento (elemento, marca) VALUES ('Elíptica', 'ProForm'); --3
+INSERT INTO elemento (elemento, marca) VALUES ('Banco de pesas', 'Body-Solid'); --4
+INSERT INTO elemento (elemento, marca) VALUES ('Juego de mancuernas', 'Bowflex'); --5
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de remo', 'Concept2'); --6
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de poleas', 'Valor Fitness'); --7
+INSERT INTO elemento (elemento, marca) VALUES ('Estera de yoga', 'Manduka'); --8
+INSERT INTO elemento (elemento, marca) VALUES ('Balón medicinal', 'Rogue'); --9
+INSERT INTO elemento (elemento, marca) VALUES ('Kettlebell', 'Onnit'); --10
+INSERT INTO elemento (elemento, marca) VALUES ('Pesas rusas', 'TRX'); --11
+INSERT INTO elemento (elemento, marca) VALUES ('Caja pliométrica', 'Titan Fitness'); --12
+INSERT INTO elemento (elemento, marca) VALUES ('Soga de batalla', 'AmazonBasics'); --13
+INSERT INTO elemento (elemento, marca) VALUES ('Colchoneta de ejercicios', 'Gaiam'); --14
+INSERT INTO elemento (elemento, marca) VALUES ('Cuerda para saltar', 'WOD Nation'); --15
+INSERT INTO elemento (elemento, marca) VALUES ('Barra olímpica', 'CAP Barbell'); --16
+INSERT INTO elemento (elemento, marca) VALUES ('Banco ajustable', 'Rep Fitness'); --17
+INSERT INTO elemento (elemento, marca) VALUES ('Prensa de piernas', 'BodyCraft'); --18
+INSERT INTO elemento (elemento, marca) VALUES ('Estación de dominadas', 'Iron Gym'); --19 
+INSERT INTO elemento (elemento, marca) VALUES ('Estación de fondos', 'Stamina'); --20
+INSERT INTO elemento (elemento, marca) VALUES ('Estación de abdominales', 'Perfect Fitness'); --21
+INSERT INTO elemento (elemento, marca) VALUES ('Step de aeróbicos', 'Reebok'); --22
+INSERT INTO elemento (elemento, marca) VALUES ('Banda de resistencia', 'Fit Simplify'); --23
+INSERT INTO elemento (elemento, marca) VALUES ('Rueda abdominal', 'Valeo'); --24
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de esquiador', 'Skierg'); --25
+INSERT INTO elemento (elemento, marca) VALUES ('Remo ergómetro', 'Hydrow'); --26
+INSERT INTO elemento (elemento, marca) VALUES ('Silla romana', 'Titan Fitness'); --27
+INSERT INTO elemento (elemento, marca) VALUES ('Multiestación de entrenamiento', 'Weider'); --28
+INSERT INTO elemento (elemento, marca) VALUES ('Pesa rusa ajustable', 'Bowflex'); --29
+INSERT INTO elemento (elemento, marca) VALUES ('Sistema de entrenamiento en suspensión', 'TRX'); --30
+INSERT INTO elemento (elemento, marca) VALUES ('Rodillo de espuma', 'TriggerPoint'); --31
+INSERT INTO elemento (elemento, marca) VALUES ('Chaleco lastrado', 'RUNmax'); --32
+INSERT INTO elemento (elemento, marca) VALUES ('Escaladora', 'StairMaster'); --33
+INSERT INTO elemento (elemento, marca) VALUES ('Caja de pesas', 'Cap Barbell'); --34
+INSERT INTO elemento (elemento, marca) VALUES ('Estación de sentadillas', 'Fitness Reality'); --35
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de press de hombros', 'Valor Fitness'); --36
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de glúteos', 'Body-Solid'); --37
+INSERT INTO elemento (elemento, marca) VALUES ('Chaleco de sauna', 'TNT Pro Series'); --38
+INSERT INTO elemento (elemento, marca) VALUES ('Barra de dominadas', 'Ultimate Body Press'); --39
+INSERT INTO elemento (elemento, marca) VALUES ('Discos de competición', 'Rogue'); --40
+INSERT INTO elemento (elemento, marca) VALUES ('Cinta de yoga', 'Manduka'); --41
+INSERT INTO elemento (elemento, marca) VALUES ('Cinturón de levantamiento de pesas', 'Harbinger'); --42
+INSERT INTO elemento (elemento, marca) VALUES ('Guantes de entrenamiento', 'Nike'); --43
+INSERT INTO elemento (elemento, marca) VALUES ('Soporte de discos', 'Body-Solid'); --44
+INSERT INTO elemento (elemento, marca) VALUES ('Máquina de pecho', 'Life Fitness'); --45
+INSERT INTO elemento (elemento, marca) VALUES ('Estación de barras paralelas', 'Lebert Fitness'); --46
+INSERT INTO elemento (elemento, marca) VALUES ('Cuerda de escalada', 'Titan Fitness'); --47
+INSERT INTO elemento (elemento, marca) VALUES ('Soporte para mancuernas', 'Body-Solid'); --48
+INSERT INTO elemento (elemento, marca) VALUES ('Disco de 5kg', 'Rogue'); --49
+INSERT INTO elemento (elemento, marca) VALUES ('Disco de 10kg', 'Rogue'); --50
+INSERT INTO elemento (elemento, marca) VALUES ('Disco de 15kg', 'Rogue'); --51
+INSERT INTO elemento (elemento, marca) VALUES ('Disco de 20kg', 'Rogue'); --52
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 2kg', 'Bowflex'); --53
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 4kg', 'Bowflex'); --54
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 6kg', 'Bowflex'); --55
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 8kg', 'Bowflex'); --56
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 10kg', 'Bowflex'); --57
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 12kg', 'Bowflex'); --58
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 14kg', 'Bowflex'); --59
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 16kg', 'Bowflex'); --60
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 18kg', 'Bowflex'); --61
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 20kg', 'Bowflex'); --62
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 22kg', 'Bowflex'); --63
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 24kg', 'Bowflex'); --64
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 26kg', 'Bowflex'); --65
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 28kg', 'Bowflex'); --66
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 30kg', 'Bowflex'); --67
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 32kg', 'Bowflex'); --68
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 34kg', 'Bowflex'); --69
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 36kg', 'Bowflex'); --70
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 38kg', 'Bowflex'); --71
+INSERT INTO elemento (elemento, marca) VALUES ('Mancuerna de 40kg', 'Bowflex'); --72
+INSERT INTO elemento (elemento, marca) VALUES ('Chaleco salvavidas', 'Speedo'); --73 piscina
+INSERT INTO elemento (elemento, marca) VALUES ('Flotador de entrenamiento', 'AquaJogger'); --74 piscina
+INSERT INTO elemento (elemento, marca) VALUES ('Red de seguridad para piscina', 'Pool Guard'); --75 piscina
+INSERT INTO elemento (elemento, marca) VALUES ('Escalera para piscina', 'Intex'); --76 piscina
+INSERT INTO elemento (elemento, marca) VALUES ('Sistema de filtración de piscina', 'Hayward'); --77 piscina
+INSERT INTO elemento (elemento, marca) VALUES ('Vitrina de exhibición', 'Ikea'); --78
+INSERT INTO elemento (elemento, marca) VALUES ('Mostrador de atención', 'Ikea'); --79
+INSERT INTO elemento (elemento, marca) VALUES ('Estantería de almacenamiento', 'AmazonBasics'); --80
+INSERT INTO elemento (elemento, marca) VALUES ('Caja registradora', 'Sharp'); --81
+INSERT INTO elemento (elemento, marca) VALUES ('Refrigerador para bebidas', 'Frigidaire'); --82
+INSERT INTO elemento (elemento, marca) VALUES ('Soporte para folletos', 'Displays2go'); --83
+INSERT INTO elemento (elemento, marca) VALUES ('Sistema de punto de venta', 'Square'); --84
+INSERT INTO elemento (elemento, marca) VALUES ('Carro de almacenamiento', 'Seville Classics'); --85
+INSERT INTO elemento (elemento, marca) VALUES ('Iluminación para vitrinas', 'Philips'); --86
 -----------------------------------------------------
 
 -----------------------------------------------------
@@ -1123,21 +1123,1132 @@ INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (86, 4, 1);
 
 --Sedes pequeñas
 --sede 2
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 2, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 2, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 2, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 2, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 2, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 2, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 2, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 2, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 2, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 2, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 2, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 2, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 2, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 2, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 2, 1);
+
 --sede 3
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 3, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 3, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 3, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 3, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 3, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 3, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 3, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 3, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 3, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 3, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 3, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 3, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 3, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 3, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 3, 1);
+
 --sede 5
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 5, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 5, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 5, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 5, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 5, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 5, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 5, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 5, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 5, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 5, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 5, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 5, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 5, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 5, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 5, 1);
+
 --sede 6
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 6, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 6, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 6, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 6, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 6, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 6, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 6, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 6, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 6, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 6, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 6, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 6, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 6, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 6, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 6, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 6, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 6, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 6, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 6, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 6, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 6, 1);
+
 --sede 9
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 9, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 9, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 9, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 9, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 9, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 9, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 9, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 9, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 9, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 9, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 9, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 9, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 9, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 9, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 9, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 9, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 9, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 9, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 9, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 9, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 9, 1);
+
 --sede 13
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 13, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 13, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 13, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 13, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 13, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 13, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 13, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 13, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 13, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 13, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 13, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 13, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 13, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 13, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 13, 7);
+
 --sede 15
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 15, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 15, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 15, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 15, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 15, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 15, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 15, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 15, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 15, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 15, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 15, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 15, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 15, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 15, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 15, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 15, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 15, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 15, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 15, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 15, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 15, 1);
+
 --sede 16
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 16, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 16, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 16, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 16, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 16, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 16, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 16, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 16, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 16, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 16, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 16, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 16, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 16, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 16, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 16, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 16, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 16, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 16, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 16, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 16, 9);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 16, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 16, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 16, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 16, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 16, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 16, 1);
+
 --sede 18
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 18, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 18, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 18, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 18, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 18, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 18, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 18, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 18, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 18, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 18, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 18, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 18, 11);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 18, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 18, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 18, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 18, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 18, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 18, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 18, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 18, 9);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 18, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 18, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 18, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 18, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 18, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 18, 1);
+
 --sede 20
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 20, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 20, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 20, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 20, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 20, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 20, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 20, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 20, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 20, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 20, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 20, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 20, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 20, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 20, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 20, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 20, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 20, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 20, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 20, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 20, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 20, 1);
+
 --sede 21
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 21, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 21, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 21, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 21, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 21, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 21, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 21, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 21, 4); 
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 21, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 21, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 21, 7);
+
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 21, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 21, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 21, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 21, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 21, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 21, 1);
+
 --sede 24
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 24, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 24, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 24, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 24, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 24, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 24, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 24, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 24, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 24, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 24, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 24, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 24, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 24, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 24, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 24, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 24, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 24, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 24, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 24, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 24, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 24, 1);
+
 --sede 26
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 26, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 26, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 26, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 26, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 26, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 26, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 26, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 26, 9);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 26, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 26, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 26, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 26, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 26, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 26, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 26, 7);
+
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 26, 1);
+
 --sede 27
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (1, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (2, 27, 10);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (3, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (4, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (5, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (6, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (7, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (8, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (9, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (10, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (11, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (12, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (13, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (14, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (15, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (16, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (17, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (18, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (19, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (20, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (21, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (22, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (23, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (24, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (25, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (26, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (27, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (28, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (29, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (30, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (31, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (32, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (33, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (34, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (35, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (36, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (37, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (38, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (39, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (40, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (41, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (42, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (43, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (44, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (45, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (46, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (47, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (48, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (49, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (50, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (51, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (52, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (53, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (54, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (55, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (56, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (57, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (58, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (59, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (60, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (61, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (62, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (63, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (64, 27, 4);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (65, 27, 7);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (66, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (67, 27, 2);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (68, 27, 8);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (69, 27, 3);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (70, 27, 6);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (71, 27, 5);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (72, 27, 7);
 
-
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (78, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (79, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (80, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (81, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (82, 26, 1);
+INSERT INTO elementos_sede (id_elemento, id_sede, cantidad) VALUES (83, 26, 1);
 -----------------------------------------------------
 
 -----------------------------------------------------
