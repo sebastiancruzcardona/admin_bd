@@ -340,7 +340,7 @@ INSERT INTO estado (estado, id_pais) VALUES ('Quindio', 3);--5
 INSERT INTO estado (estado, id_pais) VALUES ('Pichincha', 5);--6
 INSERT INTO estado (estado, id_pais) VALUES ('Guayas', 5);--7
 INSERT INTO estado (estado, id_pais) VALUES ('Azuay', 5);--8
-INSERT INTO estado (estado, id_pais) VALUES ('Lima', 47);--9
+INSERT INTO estado (estado, id_pais) VALUES ('Lima', 8);--9
 INSERT INTO estado (estado, id_pais) VALUES ('Mexico DF', 6);--10
 INSERT INTO estado (estado, id_pais) VALUES ('Jalisco', 6);--11
 INSERT INTO estado (estado, id_pais) VALUES ('Panama', 7);--12
