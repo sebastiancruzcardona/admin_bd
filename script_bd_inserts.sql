@@ -4717,13 +4717,180 @@ INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 22,
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 22, 55.00, 12);
 
 -- sede 23
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 23, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 23, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 23, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 23, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 23, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 23, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 23, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 23, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 23, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 23, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 23, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 23, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 23, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 23, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 23, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 23, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 23, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 23, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 23, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 23, 55.00, 12);
+
 -- sede 24
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 24, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 24, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 24, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 24, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 24, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 24, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 24, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 24, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 24, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 24, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 24, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 24, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 24, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 24, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 24, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 24, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 24, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 24, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 24, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 24, 55.00, 12);
+
 -- sede 25
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 25, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 25, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 25, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 25, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 25, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 25, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 25, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 25, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 25, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 25, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 25, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 25, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 25, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 25, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 25, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 25, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 25, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 25, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 25, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 25, 55.00, 12);
+
 -- sede 26
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 26, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 26, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 26, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 26, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 26, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 26, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 26, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 26, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 26, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 26, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 26, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 26, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 26, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 26, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 26, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 26, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 26, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 26, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 26, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 26, 55.00, 25);
+
 -- sede 27
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 27, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 27, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 27, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 27, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 27, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 27, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 27, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 27, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 27, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 27, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 27, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 27, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 27, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 27, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 27, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 27, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 27, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 27, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 27, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 27, 55.00, 25);
+
 -- sede 28
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 28, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 28, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 28, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 28, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 28, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 28, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 28, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 28, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 28, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 28, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 28, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 28, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 28, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 28, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 28, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 28, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 28, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 28, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 28, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 28, 55.00, 25);
+
 -- sede 29
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 29, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 29, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 29, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 29, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 29, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 29, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 29, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 29, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 29, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 29, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 29, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 29, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 29, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 29, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 29, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 29, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 29, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 29, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 29, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 29, 55.00, 25);
+
 -- sede 30
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 30, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 30, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 30, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 30, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 30, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 30, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 30, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 30, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 30, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 30, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 30, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 30, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 30, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 30, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 30, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 30, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 30, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 30, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 30, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 30, 55.00, 25);
 -----------------------------------------------------
 
 --historial de visitas
