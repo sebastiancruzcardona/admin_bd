@@ -299,10 +299,10 @@ GRANT SELECT ON productos_venta TO C##rol_administrativo;
 --USUARIOS
 
 CREATE USER C##usuario_backend_1 IDENTIFIED BY "usBCK012024#a1";
-GRANT C##rol_programador_backend TO C##usuario_backend;
+GRANT C##rol_programador_backend TO C##usuario_backend_1;
 
 CREATE USER C##usuario_backend_2 IDENTIFIED BY "usBCK022024#c9";
-GRANT C##rol_programador_backend TO C##usuario_backend;
+GRANT C##rol_programador_backend TO C##usuario_backend_2;
 
 CREATE USER C##usuario_administrativo_1 IDENTIFIED BY "usADM012024#f0";
 GRANT C##rol_administrativo TO C##usuario_administrativo_1;
