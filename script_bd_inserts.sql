@@ -4167,6 +4167,37 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Camila', 'Ramos', '0000000631', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3000000631', 'camila.ramos1@az.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 1, 10);
 
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Martinez', '0000000650', TO_DATE('1997-08-07', 'YYYY-MM-DD'), '3000000650', 'jose.martinez0650@service.com', TO_DATE('2025-12-22', 'YYYY-MM-DD'), 1, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Rodriguez', '0000000651', TO_DATE('2002-12-05', 'YYYY-MM-DD'), '3000000651', 'felipe.rodriguez0651@mail.com', TO_DATE('2025-07-03', 'YYYY-MM-DD'), 1, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Gomez', '0000000652', TO_DATE('1996-03-28', 'YYYY-MM-DD'), '3000000652', 'daniela.gomez0652@service.com', TO_DATE('2025-11-03', 'YYYY-MM-DD'), 1, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000653', TO_DATE('2003-04-21', 'YYYY-MM-DD'), '3000000653', 'camila.fernandez0653@bz.com', TO_DATE('2026-09-27', 'YYYY-MM-DD'), 1, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Moreno', '0000000654', TO_DATE('2003-09-09', 'YYYY-MM-DD'), '3000000654', 'felipe.moreno0654@webmail.com', TO_DATE('2026-07-26', 'YYYY-MM-DD'), 1, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000655', TO_DATE('1997-03-09', 'YYYY-MM-DD'), '3000000655', 'felipe.garcia0655@webmail.com', TO_DATE('2026-08-04', 'YYYY-MM-DD'), 1, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Gomez', '0000000656', TO_DATE('1997-09-07', 'YYYY-MM-DD'), '3000000656', 'juan.gomez0656@service.com', TO_DATE('2025-05-22', 'YYYY-MM-DD'), 1, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Sanchez', '0000000657', TO_DATE('2004-01-03', 'YYYY-MM-DD'), '3000000657', 'felipe.sanchez0657@webmail.com', TO_DATE('2025-10-09', 'YYYY-MM-DD'), 1, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000658', TO_DATE('1997-03-01', 'YYYY-MM-DD'), '3000000658', 'camila.fernandez0658@bz.com', TO_DATE('2026-05-27', 'YYYY-MM-DD'), 1, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000659', TO_DATE('1995-07-30', 'YYYY-MM-DD'), '3000000659', 'camila.fernandez0659@mail.com', TO_DATE('2026-09-18', 'YYYY-MM-DD'), 1, 8);
+
+
 -- Clientes sede 2
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
@@ -4195,6 +4226,36 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Felipe', 'Moreno', '0000000640', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3000000640', 'felipe.moreno2@bz.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 2, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000660', TO_DATE('1999-10-02', 'YYYY-MM-DD'), '3000000660', 'laura.pérez0660@mail.com', TO_DATE('2025-08-07', 'YYYY-MM-DD'), 2, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000661', TO_DATE('1999-09-01', 'YYYY-MM-DD'), '3000000661', 'felipe.torres0661@bz.com', TO_DATE('2026-10-24', 'YYYY-MM-DD'), 2, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Martinez', '0000000662', TO_DATE('1994-09-24', 'YYYY-MM-DD'), '3000000662', 'daniela.martinez0662@service.com', TO_DATE('2026-08-03', 'YYYY-MM-DD'), 2, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Rodriguez', '0000000663', TO_DATE('2002-03-01', 'YYYY-MM-DD'), '3000000663', 'juan.rodriguez0663@mail.com', TO_DATE('2026-03-18', 'YYYY-MM-DD'), 2, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Gomez', '0000000664', TO_DATE('2002-11-02', 'YYYY-MM-DD'), '3000000664', 'sofia.gomez0664@webmail.com', TO_DATE('2025-10-04', 'YYYY-MM-DD'), 2, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Martinez', '0000000665', TO_DATE('1994-09-02', 'YYYY-MM-DD'), '3000000665', 'mariana.martinez0665@service.com', TO_DATE('2026-03-22', 'YYYY-MM-DD'), 2, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Garcia', '0000000666', TO_DATE('1995-11-21', 'YYYY-MM-DD'), '3000000666', 'sofia.garcia0666@webmail.com', TO_DATE('2026-07-30', 'YYYY-MM-DD'), 2, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000667', TO_DATE('1998-03-19', 'YYYY-MM-DD'), '3000000667', 'camila.pérez0667@webmail.com', TO_DATE('2026-03-18', 'YYYY-MM-DD'), 2, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Martinez', '0000000668', TO_DATE('1997-06-17', 'YYYY-MM-DD'), '3000000668', 'felipe.martinez0668@service.com', TO_DATE('2025-09-11', 'YYYY-MM-DD'), 2, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Martinez', '0000000669', TO_DATE('1994-09-19', 'YYYY-MM-DD'), '3000000669', 'daniela.martinez0669@bz.com', TO_DATE('2025-12-14', 'YYYY-MM-DD'), 2, 2);
 
 -- Clientes sede 3
 
@@ -4227,6 +4288,875 @@ INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, a
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
 ('Camila', 'Ramos', '0000000650', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3000000650', 'camila.ramos3@cz.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 3, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Lopez', '0000000670', TO_DATE('2000-03-05', 'YYYY-MM-DD'), '3000000670', 'sofia.lopez0670@mail.com', TO_DATE('2026-12-13', 'YYYY-MM-DD'), 3, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Rodriguez', '0000000671', TO_DATE('1994-12-17', 'YYYY-MM-DD'), '3000000671', 'sofia.rodriguez0671@bz.com', TO_DATE('2025-06-15', 'YYYY-MM-DD'), 3, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000672', TO_DATE('1995-10-11', 'YYYY-MM-DD'), '3000000672', 'camila.moreno0672@service.com', TO_DATE('2026-02-18', 'YYYY-MM-DD'), 3, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Fernandez', '0000000673', TO_DATE('2005-06-30', 'YYYY-MM-DD'), '3000000673', 'felipe.fernandez0673@bz.com', TO_DATE('2025-10-01', 'YYYY-MM-DD'), 3, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Gomez', '0000000674', TO_DATE('2003-07-02', 'YYYY-MM-DD'), '3000000674', 'laura.gomez0674@mail.com', TO_DATE('2026-02-07', 'YYYY-MM-DD'), 3, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Garcia', '0000000675', TO_DATE('1997-02-19', 'YYYY-MM-DD'), '3000000675', 'juan.garcia0675@bz.com', TO_DATE('2026-12-27', 'YYYY-MM-DD'), 3, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000676', TO_DATE('1999-09-03', 'YYYY-MM-DD'), '3000000676', 'juan.sanchez0676@webmail.com', TO_DATE('2025-07-11', 'YYYY-MM-DD'), 3, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Martinez', '0000000677', TO_DATE('2000-01-20', 'YYYY-MM-DD'), '3000000677', 'camila.martinez0677@webmail.com', TO_DATE('2026-01-14', 'YYYY-MM-DD'), 3, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Torres', '0000000678', TO_DATE('1995-07-23', 'YYYY-MM-DD'), '3000000678', 'sofia.torres0678@webmail.com', TO_DATE('2026-08-15', 'YYYY-MM-DD'), 3, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Pérez', '0000000679', TO_DATE('2000-12-08', 'YYYY-MM-DD'), '3000000679', 'daniela.pérez0679@webmail.com', TO_DATE('2026-12-06', 'YYYY-MM-DD'), 3, 7);
+
+-- Cliente sede 4
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Pérez', '0000000680', TO_DATE('1996-04-18', 'YYYY-MM-DD'), '3000000680', 'jose.pérez0680@mail.com', TO_DATE('2026-11-28', 'YYYY-MM-DD'), 4, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Sanchez', '0000000681', TO_DATE('2000-12-10', 'YYYY-MM-DD'), '3000000681', 'laura.sanchez0681@mail.com', TO_DATE('2025-12-19', 'YYYY-MM-DD'), 4, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Garcia', '0000000682', TO_DATE('1999-09-29', 'YYYY-MM-DD'), '3000000682', 'juan.garcia0682@service.com', TO_DATE('2026-10-09', 'YYYY-MM-DD'), 4, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Garcia', '0000000683', TO_DATE('1995-07-28', 'YYYY-MM-DD'), '3000000683', 'carlos.garcia0683@mail.com', TO_DATE('2026-10-02', 'YYYY-MM-DD'), 4, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Garcia', '0000000684', TO_DATE('1998-03-13', 'YYYY-MM-DD'), '3000000684', 'juan.garcia0684@webmail.com', TO_DATE('2026-12-03', 'YYYY-MM-DD'), 4, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Lopez', '0000000685', TO_DATE('1996-10-11', 'YYYY-MM-DD'), '3000000685', 'andres.lopez0685@mail.com', TO_DATE('2026-10-25', 'YYYY-MM-DD'), 4, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Rodriguez', '0000000686', TO_DATE('2002-03-17', 'YYYY-MM-DD'), '3000000686', 'jose.rodriguez0686@bz.com', TO_DATE('2025-11-17', 'YYYY-MM-DD'), 4, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000687', TO_DATE('1998-05-22', 'YYYY-MM-DD'), '3000000687', 'felipe.torres0687@bz.com', TO_DATE('2025-10-12', 'YYYY-MM-DD'), 4, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Sanchez', '0000000688', TO_DATE('2003-05-29', 'YYYY-MM-DD'), '3000000688', 'felipe.sanchez0688@bz.com', TO_DATE('2026-03-09', 'YYYY-MM-DD'), 4, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Garcia', '0000000689', TO_DATE('2000-03-24', 'YYYY-MM-DD'), '3000000689', 'laura.garcia0689@webmail.com', TO_DATE('2026-12-10', 'YYYY-MM-DD'), 4, 8);
+
+-- Cliente sede 5
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Garcia', '0000000690', TO_DATE('2001-09-29', 'YYYY-MM-DD'), '3000000690', 'jose.garcia0690@bz.com', TO_DATE('2026-08-06', 'YYYY-MM-DD'), 5, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Martinez', '0000000691', TO_DATE('2003-09-14', 'YYYY-MM-DD'), '3000000691', 'sofia.martinez0691@service.com', TO_DATE('2026-12-24', 'YYYY-MM-DD'), 5, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Pérez', '0000000692', TO_DATE('2001-02-11', 'YYYY-MM-DD'), '3000000692', 'daniela.pérez0692@webmail.com', TO_DATE('2025-09-02', 'YYYY-MM-DD'), 5, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Gomez', '0000000693', TO_DATE('2004-10-25', 'YYYY-MM-DD'), '3000000693', 'felipe.gomez0693@mail.com', TO_DATE('2025-06-11', 'YYYY-MM-DD'), 5, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Gomez', '0000000694', TO_DATE('1996-02-22', 'YYYY-MM-DD'), '3000000694', 'juan.gomez0694@webmail.com', TO_DATE('2026-10-11', 'YYYY-MM-DD'), 5, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000695', TO_DATE('1998-04-16', 'YYYY-MM-DD'), '3000000695', 'andres.martinez0695@bz.com', TO_DATE('2026-05-17', 'YYYY-MM-DD'), 5, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Fernandez', '0000000696', TO_DATE('1999-11-27', 'YYYY-MM-DD'), '3000000696', 'sofia.fernandez0696@service.com', TO_DATE('2026-02-03', 'YYYY-MM-DD'), 5, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Rodriguez', '0000000697', TO_DATE('2005-10-28', 'YYYY-MM-DD'), '3000000697', 'carlos.rodriguez0697@service.com', TO_DATE('2026-08-12', 'YYYY-MM-DD'), 5, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Martinez', '0000000698', TO_DATE('2002-02-20', 'YYYY-MM-DD'), '3000000698', 'camila.martinez0698@service.com', TO_DATE('2026-04-16', 'YYYY-MM-DD'), 5, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Torres', '0000000699', TO_DATE('2000-11-28', 'YYYY-MM-DD'), '3000000699', 'sofia.torres0699@webmail.com', TO_DATE('2025-10-20', 'YYYY-MM-DD'), 5, 7);
+
+-- Cliente sede 6
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Fernandez', '0000000700', TO_DATE('2004-12-12', 'YYYY-MM-DD'), '3000000700', 'jose.fernandez0700@webmail.com', TO_DATE('2025-11-28', 'YYYY-MM-DD'), 6, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Gomez', '0000000701', TO_DATE('2003-04-18', 'YYYY-MM-DD'), '3000000701', 'sofia.gomez0701@webmail.com', TO_DATE('2026-04-21', 'YYYY-MM-DD'), 6, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Rodriguez', '0000000702', TO_DATE('2005-05-12', 'YYYY-MM-DD'), '3000000702', 'laura.rodriguez0702@bz.com', TO_DATE('2025-07-14', 'YYYY-MM-DD'), 6, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000703', TO_DATE('1996-11-09', 'YYYY-MM-DD'), '3000000703', 'camila.moreno0703@mail.com', TO_DATE('2025-09-30', 'YYYY-MM-DD'), 6, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Torres', '0000000704', TO_DATE('2000-07-24', 'YYYY-MM-DD'), '3000000704', 'carlos.torres0704@bz.com', TO_DATE('2026-11-02', 'YYYY-MM-DD'), 6, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000705', TO_DATE('2001-09-17', 'YYYY-MM-DD'), '3000000705', 'felipe.torres0705@bz.com', TO_DATE('2026-07-09', 'YYYY-MM-DD'), 6, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Pérez', '0000000706', TO_DATE('2000-10-22', 'YYYY-MM-DD'), '3000000706', 'andres.pérez0706@service.com', TO_DATE('2025-12-07', 'YYYY-MM-DD'), 6, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Pérez', '0000000707', TO_DATE('2000-06-09', 'YYYY-MM-DD'), '3000000707', 'sofia.pérez0707@bz.com', TO_DATE('2026-05-15', 'YYYY-MM-DD'), 6, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Fernandez', '0000000708', TO_DATE('2005-08-19', 'YYYY-MM-DD'), '3000000708', 'mariana.fernandez0708@webmail.com', TO_DATE('2026-11-13', 'YYYY-MM-DD'), 6, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Martinez', '0000000709', TO_DATE('1998-01-04', 'YYYY-MM-DD'), '3000000709', 'juan.martinez0709@service.com', TO_DATE('2026-09-13', 'YYYY-MM-DD'), 6, 9);
+
+-- Cliente sede 7
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Martinez', '0000000710', TO_DATE('1998-12-15', 'YYYY-MM-DD'), '3000000710', 'camila.martinez0710@mail.com', TO_DATE('2025-11-26', 'YYYY-MM-DD'), 7, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000711', TO_DATE('2003-11-15', 'YYYY-MM-DD'), '3000000711', 'juan.sanchez0711@service.com', TO_DATE('2026-09-14', 'YYYY-MM-DD'), 7, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Rodriguez', '0000000712', TO_DATE('2005-12-19', 'YYYY-MM-DD'), '3000000712', 'felipe.rodriguez0712@webmail.com', TO_DATE('2026-05-10', 'YYYY-MM-DD'), 7, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Rodriguez', '0000000713', TO_DATE('1995-01-12', 'YYYY-MM-DD'), '3000000713', 'mariana.rodriguez0713@bz.com', TO_DATE('2026-10-18', 'YYYY-MM-DD'), 7, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Garcia', '0000000714', TO_DATE('2004-01-14', 'YYYY-MM-DD'), '3000000714', 'juan.garcia0714@webmail.com', TO_DATE('2026-08-27', 'YYYY-MM-DD'), 7, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Lopez', '0000000715', TO_DATE('2001-02-09', 'YYYY-MM-DD'), '3000000715', 'camila.lopez0715@webmail.com', TO_DATE('2025-10-16', 'YYYY-MM-DD'), 7, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Lopez', '0000000716', TO_DATE('1994-09-10', 'YYYY-MM-DD'), '3000000716', 'laura.lopez0716@bz.com', TO_DATE('2026-06-04', 'YYYY-MM-DD'), 7, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Gomez', '0000000717', TO_DATE('1995-11-04', 'YYYY-MM-DD'), '3000000717', 'laura.gomez0717@service.com', TO_DATE('2026-10-09', 'YYYY-MM-DD'), 7, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000718', TO_DATE('1998-04-14', 'YYYY-MM-DD'), '3000000718', 'camila.fernandez0718@webmail.com', TO_DATE('2025-11-09', 'YYYY-MM-DD'), 7, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Fernandez', '0000000719', TO_DATE('2005-06-09', 'YYYY-MM-DD'), '3000000719', 'sofia.fernandez0719@webmail.com', TO_DATE('2025-12-06', 'YYYY-MM-DD'), 7, 10);
+
+-- Cliente sede 8
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Fernandez', '0000000720', TO_DATE('2005-04-05', 'YYYY-MM-DD'), '3000000720', 'andres.fernandez0720@webmail.com', TO_DATE('2026-11-25', 'YYYY-MM-DD'), 8, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Garcia', '0000000721', TO_DATE('1999-05-31', 'YYYY-MM-DD'), '3000000721', 'sofia.garcia0721@webmail.com', TO_DATE('2025-10-18', 'YYYY-MM-DD'), 8, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Moreno', '0000000722', TO_DATE('1998-04-20', 'YYYY-MM-DD'), '3000000722', 'mariana.moreno0722@service.com', TO_DATE('2025-06-29', 'YYYY-MM-DD'), 8, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Torres', '0000000723', TO_DATE('2001-03-28', 'YYYY-MM-DD'), '3000000723', 'mariana.torres0723@mail.com', TO_DATE('2026-01-18', 'YYYY-MM-DD'), 8, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Pérez', '0000000724', TO_DATE('2005-06-05', 'YYYY-MM-DD'), '3000000724', 'juan.pérez0724@mail.com', TO_DATE('2026-08-21', 'YYYY-MM-DD'), 8, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Rodriguez', '0000000725', TO_DATE('1997-08-15', 'YYYY-MM-DD'), '3000000725', 'camila.rodriguez0725@mail.com', TO_DATE('2026-06-26', 'YYYY-MM-DD'), 8, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Gomez', '0000000726', TO_DATE('1998-11-04', 'YYYY-MM-DD'), '3000000726', 'andres.gomez0726@mail.com', TO_DATE('2026-05-26', 'YYYY-MM-DD'), 8, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Martinez', '0000000727', TO_DATE('1998-05-06', 'YYYY-MM-DD'), '3000000727', 'sofia.martinez0727@mail.com', TO_DATE('2025-10-09', 'YYYY-MM-DD'), 8, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Lopez', '0000000728', TO_DATE('1995-02-09', 'YYYY-MM-DD'), '3000000728', 'camila.lopez0728@service.com', TO_DATE('2026-06-28', 'YYYY-MM-DD'), 8, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000729', TO_DATE('1997-06-30', 'YYYY-MM-DD'), '3000000729', 'felipe.torres0729@service.com', TO_DATE('2026-09-23', 'YYYY-MM-DD'), 8, 1);
+
+-- Cliente sede 9
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Lopez', '0000000730', TO_DATE('2000-10-19', 'YYYY-MM-DD'), '3000000730', 'laura.lopez0730@service.com', TO_DATE('2026-12-07', 'YYYY-MM-DD'), 9, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Torres', '0000000731', TO_DATE('1995-11-03', 'YYYY-MM-DD'), '3000000731', 'sofia.torres0731@mail.com', TO_DATE('2026-04-06', 'YYYY-MM-DD'), 9, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Fernandez', '0000000732', TO_DATE('1999-06-25', 'YYYY-MM-DD'), '3000000732', 'mariana.fernandez0732@bz.com', TO_DATE('2026-09-19', 'YYYY-MM-DD'), 9, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Sanchez', '0000000733', TO_DATE('1994-08-17', 'YYYY-MM-DD'), '3000000733', 'mariana.sanchez0733@bz.com', TO_DATE('2026-05-14', 'YYYY-MM-DD'), 9, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Rodriguez', '0000000734', TO_DATE('2004-01-01', 'YYYY-MM-DD'), '3000000734', 'carlos.rodriguez0734@mail.com', TO_DATE('2025-07-06', 'YYYY-MM-DD'), 9, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Garcia', '0000000735', TO_DATE('2001-10-15', 'YYYY-MM-DD'), '3000000735', 'sofia.garcia0735@service.com', TO_DATE('2026-12-10', 'YYYY-MM-DD'), 9, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000736', TO_DATE('1998-03-21', 'YYYY-MM-DD'), '3000000736', 'camila.moreno0736@mail.com', TO_DATE('2026-07-18', 'YYYY-MM-DD'), 9, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Martinez', '0000000737', TO_DATE('1996-12-12', 'YYYY-MM-DD'), '3000000737', 'felipe.martinez0737@mail.com', TO_DATE('2026-06-04', 'YYYY-MM-DD'), 9, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000738', TO_DATE('2003-10-13', 'YYYY-MM-DD'), '3000000738', 'camila.pérez0738@bz.com', TO_DATE('2025-12-07', 'YYYY-MM-DD'), 9, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Pérez', '0000000739', TO_DATE('1994-09-10', 'YYYY-MM-DD'), '3000000739', 'jose.pérez0739@webmail.com', TO_DATE('2025-10-26', 'YYYY-MM-DD'), 9, 9);
+
+-- Cliente sede 10
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Sanchez', '0000000740', TO_DATE('2003-02-11', 'YYYY-MM-DD'), '3000000740', 'jose.sanchez0740@webmail.com', TO_DATE('2026-10-07', 'YYYY-MM-DD'), 10, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Moreno', '0000000741', TO_DATE('1999-08-13', 'YYYY-MM-DD'), '3000000741', 'daniela.moreno0741@webmail.com', TO_DATE('2026-10-12', 'YYYY-MM-DD'), 10, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Moreno', '0000000742', TO_DATE('1997-09-09', 'YYYY-MM-DD'), '3000000742', 'carlos.moreno0742@bz.com', TO_DATE('2025-09-27', 'YYYY-MM-DD'), 10, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Pérez', '0000000743', TO_DATE('2003-08-26', 'YYYY-MM-DD'), '3000000743', 'juan.pérez0743@webmail.com', TO_DATE('2026-11-09', 'YYYY-MM-DD'), 10, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000744', TO_DATE('2000-04-16', 'YYYY-MM-DD'), '3000000744', 'laura.pérez0744@webmail.com', TO_DATE('2026-07-18', 'YYYY-MM-DD'), 10, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000745', TO_DATE('1994-07-06', 'YYYY-MM-DD'), '3000000745', 'felipe.garcia0745@service.com', TO_DATE('2026-03-04', 'YYYY-MM-DD'), 10, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000746', TO_DATE('2000-02-01', 'YYYY-MM-DD'), '3000000746', 'daniela.sanchez0746@mail.com', TO_DATE('2025-07-13', 'YYYY-MM-DD'), 10, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000747', TO_DATE('2005-09-22', 'YYYY-MM-DD'), '3000000747', 'andres.martinez0747@webmail.com', TO_DATE('2025-08-29', 'YYYY-MM-DD'), 10, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Garcia', '0000000748', TO_DATE('1997-08-18', 'YYYY-MM-DD'), '3000000748', 'camila.garcia0748@webmail.com', TO_DATE('2026-05-26', 'YYYY-MM-DD'), 10, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Lopez', '0000000749', TO_DATE('1997-07-01', 'YYYY-MM-DD'), '3000000749', 'carlos.lopez0749@webmail.com', TO_DATE('2026-08-27', 'YYYY-MM-DD'), 10, 10);
+
+-- Cliente sede 11
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Torres', '0000000750', TO_DATE('2005-02-05', 'YYYY-MM-DD'), '3000000750', 'camila.torres0750@mail.com', TO_DATE('2025-05-28', 'YYYY-MM-DD'), 11, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Rodriguez', '0000000751', TO_DATE('1994-11-25', 'YYYY-MM-DD'), '3000000751', 'andres.rodriguez0751@mail.com', TO_DATE('2025-08-06', 'YYYY-MM-DD'), 11, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000752', TO_DATE('1998-09-23', 'YYYY-MM-DD'), '3000000752', 'andres.martinez0752@service.com', TO_DATE('2025-10-13', 'YYYY-MM-DD'), 11, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Garcia', '0000000753', TO_DATE('2003-09-29', 'YYYY-MM-DD'), '3000000753', 'daniela.garcia0753@service.com', TO_DATE('2025-08-26', 'YYYY-MM-DD'), 11, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Moreno', '0000000754', TO_DATE('2000-05-26', 'YYYY-MM-DD'), '3000000754', 'daniela.moreno0754@service.com', TO_DATE('2026-04-23', 'YYYY-MM-DD'), 11, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Sanchez', '0000000755', TO_DATE('1996-04-20', 'YYYY-MM-DD'), '3000000755', 'sofia.sanchez0755@service.com', TO_DATE('2025-06-01', 'YYYY-MM-DD'), 11, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Torres', '0000000756', TO_DATE('2002-12-19', 'YYYY-MM-DD'), '3000000756', 'mariana.torres0756@mail.com', TO_DATE('2025-09-19', 'YYYY-MM-DD'), 11, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Rodriguez', '0000000757', TO_DATE('2001-05-20', 'YYYY-MM-DD'), '3000000757', 'sofia.rodriguez0757@service.com', TO_DATE('2026-02-10', 'YYYY-MM-DD'), 11, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Rodriguez', '0000000758', TO_DATE('2005-03-21', 'YYYY-MM-DD'), '3000000758', 'mariana.rodriguez0758@webmail.com', TO_DATE('2025-05-19', 'YYYY-MM-DD'), 11, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Garcia', '0000000759', TO_DATE('2002-11-14', 'YYYY-MM-DD'), '3000000759', 'camila.garcia0759@service.com', TO_DATE('2025-11-15', 'YYYY-MM-DD'), 11, 10);
+
+-- Cliente sede 12
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Pérez', '0000000760', TO_DATE('1996-05-12', 'YYYY-MM-DD'), '3000000760', 'daniela.pérez0760@service.com', TO_DATE('2026-07-24', 'YYYY-MM-DD'), 12, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000761', TO_DATE('1995-02-26', 'YYYY-MM-DD'), '3000000761', 'laura.torres0761@service.com', TO_DATE('2026-05-21', 'YYYY-MM-DD'), 12, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000762', TO_DATE('2000-11-03', 'YYYY-MM-DD'), '3000000762', 'daniela.sanchez0762@webmail.com', TO_DATE('2026-02-19', 'YYYY-MM-DD'), 12, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Lopez', '0000000763', TO_DATE('2000-08-10', 'YYYY-MM-DD'), '3000000763', 'carlos.lopez0763@mail.com', TO_DATE('2025-09-14', 'YYYY-MM-DD'), 12, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000764', TO_DATE('1998-06-02', 'YYYY-MM-DD'), '3000000764', 'laura.pérez0764@bz.com', TO_DATE('2025-07-31', 'YYYY-MM-DD'), 12, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Pérez', '0000000765', TO_DATE('2004-02-22', 'YYYY-MM-DD'), '3000000765', 'andres.pérez0765@service.com', TO_DATE('2025-07-27', 'YYYY-MM-DD'), 12, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Martinez', '0000000766', TO_DATE('2005-03-26', 'YYYY-MM-DD'), '3000000766', 'sofia.martinez0766@bz.com', TO_DATE('2025-10-29', 'YYYY-MM-DD'), 12, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Sanchez', '0000000767', TO_DATE('2005-07-31', 'YYYY-MM-DD'), '3000000767', 'mariana.sanchez0767@bz.com', TO_DATE('2026-09-03', 'YYYY-MM-DD'), 12, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Rodriguez', '0000000768', TO_DATE('2003-04-24', 'YYYY-MM-DD'), '3000000768', 'mariana.rodriguez0768@webmail.com', TO_DATE('2026-02-19', 'YYYY-MM-DD'), 12, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Torres', '0000000769', TO_DATE('2002-08-30', 'YYYY-MM-DD'), '3000000769', 'carlos.torres0769@mail.com', TO_DATE('2025-08-23', 'YYYY-MM-DD'), 12, 4);
+
+-- Cliente sede 13
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Torres', '0000000770', TO_DATE('2002-07-05', 'YYYY-MM-DD'), '3000000770', 'daniela.torres0770@webmail.com', TO_DATE('2026-08-20', 'YYYY-MM-DD'), 13, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000771', TO_DATE('1999-06-12', 'YYYY-MM-DD'), '3000000771', 'camila.fernandez0771@bz.com', TO_DATE('2026-11-14', 'YYYY-MM-DD'), 13, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Fernandez', '0000000772', TO_DATE('1997-10-20', 'YYYY-MM-DD'), '3000000772', 'mariana.fernandez0772@mail.com', TO_DATE('2026-10-30', 'YYYY-MM-DD'), 13, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Sanchez', '0000000773', TO_DATE('2004-06-19', 'YYYY-MM-DD'), '3000000773', 'carlos.sanchez0773@service.com', TO_DATE('2025-10-21', 'YYYY-MM-DD'), 13, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Martinez', '0000000774', TO_DATE('2003-04-05', 'YYYY-MM-DD'), '3000000774', 'juan.martinez0774@service.com', TO_DATE('2026-01-22', 'YYYY-MM-DD'), 13, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Moreno', '0000000775', TO_DATE('2004-01-06', 'YYYY-MM-DD'), '3000000775', 'andres.moreno0775@mail.com', TO_DATE('2026-09-15', 'YYYY-MM-DD'), 13, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Garcia', '0000000776', TO_DATE('2000-12-07', 'YYYY-MM-DD'), '3000000776', 'sofia.garcia0776@service.com', TO_DATE('2026-05-25', 'YYYY-MM-DD'), 13, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000777', TO_DATE('2001-11-21', 'YYYY-MM-DD'), '3000000777', 'juan.sanchez0777@service.com', TO_DATE('2026-03-29', 'YYYY-MM-DD'), 13, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Moreno', '0000000778', TO_DATE('2005-02-19', 'YYYY-MM-DD'), '3000000778', 'andres.moreno0778@webmail.com', TO_DATE('2026-02-24', 'YYYY-MM-DD'), 13, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Martinez', '0000000779', TO_DATE('2001-12-26', 'YYYY-MM-DD'), '3000000779', 'mariana.martinez0779@bz.com', TO_DATE('2026-05-30', 'YYYY-MM-DD'), 13, 10);
+
+-- Cliente sede 14
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Lopez', '0000000780', TO_DATE('1995-03-11', 'YYYY-MM-DD'), '3000000780', 'laura.lopez0780@service.com', TO_DATE('2025-11-18', 'YYYY-MM-DD'), 14, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Garcia', '0000000781', TO_DATE('1997-12-16', 'YYYY-MM-DD'), '3000000781', 'mariana.garcia0781@service.com', TO_DATE('2026-05-11', 'YYYY-MM-DD'), 14, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Lopez', '0000000782', TO_DATE('2000-09-16', 'YYYY-MM-DD'), '3000000782', 'carlos.lopez0782@bz.com', TO_DATE('2025-12-12', 'YYYY-MM-DD'), 14, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000783', TO_DATE('2001-12-20', 'YYYY-MM-DD'), '3000000783', 'andres.martinez0783@mail.com', TO_DATE('2026-08-06', 'YYYY-MM-DD'), 14, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Garcia', '0000000784', TO_DATE('1998-07-03', 'YYYY-MM-DD'), '3000000784', 'juan.garcia0784@webmail.com', TO_DATE('2025-10-01', 'YYYY-MM-DD'), 14, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Torres', '0000000785', TO_DATE('1994-10-25', 'YYYY-MM-DD'), '3000000785', 'camila.torres0785@webmail.com', TO_DATE('2025-08-30', 'YYYY-MM-DD'), 14, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Torres', '0000000786', TO_DATE('2005-11-10', 'YYYY-MM-DD'), '3000000786', 'jose.torres0786@service.com', TO_DATE('2025-11-07', 'YYYY-MM-DD'), 14, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000787', TO_DATE('2001-08-18', 'YYYY-MM-DD'), '3000000787', 'andres.martinez0787@webmail.com', TO_DATE('2026-03-15', 'YYYY-MM-DD'), 14, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Fernandez', '0000000788', TO_DATE('1995-09-06', 'YYYY-MM-DD'), '3000000788', 'sofia.fernandez0788@bz.com', TO_DATE('2025-10-23', 'YYYY-MM-DD'), 14, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Fernandez', '0000000789', TO_DATE('1996-04-04', 'YYYY-MM-DD'), '3000000789', 'camila.fernandez0789@webmail.com', TO_DATE('2026-08-13', 'YYYY-MM-DD'), 14, 7);
+
+-- Cliente sede 15
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Gomez', '0000000790', TO_DATE('2001-12-02', 'YYYY-MM-DD'), '3000000790', 'sofia.gomez0790@bz.com', TO_DATE('2026-09-17', 'YYYY-MM-DD'), 15, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000791', TO_DATE('2002-01-19', 'YYYY-MM-DD'), '3000000791', 'laura.torres0791@mail.com', TO_DATE('2025-06-10', 'YYYY-MM-DD'), 15, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000792', TO_DATE('1998-03-27', 'YYYY-MM-DD'), '3000000792', 'felipe.garcia0792@webmail.com', TO_DATE('2025-07-23', 'YYYY-MM-DD'), 15, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000793', TO_DATE('2005-09-29', 'YYYY-MM-DD'), '3000000793', 'camila.pérez0793@service.com', TO_DATE('2025-05-26', 'YYYY-MM-DD'), 15, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Garcia', '0000000794', TO_DATE('2003-04-05', 'YYYY-MM-DD'), '3000000794', 'andres.garcia0794@mail.com', TO_DATE('2026-07-30', 'YYYY-MM-DD'), 15, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Martinez', '0000000795', TO_DATE('2005-07-22', 'YYYY-MM-DD'), '3000000795', 'juan.martinez0795@service.com', TO_DATE('2025-06-04', 'YYYY-MM-DD'), 15, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Gomez', '0000000796', TO_DATE('2003-10-15', 'YYYY-MM-DD'), '3000000796', 'jose.gomez0796@bz.com', TO_DATE('2026-09-26', 'YYYY-MM-DD'), 15, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000797', TO_DATE('2002-07-25', 'YYYY-MM-DD'), '3000000797', 'juan.sanchez0797@bz.com', TO_DATE('2026-11-26', 'YYYY-MM-DD'), 15, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Fernandez', '0000000798', TO_DATE('1994-11-23', 'YYYY-MM-DD'), '3000000798', 'felipe.fernandez0798@bz.com', TO_DATE('2026-01-08', 'YYYY-MM-DD'), 15, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Pérez', '0000000799', TO_DATE('2000-03-30', 'YYYY-MM-DD'), '3000000799', 'juan.pérez0799@bz.com', TO_DATE('2026-01-13', 'YYYY-MM-DD'), 15, 5);
+
+-- Cliente sede 16
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Rodriguez', '0000000800', TO_DATE('1994-07-02', 'YYYY-MM-DD'), '3000000800', 'felipe.rodriguez0800@service.com', TO_DATE('2026-11-19', 'YYYY-MM-DD'), 16, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Fernandez', '0000000801', TO_DATE('2001-11-14', 'YYYY-MM-DD'), '3000000801', 'andres.fernandez0801@bz.com', TO_DATE('2025-08-05', 'YYYY-MM-DD'), 16, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Lopez', '0000000802', TO_DATE('2005-09-16', 'YYYY-MM-DD'), '3000000802', 'felipe.lopez0802@bz.com', TO_DATE('2026-06-02', 'YYYY-MM-DD'), 16, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000803', TO_DATE('2000-10-11', 'YYYY-MM-DD'), '3000000803', 'daniela.sanchez0803@mail.com', TO_DATE('2026-10-16', 'YYYY-MM-DD'), 16, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Moreno', '0000000804', TO_DATE('2005-10-17', 'YYYY-MM-DD'), '3000000804', 'jose.moreno0804@bz.com', TO_DATE('2025-11-11', 'YYYY-MM-DD'), 16, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000805', TO_DATE('2003-04-24', 'YYYY-MM-DD'), '3000000805', 'juan.sanchez0805@mail.com', TO_DATE('2026-05-14', 'YYYY-MM-DD'), 16, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Pérez', '0000000806', TO_DATE('1996-04-18', 'YYYY-MM-DD'), '3000000806', 'andres.pérez0806@webmail.com', TO_DATE('2026-01-02', 'YYYY-MM-DD'), 16, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Gomez', '0000000807', TO_DATE('1996-09-15', 'YYYY-MM-DD'), '3000000807', 'camila.gomez0807@service.com', TO_DATE('2026-10-16', 'YYYY-MM-DD'), 16, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Lopez', '0000000808', TO_DATE('2000-10-07', 'YYYY-MM-DD'), '3000000808', 'andres.lopez0808@service.com', TO_DATE('2025-07-22', 'YYYY-MM-DD'), 16, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000809', TO_DATE('1996-06-11', 'YYYY-MM-DD'), '3000000809', 'camila.pérez0809@service.com', TO_DATE('2026-12-03', 'YYYY-MM-DD'), 16, 8);
+
+-- Cliente sede 17
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Moreno', '0000000810', TO_DATE('1999-01-06', 'YYYY-MM-DD'), '3000000810', 'sofia.moreno0810@bz.com', TO_DATE('2026-09-23', 'YYYY-MM-DD'), 17, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Torres', '0000000811', TO_DATE('1996-06-21', 'YYYY-MM-DD'), '3000000811', 'juan.torres0811@bz.com', TO_DATE('2026-12-04', 'YYYY-MM-DD'), 17, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Garcia', '0000000812', TO_DATE('2003-01-12', 'YYYY-MM-DD'), '3000000812', 'carlos.garcia0812@service.com', TO_DATE('2025-12-12', 'YYYY-MM-DD'), 17, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Torres', '0000000813', TO_DATE('2004-02-25', 'YYYY-MM-DD'), '3000000813', 'camila.torres0813@bz.com', TO_DATE('2025-11-23', 'YYYY-MM-DD'), 17, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000814', TO_DATE('2003-03-24', 'YYYY-MM-DD'), '3000000814', 'andres.martinez0814@service.com', TO_DATE('2025-08-24', 'YYYY-MM-DD'), 17, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000815', TO_DATE('1996-01-01', 'YYYY-MM-DD'), '3000000815', 'camila.moreno0815@bz.com', TO_DATE('2025-11-06', 'YYYY-MM-DD'), 17, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000816', TO_DATE('2005-12-12', 'YYYY-MM-DD'), '3000000816', 'camila.pérez0816@mail.com', TO_DATE('2026-12-21', 'YYYY-MM-DD'), 17, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Martinez', '0000000817', TO_DATE('1996-05-19', 'YYYY-MM-DD'), '3000000817', 'sofia.martinez0817@bz.com', TO_DATE('2026-03-08', 'YYYY-MM-DD'), 17, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Rodriguez', '0000000818', TO_DATE('1994-12-13', 'YYYY-MM-DD'), '3000000818', 'andres.rodriguez0818@mail.com', TO_DATE('2026-05-30', 'YYYY-MM-DD'), 17, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Moreno', '0000000819', TO_DATE('2004-05-23', 'YYYY-MM-DD'), '3000000819', 'carlos.moreno0819@service.com', TO_DATE('2026-06-13', 'YYYY-MM-DD'), 17, 2);
+
+-- Cliente sede 18
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Rodriguez', '0000000820', TO_DATE('2002-12-02', 'YYYY-MM-DD'), '3000000820', 'camila.rodriguez0820@webmail.com', TO_DATE('2025-10-19', 'YYYY-MM-DD'), 18, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Sanchez', '0000000821', TO_DATE('1995-11-23', 'YYYY-MM-DD'), '3000000821', 'camila.sanchez0821@webmail.com', TO_DATE('2025-11-18', 'YYYY-MM-DD'), 18, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000822', TO_DATE('1999-09-05', 'YYYY-MM-DD'), '3000000822', 'felipe.torres0822@bz.com', TO_DATE('2026-12-29', 'YYYY-MM-DD'), 18, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Pérez', '0000000823', TO_DATE('1998-08-10', 'YYYY-MM-DD'), '3000000823', 'mariana.pérez0823@bz.com', TO_DATE('2025-11-21', 'YYYY-MM-DD'), 18, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000824', TO_DATE('2002-10-19', 'YYYY-MM-DD'), '3000000824', 'felipe.garcia0824@service.com', TO_DATE('2026-11-29', 'YYYY-MM-DD'), 18, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000825', TO_DATE('1998-08-17', 'YYYY-MM-DD'), '3000000825', 'laura.torres0825@service.com', TO_DATE('2026-12-05', 'YYYY-MM-DD'), 18, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Lopez', '0000000826', TO_DATE('2003-11-07', 'YYYY-MM-DD'), '3000000826', 'daniela.lopez0826@bz.com', TO_DATE('2025-08-20', 'YYYY-MM-DD'), 18, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Lopez', '0000000827', TO_DATE('1995-04-25', 'YYYY-MM-DD'), '3000000827', 'daniela.lopez0827@bz.com', TO_DATE('2026-02-12', 'YYYY-MM-DD'), 18, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Martinez', '0000000828', TO_DATE('2001-03-07', 'YYYY-MM-DD'), '3000000828', 'daniela.martinez0828@bz.com', TO_DATE('2026-01-09', 'YYYY-MM-DD'), 18, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Garcia', '0000000829', TO_DATE('1999-04-20', 'YYYY-MM-DD'), '3000000829', 'mariana.garcia0829@mail.com', TO_DATE('2026-03-17', 'YYYY-MM-DD'), 18, 1);
+
+-- Cliente sede 19
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Garcia', '0000000830', TO_DATE('1999-04-27', 'YYYY-MM-DD'), '3000000830', 'carlos.garcia0830@bz.com', TO_DATE('2025-11-25', 'YYYY-MM-DD'), 19, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Gomez', '0000000831', TO_DATE('1995-04-08', 'YYYY-MM-DD'), '3000000831', 'camila.gomez0831@mail.com', TO_DATE('2026-12-26', 'YYYY-MM-DD'), 19, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Lopez', '0000000832', TO_DATE('1996-07-14', 'YYYY-MM-DD'), '3000000832', 'mariana.lopez0832@service.com', TO_DATE('2026-09-16', 'YYYY-MM-DD'), 19, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Torres', '0000000833', TO_DATE('1998-10-20', 'YYYY-MM-DD'), '3000000833', 'daniela.torres0833@webmail.com', TO_DATE('2026-04-15', 'YYYY-MM-DD'), 19, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Garcia', '0000000834', TO_DATE('2001-10-31', 'YYYY-MM-DD'), '3000000834', 'camila.garcia0834@service.com', TO_DATE('2025-09-25', 'YYYY-MM-DD'), 19, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Garcia', '0000000835', TO_DATE('1998-08-09', 'YYYY-MM-DD'), '3000000835', 'laura.garcia0835@service.com', TO_DATE('2026-11-07', 'YYYY-MM-DD'), 19, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Sanchez', '0000000836', TO_DATE('2001-09-14', 'YYYY-MM-DD'), '3000000836', 'camila.sanchez0836@webmail.com', TO_DATE('2026-06-28', 'YYYY-MM-DD'), 19, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000837', TO_DATE('2001-03-23', 'YYYY-MM-DD'), '3000000837', 'juan.sanchez0837@webmail.com', TO_DATE('2026-03-13', 'YYYY-MM-DD'), 19, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Pérez', '0000000838', TO_DATE('1998-02-10', 'YYYY-MM-DD'), '3000000838', 'carlos.pérez0838@webmail.com', TO_DATE('2025-06-14', 'YYYY-MM-DD'), 19, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Torres', '0000000839', TO_DATE('1997-05-18', 'YYYY-MM-DD'), '3000000839', 'mariana.torres0839@mail.com', TO_DATE('2026-10-30', 'YYYY-MM-DD'), 19, 3);
+
+-- Cliente sede 20
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Martinez', '0000000840', TO_DATE('2004-03-31', 'YYYY-MM-DD'), '3000000840', 'mariana.martinez0840@webmail.com', TO_DATE('2026-02-13', 'YYYY-MM-DD'), 20, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Torres', '0000000841', TO_DATE('1997-04-11', 'YYYY-MM-DD'), '3000000841', 'sofia.torres0841@mail.com', TO_DATE('2025-10-09', 'YYYY-MM-DD'), 20, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Fernandez', '0000000842', TO_DATE('1997-03-22', 'YYYY-MM-DD'), '3000000842', 'laura.fernandez0842@service.com', TO_DATE('2025-09-14', 'YYYY-MM-DD'), 20, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Garcia', '0000000843', TO_DATE('1995-06-20', 'YYYY-MM-DD'), '3000000843', 'daniela.garcia0843@webmail.com', TO_DATE('2026-02-09', 'YYYY-MM-DD'), 20, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Gomez', '0000000844', TO_DATE('2002-02-22', 'YYYY-MM-DD'), '3000000844', 'juan.gomez0844@bz.com', TO_DATE('2026-03-25', 'YYYY-MM-DD'), 20, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Gomez', '0000000845', TO_DATE('1998-04-03', 'YYYY-MM-DD'), '3000000845', 'felipe.gomez0845@bz.com', TO_DATE('2026-01-06', 'YYYY-MM-DD'), 20, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Lopez', '0000000846', TO_DATE('1999-10-08', 'YYYY-MM-DD'), '3000000846', 'juan.lopez0846@bz.com', TO_DATE('2025-07-20', 'YYYY-MM-DD'), 20, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Martinez', '0000000847', TO_DATE('1998-08-27', 'YYYY-MM-DD'), '3000000847', 'laura.martinez0847@service.com', TO_DATE('2025-08-03', 'YYYY-MM-DD'), 20, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Lopez', '0000000848', TO_DATE('2000-11-08', 'YYYY-MM-DD'), '3000000848', 'carlos.lopez0848@bz.com', TO_DATE('2025-07-12', 'YYYY-MM-DD'), 20, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Garcia', '0000000849', TO_DATE('1998-04-20', 'YYYY-MM-DD'), '3000000849', 'mariana.garcia0849@mail.com', TO_DATE('2026-04-04', 'YYYY-MM-DD'), 20, 2);
+
+-- Cliente sede 21
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000850', TO_DATE('1997-12-27', 'YYYY-MM-DD'), '3000000850', 'felipe.garcia0850@mail.com', TO_DATE('2026-08-02', 'YYYY-MM-DD'), 21, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Gomez', '0000000851', TO_DATE('1997-04-24', 'YYYY-MM-DD'), '3000000851', 'felipe.gomez0851@bz.com', TO_DATE('2025-06-11', 'YYYY-MM-DD'), 21, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Lopez', '0000000852', TO_DATE('1996-05-07', 'YYYY-MM-DD'), '3000000852', 'mariana.lopez0852@webmail.com', TO_DATE('2025-12-05', 'YYYY-MM-DD'), 21, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Pérez', '0000000853', TO_DATE('1999-03-26', 'YYYY-MM-DD'), '3000000853', 'daniela.pérez0853@bz.com', TO_DATE('2025-07-27', 'YYYY-MM-DD'), 21, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Moreno', '0000000854', TO_DATE('1998-08-19', 'YYYY-MM-DD'), '3000000854', 'jose.moreno0854@bz.com', TO_DATE('2025-10-28', 'YYYY-MM-DD'), 21, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Moreno', '0000000855', TO_DATE('2003-02-25', 'YYYY-MM-DD'), '3000000855', 'jose.moreno0855@bz.com', TO_DATE('2026-06-02', 'YYYY-MM-DD'), 21, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Fernandez', '0000000856', TO_DATE('2002-09-11', 'YYYY-MM-DD'), '3000000856', 'carlos.fernandez0856@webmail.com', TO_DATE('2025-06-06', 'YYYY-MM-DD'), 21, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Torres', '0000000857', TO_DATE('1999-09-04', 'YYYY-MM-DD'), '3000000857', 'juan.torres0857@service.com', TO_DATE('2026-08-26', 'YYYY-MM-DD'), 21, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Torres', '0000000858', TO_DATE('1994-07-22', 'YYYY-MM-DD'), '3000000858', 'felipe.torres0858@webmail.com', TO_DATE('2026-11-14', 'YYYY-MM-DD'), 21, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Pérez', '0000000859', TO_DATE('2004-10-06', 'YYYY-MM-DD'), '3000000859', 'andres.pérez0859@bz.com', TO_DATE('2026-11-01', 'YYYY-MM-DD'), 21, 6);
+
+-- Cliente sede 22
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000860', TO_DATE('2003-05-13', 'YYYY-MM-DD'), '3000000860', 'laura.torres0860@mail.com', TO_DATE('2025-06-05', 'YYYY-MM-DD'), 22, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Gomez', '0000000861', TO_DATE('1998-07-31', 'YYYY-MM-DD'), '3000000861', 'juan.gomez0861@service.com', TO_DATE('2026-10-09', 'YYYY-MM-DD'), 22, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Rodriguez', '0000000862', TO_DATE('1997-02-16', 'YYYY-MM-DD'), '3000000862', 'camila.rodriguez0862@webmail.com', TO_DATE('2026-05-20', 'YYYY-MM-DD'), 22, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Gomez', '0000000863', TO_DATE('2001-10-09', 'YYYY-MM-DD'), '3000000863', 'daniela.gomez0863@bz.com', TO_DATE('2026-02-27', 'YYYY-MM-DD'), 22, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Lopez', '0000000864', TO_DATE('1995-02-06', 'YYYY-MM-DD'), '3000000864', 'mariana.lopez0864@bz.com', TO_DATE('2026-07-02', 'YYYY-MM-DD'), 22, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Torres', '0000000865', TO_DATE('2002-02-06', 'YYYY-MM-DD'), '3000000865', 'juan.torres0865@webmail.com', TO_DATE('2026-01-26', 'YYYY-MM-DD'), 22, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000866', TO_DATE('1999-12-07', 'YYYY-MM-DD'), '3000000866', 'camila.pérez0866@bz.com', TO_DATE('2025-12-24', 'YYYY-MM-DD'), 22, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Gomez', '0000000867', TO_DATE('1994-10-13', 'YYYY-MM-DD'), '3000000867', 'daniela.gomez0867@mail.com', TO_DATE('2025-10-21', 'YYYY-MM-DD'), 22, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Pérez', '0000000868', TO_DATE('2001-10-27', 'YYYY-MM-DD'), '3000000868', 'felipe.pérez0868@mail.com', TO_DATE('2025-06-28', 'YYYY-MM-DD'), 22, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Lopez', '0000000869', TO_DATE('1996-11-14', 'YYYY-MM-DD'), '3000000869', 'felipe.lopez0869@service.com', TO_DATE('2025-11-22', 'YYYY-MM-DD'), 22, 4);
+
+-- Cliente sede 23
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Garcia', '0000000870', TO_DATE('2000-08-25', 'YYYY-MM-DD'), '3000000870', 'laura.garcia0870@webmail.com', TO_DATE('2026-05-19', 'YYYY-MM-DD'), 23, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Martinez', '0000000871', TO_DATE('1995-05-03', 'YYYY-MM-DD'), '3000000871', 'camila.martinez0871@bz.com', TO_DATE('2025-10-23', 'YYYY-MM-DD'), 23, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Lopez', '0000000872', TO_DATE('1995-07-13', 'YYYY-MM-DD'), '3000000872', 'juan.lopez0872@service.com', TO_DATE('2025-08-11', 'YYYY-MM-DD'), 23, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Rodriguez', '0000000873', TO_DATE('1998-05-20', 'YYYY-MM-DD'), '3000000873', 'camila.rodriguez0873@webmail.com', TO_DATE('2025-05-30', 'YYYY-MM-DD'), 23, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000874', TO_DATE('1996-11-13', 'YYYY-MM-DD'), '3000000874', 'daniela.sanchez0874@service.com', TO_DATE('2026-03-31', 'YYYY-MM-DD'), 23, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Rodriguez', '0000000875', TO_DATE('1998-05-26', 'YYYY-MM-DD'), '3000000875', 'camila.rodriguez0875@mail.com', TO_DATE('2025-10-24', 'YYYY-MM-DD'), 23, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Moreno', '0000000876', TO_DATE('1998-05-24', 'YYYY-MM-DD'), '3000000876', 'jose.moreno0876@mail.com', TO_DATE('2026-05-14', 'YYYY-MM-DD'), 23, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Moreno', '0000000877', TO_DATE('1994-07-05', 'YYYY-MM-DD'), '3000000877', 'carlos.moreno0877@bz.com', TO_DATE('2025-06-11', 'YYYY-MM-DD'), 23, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Torres', '0000000878', TO_DATE('1996-07-28', 'YYYY-MM-DD'), '3000000878', 'daniela.torres0878@webmail.com', TO_DATE('2026-01-14', 'YYYY-MM-DD'), 23, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000879', TO_DATE('2001-05-11', 'YYYY-MM-DD'), '3000000879', 'camila.pérez0879@webmail.com', TO_DATE('2025-08-22', 'YYYY-MM-DD'), 23, 4);
+
+-- Cliente sede 24
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Martinez', '0000000880', TO_DATE('1996-08-22', 'YYYY-MM-DD'), '3000000880', 'laura.martinez0880@bz.com', TO_DATE('2026-02-11', 'YYYY-MM-DD'), 24, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Gomez', '0000000881', TO_DATE('2003-07-12', 'YYYY-MM-DD'), '3000000881', 'andres.gomez0881@service.com', TO_DATE('2026-08-11', 'YYYY-MM-DD'), 24, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Lopez', '0000000882', TO_DATE('1999-05-23', 'YYYY-MM-DD'), '3000000882', 'jose.lopez0882@bz.com', TO_DATE('2025-09-18', 'YYYY-MM-DD'), 24, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Martinez', '0000000883', TO_DATE('1994-09-05', 'YYYY-MM-DD'), '3000000883', 'andres.martinez0883@service.com', TO_DATE('2025-11-16', 'YYYY-MM-DD'), 24, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Lopez', '0000000884', TO_DATE('2005-02-08', 'YYYY-MM-DD'), '3000000884', 'sofia.lopez0884@bz.com', TO_DATE('2025-08-04', 'YYYY-MM-DD'), 24, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Gomez', '0000000885', TO_DATE('2003-06-30', 'YYYY-MM-DD'), '3000000885', 'carlos.gomez0885@service.com', TO_DATE('2026-03-24', 'YYYY-MM-DD'), 24, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Moreno', '0000000886', TO_DATE('2002-06-11', 'YYYY-MM-DD'), '3000000886', 'daniela.moreno0886@webmail.com', TO_DATE('2026-06-27', 'YYYY-MM-DD'), 24, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Lopez', '0000000887', TO_DATE('2004-05-04', 'YYYY-MM-DD'), '3000000887', 'felipe.lopez0887@webmail.com', TO_DATE('2026-02-04', 'YYYY-MM-DD'), 24, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Gomez', '0000000888', TO_DATE('1995-12-20', 'YYYY-MM-DD'), '3000000888', 'mariana.gomez0888@bz.com', TO_DATE('2025-09-03', 'YYYY-MM-DD'), 24, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Moreno', '0000000889', TO_DATE('2002-06-17', 'YYYY-MM-DD'), '3000000889', 'carlos.moreno0889@bz.com', TO_DATE('2026-07-04', 'YYYY-MM-DD'), 24, 7);
+
+-- Cliente sede 25
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Rodriguez', '0000000890', TO_DATE('2001-01-15', 'YYYY-MM-DD'), '3000000890', 'sofia.rodriguez0890@webmail.com', TO_DATE('2026-01-23', 'YYYY-MM-DD'), 25, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000891', TO_DATE('2005-01-16', 'YYYY-MM-DD'), '3000000891', 'daniela.sanchez0891@service.com', TO_DATE('2026-10-27', 'YYYY-MM-DD'), 25, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Fernandez', '0000000892', TO_DATE('2003-05-05', 'YYYY-MM-DD'), '3000000892', 'juan.fernandez0892@bz.com', TO_DATE('2026-06-17', 'YYYY-MM-DD'), 25, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Garcia', '0000000893', TO_DATE('2005-03-07', 'YYYY-MM-DD'), '3000000893', 'daniela.garcia0893@service.com', TO_DATE('2025-11-14', 'YYYY-MM-DD'), 25, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Lopez', '0000000894', TO_DATE('2003-08-27', 'YYYY-MM-DD'), '3000000894', 'andres.lopez0894@service.com', TO_DATE('2026-03-14', 'YYYY-MM-DD'), 25, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Lopez', '0000000895', TO_DATE('2001-06-21', 'YYYY-MM-DD'), '3000000895', 'camila.lopez0895@mail.com', TO_DATE('2025-10-21', 'YYYY-MM-DD'), 25, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Gomez', '0000000896', TO_DATE('1996-05-22', 'YYYY-MM-DD'), '3000000896', 'mariana.gomez0896@webmail.com', TO_DATE('2026-10-15', 'YYYY-MM-DD'), 25, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Martinez', '0000000897', TO_DATE('1997-04-01', 'YYYY-MM-DD'), '3000000897', 'camila.martinez0897@bz.com', TO_DATE('2026-10-27', 'YYYY-MM-DD'), 25, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Rodriguez', '0000000898', TO_DATE('2001-06-08', 'YYYY-MM-DD'), '3000000898', 'jose.rodriguez0898@bz.com', TO_DATE('2026-08-24', 'YYYY-MM-DD'), 25, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Lopez', '0000000899', TO_DATE('2002-11-05', 'YYYY-MM-DD'), '3000000899', 'daniela.lopez0899@webmail.com', TO_DATE('2026-12-08', 'YYYY-MM-DD'), 25, 3);
+
+-- Cliente sede 26
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Torres', '0000000900', TO_DATE('2001-02-04', 'YYYY-MM-DD'), '3000000900', 'sofia.torres0900@mail.com', TO_DATE('2025-05-20', 'YYYY-MM-DD'), 26, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000901', TO_DATE('2002-04-15', 'YYYY-MM-DD'), '3000000901', 'laura.pérez0901@webmail.com', TO_DATE('2026-11-23', 'YYYY-MM-DD'), 26, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Jose', 'Sanchez', '0000000902', TO_DATE('2004-08-25', 'YYYY-MM-DD'), '3000000902', 'jose.sanchez0902@bz.com', TO_DATE('2026-08-04', 'YYYY-MM-DD'), 26, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Moreno', '0000000903', TO_DATE('1997-12-06', 'YYYY-MM-DD'), '3000000903', 'carlos.moreno0903@bz.com', TO_DATE('2025-08-31', 'YYYY-MM-DD'), 26, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Fernandez', '0000000904', TO_DATE('1997-07-27', 'YYYY-MM-DD'), '3000000904', 'sofia.fernandez0904@webmail.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 26, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Garcia', '0000000905', TO_DATE('1996-04-12', 'YYYY-MM-DD'), '3000000905', 'carlos.garcia0905@service.com', TO_DATE('2026-09-30', 'YYYY-MM-DD'), 26, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Rodriguez', '0000000906', TO_DATE('2001-12-30', 'YYYY-MM-DD'), '3000000906', 'carlos.rodriguez0906@webmail.com', TO_DATE('2025-08-14', 'YYYY-MM-DD'), 26, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Pérez', '0000000907', TO_DATE('2000-04-07', 'YYYY-MM-DD'), '3000000907', 'mariana.pérez0907@webmail.com', TO_DATE('2025-05-25', 'YYYY-MM-DD'), 26, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Garcia', '0000000908', TO_DATE('2000-09-11', 'YYYY-MM-DD'), '3000000908', 'laura.garcia0908@bz.com', TO_DATE('2026-09-15', 'YYYY-MM-DD'), 26, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000909', TO_DATE('1997-11-28', 'YYYY-MM-DD'), '3000000909', 'laura.torres0909@mail.com', TO_DATE('2025-12-27', 'YYYY-MM-DD'), 26, 1);
+
+-- Cliente sede 27
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Pérez', '0000000910', TO_DATE('1999-10-26', 'YYYY-MM-DD'), '3000000910', 'daniela.pérez0910@webmail.com', TO_DATE('2026-03-30', 'YYYY-MM-DD'), 27, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Fernandez', '0000000911', TO_DATE('2002-06-17', 'YYYY-MM-DD'), '3000000911', 'felipe.fernandez0911@mail.com', TO_DATE('2025-10-26', 'YYYY-MM-DD'), 27, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000912', TO_DATE('2005-01-20', 'YYYY-MM-DD'), '3000000912', 'camila.moreno0912@bz.com', TO_DATE('2025-08-13', 'YYYY-MM-DD'), 27, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Torres', '0000000913', TO_DATE('1998-04-09', 'YYYY-MM-DD'), '3000000913', 'laura.torres0913@bz.com', TO_DATE('2025-07-01', 'YYYY-MM-DD'), 27, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Sanchez', '0000000914', TO_DATE('2001-01-27', 'YYYY-MM-DD'), '3000000914', 'camila.sanchez0914@mail.com', TO_DATE('2026-11-01', 'YYYY-MM-DD'), 27, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Lopez', '0000000915', TO_DATE('1996-10-05', 'YYYY-MM-DD'), '3000000915', 'daniela.lopez0915@service.com', TO_DATE('2025-09-02', 'YYYY-MM-DD'), 27, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Garcia', '0000000916', TO_DATE('1994-09-25', 'YYYY-MM-DD'), '3000000916', 'andres.garcia0916@service.com', TO_DATE('2026-03-16', 'YYYY-MM-DD'), 27, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Gomez', '0000000917', TO_DATE('2002-06-27', 'YYYY-MM-DD'), '3000000917', 'mariana.gomez0917@mail.com', TO_DATE('2026-01-31', 'YYYY-MM-DD'), 27, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Lopez', '0000000918', TO_DATE('2002-06-07', 'YYYY-MM-DD'), '3000000918', 'laura.lopez0918@bz.com', TO_DATE('2025-10-03', 'YYYY-MM-DD'), 27, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000919', TO_DATE('1998-05-06', 'YYYY-MM-DD'), '3000000919', 'laura.pérez0919@mail.com', TO_DATE('2026-01-05', 'YYYY-MM-DD'), 27, 10);
+
+-- Cliente sede 28
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Pérez', '0000000920', TO_DATE('2005-07-08', 'YYYY-MM-DD'), '3000000920', 'sofia.pérez0920@webmail.com', TO_DATE('2026-01-23', 'YYYY-MM-DD'), 28, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Pérez', '0000000921', TO_DATE('1998-01-31', 'YYYY-MM-DD'), '3000000921', 'camila.pérez0921@webmail.com', TO_DATE('2026-09-30', 'YYYY-MM-DD'), 28, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Moreno', '0000000922', TO_DATE('1999-11-30', 'YYYY-MM-DD'), '3000000922', 'sofia.moreno0922@mail.com', TO_DATE('2026-08-28', 'YYYY-MM-DD'), 28, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Torres', '0000000923', TO_DATE('2003-06-11', 'YYYY-MM-DD'), '3000000923', 'juan.torres0923@mail.com', TO_DATE('2026-07-29', 'YYYY-MM-DD'), 28, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Fernandez', '0000000924', TO_DATE('1996-04-23', 'YYYY-MM-DD'), '3000000924', 'daniela.fernandez0924@bz.com', TO_DATE('2025-09-14', 'YYYY-MM-DD'), 28, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Torres', '0000000925', TO_DATE('1998-03-20', 'YYYY-MM-DD'), '3000000925', 'daniela.torres0925@service.com', TO_DATE('2025-11-23', 'YYYY-MM-DD'), 28, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000926', TO_DATE('1999-12-15', 'YYYY-MM-DD'), '3000000926', 'laura.pérez0926@service.com', TO_DATE('2026-09-16', 'YYYY-MM-DD'), 28, 6);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Gomez', '0000000927', TO_DATE('1997-04-19', 'YYYY-MM-DD'), '3000000927', 'carlos.gomez0927@bz.com', TO_DATE('2025-11-06', 'YYYY-MM-DD'), 28, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Moreno', '0000000928', TO_DATE('1994-12-08', 'YYYY-MM-DD'), '3000000928', 'sofia.moreno0928@bz.com', TO_DATE('2026-03-04', 'YYYY-MM-DD'), 28, 2);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Sanchez', '0000000929', TO_DATE('2002-06-03', 'YYYY-MM-DD'), '3000000929', 'juan.sanchez0929@mail.com', TO_DATE('2025-10-16', 'YYYY-MM-DD'), 28, 2);
+
+-- Cliente sede 29
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Torres', '0000000930', TO_DATE('2005-03-30', 'YYYY-MM-DD'), '3000000930', 'daniela.torres0930@bz.com', TO_DATE('2026-12-15', 'YYYY-MM-DD'), 29, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Sanchez', '0000000931', TO_DATE('2002-02-03', 'YYYY-MM-DD'), '3000000931', 'mariana.sanchez0931@service.com', TO_DATE('2026-07-08', 'YYYY-MM-DD'), 29, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Fernandez', '0000000932', TO_DATE('1994-12-31', 'YYYY-MM-DD'), '3000000932', 'sofia.fernandez0932@mail.com', TO_DATE('2025-06-03', 'YYYY-MM-DD'), 29, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Camila', 'Moreno', '0000000933', TO_DATE('2002-04-19', 'YYYY-MM-DD'), '3000000933', 'camila.moreno0933@service.com', TO_DATE('2026-09-11', 'YYYY-MM-DD'), 29, 4);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Lopez', '0000000934', TO_DATE('2005-12-07', 'YYYY-MM-DD'), '3000000934', 'andres.lopez0934@webmail.com', TO_DATE('2025-10-25', 'YYYY-MM-DD'), 29, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Mariana', 'Lopez', '0000000935', TO_DATE('1998-07-31', 'YYYY-MM-DD'), '3000000935', 'mariana.lopez0935@webmail.com', TO_DATE('2025-11-23', 'YYYY-MM-DD'), 29, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Martinez', '0000000936', TO_DATE('1999-09-05', 'YYYY-MM-DD'), '3000000936', 'laura.martinez0936@webmail.com', TO_DATE('2025-10-30', 'YYYY-MM-DD'), 29, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Martinez', '0000000937', TO_DATE('2003-07-31', 'YYYY-MM-DD'), '3000000937', 'sofia.martinez0937@mail.com', TO_DATE('2026-11-08', 'YYYY-MM-DD'), 29, 5);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Sofia', 'Pérez', '0000000938', TO_DATE('1998-02-06', 'YYYY-MM-DD'), '3000000938', 'sofia.pérez0938@bz.com', TO_DATE('2025-10-28', 'YYYY-MM-DD'), 29, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Sanchez', '0000000939', TO_DATE('1999-05-27', 'YYYY-MM-DD'), '3000000939', 'laura.sanchez0939@bz.com', TO_DATE('2026-12-01', 'YYYY-MM-DD'), 29, 4);
+
+-- Cliente sede 30
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Torres', '0000000940', TO_DATE('1995-05-30', 'YYYY-MM-DD'), '3000000940', 'juan.torres0940@webmail.com', TO_DATE('2025-10-28', 'YYYY-MM-DD'), 30, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Lopez', '0000000941', TO_DATE('1997-03-07', 'YYYY-MM-DD'), '3000000941', 'laura.lopez0941@service.com', TO_DATE('2025-08-08', 'YYYY-MM-DD'), 30, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Andres', 'Pérez', '0000000942', TO_DATE('2005-02-22', 'YYYY-MM-DD'), '3000000942', 'andres.pérez0942@bz.com', TO_DATE('2026-06-03', 'YYYY-MM-DD'), 30, 10);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Lopez', '0000000943', TO_DATE('1998-08-11', 'YYYY-MM-DD'), '3000000943', 'felipe.lopez0943@mail.com', TO_DATE('2026-04-01', 'YYYY-MM-DD'), 30, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Daniela', 'Sanchez', '0000000944', TO_DATE('2005-10-21', 'YYYY-MM-DD'), '3000000944', 'daniela.sanchez0944@mail.com', TO_DATE('2025-09-30', 'YYYY-MM-DD'), 30, 7);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Carlos', 'Rodriguez', '0000000945', TO_DATE('2002-12-17', 'YYYY-MM-DD'), '3000000945', 'carlos.rodriguez0945@webmail.com', TO_DATE('2026-05-15', 'YYYY-MM-DD'), 30, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Juan', 'Gomez', '0000000946', TO_DATE('2002-11-09', 'YYYY-MM-DD'), '3000000946', 'juan.gomez0946@mail.com', TO_DATE('2026-05-20', 'YYYY-MM-DD'), 30, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Moreno', '0000000947', TO_DATE('2001-08-19', 'YYYY-MM-DD'), '3000000947', 'laura.moreno0947@mail.com', TO_DATE('2026-12-15', 'YYYY-MM-DD'), 30, 1);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Felipe', 'Garcia', '0000000948', TO_DATE('2003-01-02', 'YYYY-MM-DD'), '3000000948', 'felipe.garcia0948@service.com', TO_DATE('2026-09-10', 'YYYY-MM-DD'), 30, 3);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES
+('Laura', 'Pérez', '0000000949', TO_DATE('1998-01-10', 'YYYY-MM-DD'), '3000000949', 'laura.pérez0949@bz.com', TO_DATE('2026-01-06', 'YYYY-MM-DD'), 30, 7);
+
+
 -----------------------------------------------------
 
 -----------------------------------------------------
