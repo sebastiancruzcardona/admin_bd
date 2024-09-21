@@ -307,8 +307,8 @@ GRANT C##rol_programador_backend TO C##usuario_backend_2;
 CREATE USER C##usuario_administrativo_1 IDENTIFIED BY "usADM012024#f0";
 GRANT C##rol_administrativo TO C##usuario_administrativo_1;
 
-CREATE USER C##usuario_administrativo_1 IDENTIFIED BY "usADM022024#h7";
-GRANT C##rol_administrativo TO C##usuario_administrativo_1;
+CREATE USER C##usuario_administrativo_2 IDENTIFIED BY "usADM022024#h7";
+GRANT C##rol_administrativo TO C##usuario_administrativo_2;
 -----------------------------------------------------
 -----------------------------------------------------
 
