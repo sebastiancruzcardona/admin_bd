@@ -4128,99 +4128,110 @@ INSERT INTO empleado (nombre, apellido, dni, fecha_nacimiento, telefono, email, 
 -----------------------------------------------------
 
 -----------------------------------------------------
+--Clientes
+
+--Seguir incrementando número de dni en el orden que va
+--Seguir incrementando telefono en el orden que va
+--los dominios de los correos van así: @az.com, @bz.com, @cz.com -> continuar el patrón
+--Hacer los clientes para las 30 sedes
+
 -- Clientes sede 1
-INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Carlos', 'Gómez', '0000000053', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez1@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 1, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Laura', 'Martínez', '0000000054', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3102345678', 'laura.martinez1@yipmail.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 1, 2);
+('Carlos', 'Gómez', '0000000622', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3000000622', 'carlos.gomez1@az.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 1, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Andrés', 'Hernández', '0000000055', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3103456789', 'andres.hernandez1@yipmail.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 1, 3);
+('Laura', 'Martínez', '0000000623', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3000000623', 'laura.martinez1@az.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 1, 2);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Sofia', 'Jiménez', '0000000056', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3104567890', 'sofia.jimenez1@yipmail.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 1, 4);
+('Andrés', 'Hernández', '0000000624', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3000000624', 'andres.hernandez1@az.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 1, 3);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Juan', 'Pérez', '0000000057', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3105678901', 'juan.perez1@yipmail.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 1, 5);
+('Sofia', 'Jiménez', '0000000625', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3000000625', 'sofia.jimenez1@az.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 1, 4);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Ana', 'Torres', '0000000058', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3106789012', 'ana.torres1@yipmail.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 1, 6);
+('Juan', 'Pérez', '0000000626', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3000000626', 'juan.perez1@az.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 1, 5);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Luis', 'Fernández', '0000000059', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3107890123', 'luis.fernandez1@yipmail.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 1, 7);
+('Ana', 'Torres', '0000000627', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3000000627', 'ana.torres1@az.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 1, 6);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Valeria', 'Castro', '0000000060', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3108901234', 'valeria.castro1@yipmail.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 1, 8);
+('Luis', 'Fernández', '0000000628', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3000000628', 'luis.fernandez1@az.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 1, 7);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Felipe', 'Moreno', '0000000061', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3109012345', 'felipe.moreno1@yipmail.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 1, 9);
+('Valeria', 'Castro', '0000000629', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3000000629', 'valeria.castro1@az.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 1, 8);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Camila', 'Ramos', '0000000062', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3100123456', 'camila.ramos1@yipmail.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 1, 10);
+('Felipe', 'Moreno', '0000000630', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3000000630', 'felipe.moreno1@az.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 1, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
+('Camila', 'Ramos', '0000000631', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3000000631', 'camila.ramos1@az.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 1, 10);
 
 -- Clientes sede 2
-INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Carlos', 'Gómez', '0000000063', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez2@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 2, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Laura', 'Martínez', '0000000064', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3102345678', 'laura.martinez2@yipmail.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 2, 2);
+('Carlos', 'Gómez', '0000000632', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3000000632', 'carlos.gomez2@bz.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 2, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Andrés', 'Hernández', '0000000065', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3103456789', 'andres.hernandez2@yipmail.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 2, 3);
+('Laura', 'Martínez', '0000000633', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3000000633', 'laura.martinez2@bz.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 2, 2);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Sofia', 'Jiménez', '0000000066', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3104567890', 'sofia.jimenez2@yipmail.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 2, 4);
+('Andrés', 'Hernández', '0000000634', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3000000634', 'andres.hernandez2@bz.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 2, 3);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Juan', 'Pérez', '0000000067', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3105678901', 'juan.perez2@yipmail.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 2, 5);
+('Sofia', 'Jiménez', '0000000635', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3000000635', 'sofia.jimenez2@bz.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 2, 4);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Ana', 'Torres', '0000000068', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3106789012', 'ana.torres2@yipmail.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 2, 6);
+('Juan', 'Pérez', '0000000636', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3000000636', 'juan.perez2@bz.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 2, 5);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Luis', 'Fernández', '0000000069', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3107890123', 'luis.fernandez2@yipmail.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 2, 7);
+('Ana', 'Torres', '0000000637', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3000000637', 'ana.torres2@bz.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 2, 6);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Valeria', 'Castro', '0000000070', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3108901234', 'valeria.castro2@yipmail.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 2, 8);
+('Luis', 'Fernández', '0000000638', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3000000638', 'luis.fernandez2@bz.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 2, 7);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Felipe', 'Moreno', '0000000071', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3109012345', 'felipe.moreno2@yipmail.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 2, 9);
+('Valeria', 'Castro', '0000000639', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3000000639', 'valeria.castro2@bz.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 2, 8);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
+('Felipe', 'Moreno', '0000000640', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3000000640', 'felipe.moreno2@bz.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 2, 9);
 
 -- Clientes sede 3
-INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Carlos', 'Gómez', '0000000072', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3101234567', 'carlos.gomez3@yipmail.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 3, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Laura', 'Martínez', '0000000073', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3102345678', 'laura.martinez3@yipmail.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 3, 2);
+('Carlos', 'Gómez', '0000000641', TO_DATE('1985-05-20', 'YYYY-MM-DD'), '3000000641', 'carlos.gomez3@cz.com', TO_DATE('2024-09-30', 'YYYY-MM-DD'), 3, 1);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Andrés', 'Hernández', '0000000074', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3103456789', 'andres.hernandez3@yipmail.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 3, 3);
+('Laura', 'Martínez', '0000000642', TO_DATE('1990-07-12', 'YYYY-MM-DD'), '3000000642', 'laura.martinez3@cz.com', TO_DATE('2024-10-15', 'YYYY-MM-DD'), 3, 2);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Sofia', 'Jiménez', '0000000075', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3104567890', 'sofia.jimenez3@yipmail.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 3, 4);
+('Andrés', 'Hernández', '0000000643', TO_DATE('1982-11-30', 'YYYY-MM-DD'), '3000000643', 'andres.hernandez3@cz.com', TO_DATE('2024-11-20', 'YYYY-MM-DD'), 3, 3);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Juan', 'Pérez', '0000000076', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3105678901', 'juan.perez3@yipmail.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 3, 5);
+('Sofia', 'Jiménez', '0000000644', TO_DATE('1987-02-25', 'YYYY-MM-DD'), '3000000644', 'sofia.jimenez3@cz.com', TO_DATE('2024-12-05', 'YYYY-MM-DD'), 3, 4);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Ana', 'Torres', '0000000077', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3106789012', 'ana.torres3@yipmail.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 3, 6);
+('Juan', 'Pérez', '0000000645', TO_DATE('1995-09-14', 'YYYY-MM-DD'), '3000000645', 'juan.perez3@cz.com', TO_DATE('2025-01-10', 'YYYY-MM-DD'), 3, 5);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Luis', 'Fernández', '0000000078', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3107890123', 'luis.fernandez3@yipmail.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 3, 7);
+('Ana', 'Torres', '0000000646', TO_DATE('1992-04-21', 'YYYY-MM-DD'), '3000000646', 'ana.torres3@cz.com', TO_DATE('2025-02-28', 'YYYY-MM-DD'), 3, 6);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Valeria', 'Castro', '0000000079', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3108901234', 'valeria.castro3@yipmail.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 3, 8);
+('Luis', 'Fernández', '0000000647', TO_DATE('1988-08-15', 'YYYY-MM-DD'), '3000000647', 'luis.fernandez3@cz.com', TO_DATE('2025-03-22', 'YYYY-MM-DD'), 3, 7);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Felipe', 'Moreno', '0000000080', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3109012345', 'felipe.moreno3@yipmail.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 3, 9);
+('Valeria', 'Castro', '0000000648', TO_DATE('1991-12-03', 'YYYY-MM-DD'), '3000000648', 'valeria.castro3@cz.com', TO_DATE('2025-04-10', 'YYYY-MM-DD'), 3, 8);
 
 INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
-('Camila', 'Ramos', '0000000081', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3100123456', 'camila.ramos3@yipmail.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 3, 10);
+('Felipe', 'Moreno', '0000000649', TO_DATE('1994-06-17', 'YYYY-MM-DD'), '3000000649', 'felipe.moreno3@cz.com', TO_DATE('2025-05-18', 'YYYY-MM-DD'), 3, 9);
+
+INSERT INTO cliente (nombre, apellido, dni, fecha_nacimiento, telefono, email, activo_hasta, id_sede_principal, id_membresia) VALUES 
+('Camila', 'Ramos', '0000000650', TO_DATE('1986-10-10', 'YYYY-MM-DD'), '3000000650', 'camila.ramos3@cz.com', TO_DATE('2025-06-25', 'YYYY-MM-DD'), 3, 10);
 -----------------------------------------------------
 
 -----------------------------------------------------
 --productos_sede
+
 -- sede 1
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 1, 50.00, 30);
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 1, 40.00, 25);
@@ -4242,6 +4253,477 @@ INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 1, 
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 1, 65.00, 1);
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 1, 50.00, 20);
 INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 1, 55.00, 25);
+
+-- sede 2
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 2, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 2, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 2, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 2, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 2, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 2, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 2, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 2, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 2, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 2, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 2, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 2, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 2, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 2, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 2, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 2, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 2, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 2, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 2, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 2, 55.00, 25);
+
+-- sede 3
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 3, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 3, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 3, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 3, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 3, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 3, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 3, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 3, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 3, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 3, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 3, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 3, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 3, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 3, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 3, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 3, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 3, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 3, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 3, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 3, 55.00, 25);
+
+-- sede 4
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 4, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 4, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 4, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 4, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 4, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 4, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 4, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 4, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 4, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 4, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 4, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 4, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 4, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 4, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 4, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 4, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 4, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 4, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 4, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 4, 55.00, 25);
+
+-- sede 5
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 5, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 5, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 5, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 5, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 5, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 5, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 5, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 5, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 5, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 5, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 5, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 5, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 5, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 5, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 5, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 5, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 5, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 5, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 5, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 5, 55.00, 25);
+
+-- sede 6
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 6, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 6, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 6, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 6, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 6, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 6, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 6, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 6, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 6, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 6, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 6, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 6, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 6, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 6, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 6, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 6, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 6, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 6, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 6, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 6, 55.00, 25);
+
+-- sede 7
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 7, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 7, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 7, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 7, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 7, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 7, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 7, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 7, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 7, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 7, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 7, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 7, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 7, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 7, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 7, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 7, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 7, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 7, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 7, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 7, 55.00, 25);
+
+-- sede 8
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 8, 50.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 8, 40.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 8, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 8, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 8, 45.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 8, 55.00, 18);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 8, 70.00, 22);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 8, 65.00, 12);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 8, 30.00, 40);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 8, 25.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 8, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 8, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 8, 70.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 8, 90.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 8, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 8, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 8, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 8, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 8, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 8, 55.00, 25);
+
+-- sede 9
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 9, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 9, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 9, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 9, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 9, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 9, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 9, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 9, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 9, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 9, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 9, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 9, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 9, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 9, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 9, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 9, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 9, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 9, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 9, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 9, 55.00, 25);
+
+-- sede 10
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 10, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 10, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 10, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 10, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 10, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 10, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 10, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 10, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 10, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 10, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 10, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 10, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 10, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 10, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 10, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 10, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 10, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 10, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 10, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 10, 55.00, 25);
+
+-- sede 11
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 11, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 11, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 11, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 11, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 11, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 11, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 11, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 11, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 11, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 11, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 11, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 11, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 11, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 11, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 11, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 11, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 11, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 11, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 11, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 11, 55.00, 25);
+
+-- sede 12
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 12, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 12, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 12, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 12, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 12, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 12, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 12, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 12, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 12, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 12, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 12, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 12, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 12, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 12, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 12, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 12, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 12, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 12, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 12, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 12, 55.00, 25);
+
+-- sede 13
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 13, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 13, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 13, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 13, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 13, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 13, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 13, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 13, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 13, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 13, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 13, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 13, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 13, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 13, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 13, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 13, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 13, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 13, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 13, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 13, 55.00, 25);
+
+-- sede 14
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 14, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 14, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 14, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 14, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 14, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 14, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 14, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 14, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 14, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 14, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 14, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 14, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 14, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 14, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 14, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 14, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 14, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 14, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 14, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 14, 55.00, 25);
+
+-- sede 15
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 15, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 15, 40.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 15, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 15, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 15, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 15, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 15, 70.00, 21);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 15, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 15, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 15, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 15, 80.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 15, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 15, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 15, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 15, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 15, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 15, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 15, 65.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 15, 50.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 15, 55.00, 25);
+
+-- sede 16
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 16, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 16, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 16, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 16, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 16, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 16, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 16, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 16, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 16, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 16, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 16, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 16, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 16, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 16, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 16, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 16, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 16, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 16, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 16, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 16, 55.00, 12);
+
+-- sede 17
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 17, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 17, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 17, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 17, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 17, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 17, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 17, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 17, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 17, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 17, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 17, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 17, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 17, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 17, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 17, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 17, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 17, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 17, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 17, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 17, 55.00, 12);
+
+-- sede 18
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 18, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 18, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 18, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 18, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 18, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 18, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 18, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 18, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 18, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 18, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 18, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 18, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 18, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 18, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 18, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 18, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 18, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 18, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 18, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 18, 55.00, 12);
+
+-- sede 19
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 19, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 19, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 19, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 19, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 19, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 19, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 19, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 19, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 19, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 19, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 19, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 19, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 19, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 19, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 19, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 19, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 19, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 19, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 19, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 19, 55.00, 12);
+
+-- sede 20
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 20, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 20, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 20, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 20, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 20, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 20, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 20, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 20, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 20, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 20, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 20, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 20, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 20, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 20, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 20, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 20, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 20, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 20, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 20, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 20, 55.00, 12);
+
+-- sede 21
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 21, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 21, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 21, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 21, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 21, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 21, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 21, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 21, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 21, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 21, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 21, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 21, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 21, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 21, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 21, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 21, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 21, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 21, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 21, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 21, 55.00, 12);
+
+-- sede 22
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (1, 22, 50.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (2, 22, 40.00, 24);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (3, 22, 35.00, 20);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (4, 22, 60.00, 15);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (5, 22, 45.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (6, 22, 55.00, 1);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (7, 22, 70.00, 5);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (8, 22, 65.00, 10);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (9, 22, 30.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (10, 22, 25.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (11, 22, 80.00, 30);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (12, 22, 85.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (13, 22, 70.00, 2);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (14, 22, 90.00, 25);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (15, 22, 75.00, 0);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (16, 22, 95.00, 6);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (17, 22, 100.00, 8);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (18, 22, 65.00, 7);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (19, 22, 50.00, 9);
+INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 22, 55.00, 12);
+
+-- sede 23
+-- sede 24
+-- sede 25
+-- sede 26
+-- sede 27
+-- sede 28
+-- sede 29
+-- sede 30
 -----------------------------------------------------
 
 --historial de visitas
