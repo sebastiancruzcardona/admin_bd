@@ -11851,127 +11851,316 @@ VALUES (329, 30, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 -----------------------------------------------------
 -----------------------------------------------------
---venta 1
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (1, 1, 250.00);
+-- Venta 1
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (1, 17, 150.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (1, 1, 2, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (1, 2, 1, 50.00);
 
---productos_venta
+-- Venta 2
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (2, 18, 190.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (2, 3, 3, 105.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (2, 4, 1, 60.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (2, 2, 1, 25.00);
+
+-- Venta 3
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (3, 19, 275.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (3, 5, 2, 90.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (3, 6, 3, 165.00);
+
+-- Venta 4
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (4, 20, 185.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (4, 7, 2, 140.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (4, 1, 1, 50.00);
+
+-- Venta 5
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (5, 17, 200.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (5, 8, 2, 130.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (5, 3, 2, 70.00);
+
+-- Venta 6
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (6, 18, 315.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (6, 9, 5, 150.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (6, 4, 1, 60.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (6, 10, 2, 50.00);
+
+-- Venta 7
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (7, 19, 295.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (7, 5, 2, 90.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (7, 6, 2, 110.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (7, 11, 1, 80.00);
+
+-- Venta 8
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (8, 20, 270.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (8, 12, 2, 170.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (8, 2, 2, 80.00);
+
+-- Venta 9
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (9, 17, 320.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (9, 13, 2, 140.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (9, 14, 2, 180.00);
+
+-- Venta 10
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (10, 18, 255.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (10, 15, 1, 75.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (10, 17, 2, 200.00);
+
+-- Venta 11
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (11, 19, 130.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (11, 18, 2, 130.00);
+
+-- Venta 12
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (12, 20, 175.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (12, 19, 2, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (12, 1, 1, 75.00);
+
+-- Venta 13
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (13, 17, 340.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (13, 20, 4, 220.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (13, 17, 2, 120.00);
+
+-- Venta 14
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (14, 18, 160.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (14, 16, 1, 95.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (14, 18, 2, 130.00);
+
+-- Venta 15
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (15, 19, 400.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (15, 13, 2, 140.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (15, 14, 3, 270.00);
+
+-- Venta 16
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (16, 20, 150.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (16, 1, 3, 150.00);
+
+-- Venta 17
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (17, 17, 250.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (17, 5, 2, 90.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (17, 14, 2, 160.00);
+
+-- Venta 18
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (18, 18, 280.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (18, 11, 1, 80.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (18, 12, 2, 170.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (18, 1, 1, 30.00);
+
+-- Venta 19
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (19, 19, 90.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (19, 10, 3, 75.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (19, 9, 1, 30.00);
+
+-- Venta 20
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (20, 20, 360.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (20, 6, 3, 165.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (20, 20, 2, 240.00);
+
+-- Venta 21
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (21, 392, 180.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (21, 21, 2, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (21, 25, 1, 45.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (21, 29, 1, 35.00);
+
+-- Venta 22
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (22, 392, 120.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (22, 22, 3, 120.00);
+
+-- Venta 23
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (23, 392, 160.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (23, 23, 2, 70.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (23, 27, 1, 70.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (23, 32, 1, 20.00);
+
+-- Venta 24
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (24, 392, 250.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (24, 24, 2, 120.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (24, 26, 2, 110.00);
+
+-- Venta 25
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (25, 392, 200.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (25, 25, 1, 45.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (25, 33, 2, 140.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (25, 39, 1, 75.00);
+
+-- Venta 26
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (26, 392, 300.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (26, 28, 2, 130.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (26, 31, 1, 80.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (26, 34, 2, 90.00);
+
+-- Venta 27
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (27, 392, 275.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (27, 30, 3, 75.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (27, 32, 2, 170.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (27, 35, 1, 75.00);
+
+-- Venta 28
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (28, 391, 180.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (28, 36, 1, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (28, 37, 1, 80.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (28, 39, 2, 40.00);
+
+-- Venta 29
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (29, 391, 160.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (29, 38, 2, 130.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (29, 40, 1, 30.00);
+
+-- Venta 30
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (30, 391, 145.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (30, 21, 1, 50.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (30, 23, 1, 35.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (30, 26, 2, 130.00);
+
+-- Venta 31
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (31, 391, 210.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (31, 24, 2, 120.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (31, 29, 1, 25.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (31, 35, 1, 80.00);
+
+-- Venta 32
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (32, 391, 195.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (32, 22, 3, 120.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (32, 25, 1, 45.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (32, 28, 1, 30.00);
+
+-- Venta 33
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (33, 393, 290.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (33, 23, 2, 70.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (33, 27, 1, 70.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (33, 34, 2, 90.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (33, 36, 1, 60.00);
+
+-- Venta 34
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (34, 393, 205.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (34, 31, 1, 80.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (34, 39, 2, 50.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (34, 25, 1, 75.00);
+
+-- Venta 35
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (35, 393, 250.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (35, 21, 2, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (35, 30, 2, 130.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (35, 22, 1, 55.00);
+
+-- Venta 36
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (36, 393, 180.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (36, 36, 1, 100.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (36, 33, 2, 80.00);
+
+-- Venta 37
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (37, 393, 170.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (37, 28, 1, 80.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (37, 29, 1, 90.00);
+
+-- Venta 38
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (38, 394, 145.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (38, 22, 1, 50.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (38, 23, 2, 70.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (38, 30, 1, 25.00);
+
+-- Venta 39
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (39, 394, 220.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (39, 25, 1, 45.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (39, 27, 2, 110.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto) VALUES (39, 32, 1, 65.00);
+
+-- Venta para id_cliente 40
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (40, 406, 150.00);
 INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
-VALUES (1, 1, 5, 250.00);
+VALUES (1, 41, 3, 150.00);
+
+-- Venta para id_cliente 41
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (41, 406, 275.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (2, 42, 5, 275.00);
+
+-- Venta para id_cliente 42
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (42, 407, 330.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (3, 43, 6, 330.00);
+
+-- Venta para id_cliente 43
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (43, 407, 460.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (4, 44, 8, 460.00);
+
+-- Venta para id_cliente 44
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (44, 408, 520.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (5, 45, 9, 520.00);
+
+-- Venta para id_cliente 45
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (45, 408, 640.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (6, 46, 11, 640.00);
+
+-- Venta para id_cliente 46
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (46, 409, 710.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (7, 47, 13, 710.00);
+
+-- Venta para id_cliente 47
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (47, 409, 830.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (8, 48, 15, 830.00);
+
+-- Venta para id_cliente 48
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (48, 406, 95.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (9, 49, 2, 95.00);
+
+-- Venta para id_cliente 49 - no existe
+
+-- Venta para id_cliente 50
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (50, 408, 250.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (11, 51, 4, 250.00);
+
+-- Venta para id_cliente 51
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (51, 409, 340.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (12, 52, 5, 340.00);
+
+-- Venta para id_cliente 52
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (52, 406, 180.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (13, 53, 3, 180.00);
+
+-- Venta para id_cliente 53
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (53, 407, 270.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (14, 54, 5, 270.00);
+
+-- Venta para id_cliente 54
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (54, 408, 390.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (15, 55, 6, 390.00);
+
+-- Venta para id_cliente 55
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (55, 409, 500.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (16, 56, 8, 500.00);
+
+-- Venta para id_cliente 56
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (56, 406, 620.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (17, 57, 10, 620.00);
+
+-- Venta para id_cliente 57
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (57, 407, 760.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (18, 58, 12, 760.00);
+
+-- Venta para id_cliente 58
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (58, 408, 870.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (19, 59, 14, 870.00);
+
+-- Venta para id_cliente 59
+INSERT INTO venta (id_cliente, id_empleado, total) VALUES (59, 409, 990.00);
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (20, 60, 16, 990.00);
 
 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (2, 2, 300.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (3, 3, 450.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (4, 1, 150.25);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (5, 2, 350.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (6, 3, 600.40);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (7, 1, 200.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (8, 2, 100.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (9, 3, 120.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (10, 1, 330.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (11, 2, 400.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (12, 3, 175.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (13, 1, 280.45);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (14, 2, 90.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (15, 3, 220.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (16, 1, 110.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (17, 2, 130.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (18, 3, 145.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (19, 1, 260.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (20, 2, 320.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (21, 3, 280.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (22, 1, 300.25);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (23, 2, 150.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (24, 3, 400.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (25, 1, 190.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (26, 2, 120.10);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (27, 3, 170.45);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (28, 1, 350.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (29, 2, 375.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (30, 3, 215.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (31, 1, 190.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (32, 2, 300.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (33, 3, 240.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (34, 1, 145.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (35, 2, 205.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (36, 3, 180.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (37, 1, 315.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (38, 2, 230.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (39, 3, 160.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (40, 1, 350.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (41, 2, 140.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (42, 3, 130.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (43, 1, 175.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (44, 2, 190.40);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (45, 3, 225.10);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (46, 1, 200.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (47, 2, 340.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (48, 3, 210.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (49, 1, 150.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (50, 2, 300.25);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (51, 3, 280.40);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (52, 1, 175.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (53, 2, 220.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (54, 3, 195.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (55, 1, 260.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (56, 2, 310.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (57, 3, 290.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (58, 1, 180.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (59, 2, 340.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (60, 3, 360.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (61, 1, 140.40);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (62, 2, 120.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (63, 3, 200.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (64, 1, 320.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (65, 2, 190.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (66, 3, 260.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (67, 1, 230.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (68, 2, 310.30);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (69, 3, 250.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (70, 1, 205.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (71, 2, 215.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (72, 3, 190.70);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (73, 1, 290.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (74, 2, 310.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (75, 3, 315.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (76, 1, 400.25);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (77, 2, 225.10);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (78, 3, 350.60);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (79, 1, 475.80);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (80, 2, 490.25);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (81, 3, 510.50);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (82, 1, 600.00);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (83, 2, 630.75);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (84, 3, 650.40);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (85, 1, 700.20);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (86, 2, 750.90);
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (87, 7, 340.50);  
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (88, 8, 250.75); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (89, 9, 310.20);  
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (90, 10, 400.00)
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (91, 11, 150.80); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (92, 12, 285.10);  
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (93, 13, 370.30);  
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (94, 14, 490.00); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (95, 15, 540.50); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (96, 16, 660.20); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (97, 17, 320.75); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (98, 18, 275.40); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (99, 19, 450.80); 
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (100, 20, 580.00); --
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (101, 21, 290.30); -- id 100
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (102, 22, 230.20); -- id 101
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (103, 23, 300.00); -- id 102
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (104, 24, 220.40); -- id 103
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (105, 25, 310.90); -- id 104
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (106, 26, 450.00); -- id 105
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (107, 27, 380.10); -- id 106
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (108, 28, 490.60); -- id 107
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (109, 29, 520.70); -- id 108
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (110, 30, 610.80); -- id 109
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (111, 31, 725.90); -- id 110
-INSERT INTO venta (id_cliente, id_empleado, total) VALUES (112, 32, 150.00);
 
---productos venta
 
 
 --Eliminacion de tablas
