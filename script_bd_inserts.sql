@@ -5829,7 +5829,7 @@ INSERT INTO productos_sede (id_producto, id_sede, precio, stock) VALUES (20, 30,
 -----------------------------------------------------
 --historial de visitas
 
---clientes sede 1 que también puden vivistar otras sedes
+--clientes sede 1 (id 1 a 20)
 --cliente 1
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (1, 1, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
@@ -5959,29 +5959,6 @@ VALUES (6, 2, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (6, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
-
---cleinte 6
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 1, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 1, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 1, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 1, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 1, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 2, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
-INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (6, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
-
 --cleinte 7
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (7, 1, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
@@ -6041,7 +6018,7 @@ INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora)
 VALUES (10, 1, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
-VALUES (10, 1, TO_DATE('2024-09-04 12:3}00:00', 'YYYY-MM-DD HH24:MI:SS'));
+VALUES (10, 1, TO_DATE('2024-09-04 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (10, 2, TO_DATE('2024-09-08 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
@@ -6049,7 +6026,6 @@ VALUES (10, 2, TO_DATE('2024-09-08 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (10, 3, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
 
---clientes sede 2 que también puden vivistar otras sedes (clientes 11 al 19)
 --cliente 11
 INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
 VALUES (11, 2, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
@@ -6073,7 +6049,5801 @@ INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora)
 VALUES (11, 3, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 --cliente 12
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 1, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 1, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 1, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 1, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 1, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 2, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (12, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
 --cliente 13
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 1, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 1, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 1, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 1, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 1, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 2, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (13, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 14
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 1, TO_DATE('2024-09-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 1, TO_DATE('2024-09-02 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 1, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 1, TO_DATE('2024-09-04 13:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 1, TO_DATE('2024-09-05 13:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 2, TO_DATE('2024-09-07 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (14, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 15
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 1, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 1, TO_DATE('2024-09-02 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 1, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 1, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 1, TO_DATE('2024-09-05 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 2, TO_DATE('2024-09-07 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (15, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 16
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 1, TO_DATE('2024-09-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 1, TO_DATE('2024-09-02 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 1, TO_DATE('2024-09-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 1, TO_DATE('2024-09-04 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 1, TO_DATE('2024-09-05 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 2, TO_DATE('2024-09-07 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (16, 2, TO_DATE('2024-09-08 13:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 17
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 1, TO_DATE('2024-09-01 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 1, TO_DATE('2024-09-02 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 1, TO_DATE('2024-09-03 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 1, TO_DATE('2024-09-04 17:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 1, TO_DATE('2024-09-05 17:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 2, TO_DATE('2024-09-07 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (17, 2, TO_DATE('2024-09-08 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 18
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 1, TO_DATE('2024-09-01 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 1, TO_DATE('2024-09-02 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 1, TO_DATE('2024-09-03 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 1, TO_DATE('2024-09-04 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 1, TO_DATE('2024-09-05 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 2, TO_DATE('2024-09-07 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (18, 2, TO_DATE('2024-09-08 16:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 19
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 1, TO_DATE('2024-09-01 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 1, TO_DATE('2024-09-02 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 1, TO_DATE('2024-09-03 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 1, TO_DATE('2024-09-04 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 1, TO_DATE('2024-09-05 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 2, TO_DATE('2024-09-07 06:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (19, 2, TO_DATE('2024-09-08 06:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--cliente 20
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 1, TO_DATE('2024-09-01 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 1, TO_DATE('2024-09-02 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 1, TO_DATE('2024-09-03 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 1, TO_DATE('2024-09-04 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 1, TO_DATE('2024-09-05 06:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 2, TO_DATE('2024-09-07 06:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (20, 2, TO_DATE('2024-09-08 06:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 2 (id 21 a 39)
+-- Cliente 21
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (21, 2, TO_DATE('2024-09-01 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (21, 2, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (21, 2, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (21, 2, TO_DATE('2024-09-07 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (21, 2, TO_DATE('2024-09-09 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 22
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (22, 2, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (22, 1, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (22, 2, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (22, 2, TO_DATE('2024-09-08 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 23
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (23, 2, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (23, 2, TO_DATE('2024-09-04 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (23, 3, TO_DATE('2024-09-06 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (23, 3, TO_DATE('2024-09-09 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 24
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (24, 2, TO_DATE('2024-09-02 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (24, 2, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (24, 2, TO_DATE('2024-09-07 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (24, 2, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 25
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (25, 2, TO_DATE('2024-09-03 06:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (25, 2, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (25, 2, TO_DATE('2024-09-08 08:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (25, 2, TO_DATE('2024-09-10 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 26
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (26, 2, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (26, 1, TO_DATE('2024-09-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (26, 2, TO_DATE('2024-09-07 13:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (26, 2, TO_DATE('2024-09-09 15:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 27
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (27, 2, TO_DATE('2024-09-01 06:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (27, 2, TO_DATE('2024-09-02 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (27, 2, TO_DATE('2024-09-05 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (27, 3, TO_DATE('2024-09-08 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 28
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (28, 2, TO_DATE('2024-09-02 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (28, 2, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (28, 3, TO_DATE('2024-09-06 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (28, 3, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 29
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (29, 2, TO_DATE('2024-09-04 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (29, 2, TO_DATE('2024-09-05 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (29, 2, TO_DATE('2024-09-07 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (29, 2, TO_DATE('2024-09-08 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 30
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (30, 2, TO_DATE('2024-09-01 06:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (30, 2, TO_DATE('2024-09-03 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (30, 2, TO_DATE('2024-09-06 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (30, 2, TO_DATE('2024-09-10 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 31
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (31, 2, TO_DATE('2024-09-02 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (31, 1, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (31, 3, TO_DATE('2024-09-07 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (31, 2, TO_DATE('2024-09-10 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 32
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (32, 2, TO_DATE('2024-09-03 08:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (32, 2, TO_DATE('2024-09-04 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (32, 2, TO_DATE('2024-09-06 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (32, 2, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 33
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (33, 2, TO_DATE('2024-09-01 07:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (33, 2, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (33, 2, TO_DATE('2024-09-07 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (33, 2, TO_DATE('2024-09-09 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 34
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (34, 2, TO_DATE('2024-09-02 06:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (34, 2, TO_DATE('2024-09-03 07:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (34, 2, TO_DATE('2024-09-06 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (34, 2, TO_DATE('2024-09-08 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 35
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (35, 2, TO_DATE('2024-09-04 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (35, 2, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (35, 2, TO_DATE('2024-09-07 07:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (35, 2, TO_DATE('2024-09-10 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 36
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (36, 2, TO_DATE('2024-09-01 08:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (36, 2, TO_DATE('2024-09-02 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (36, 2, TO_DATE('2024-09-06 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (36, 2, TO_DATE('2024-09-09 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 37
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (37, 2, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (37, 2, TO_DATE('2024-09-05 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (37, 2, TO_DATE('2024-09-08 06:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (37, 3, TO_DATE('2024-09-09 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 38
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (38, 2, TO_DATE('2024-09-02 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (38, 1, TO_DATE('2024-09-04 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (38, 2, TO_DATE('2024-09-07 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (38, 3, TO_DATE('2024-09-10 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 39
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (39, 2, TO_DATE('2024-09-01 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (39, 2, TO_DATE('2024-09-02 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (39, 2, TO_DATE('2024-09-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (39, 3, TO_DATE('2024-09-08 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 3 (id 40 al 59 - el cliente 49 no existe)
+-- Cliente 40
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (40, 3, TO_DATE('2024-09-01 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (40, 3, TO_DATE('2024-09-03 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (40, 3, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 41
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (41, 3, TO_DATE('2024-09-02 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (41, 3, TO_DATE('2024-09-04 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (41, 3, TO_DATE('2024-09-06 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 42
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (42, 3, TO_DATE('2024-09-03 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (42, 3, TO_DATE('2024-09-05 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (42, 3, TO_DATE('2024-09-07 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 43
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (43, 3, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (43, 3, TO_DATE('2024-09-03 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (43, 1, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 44
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (44, 3, TO_DATE('2024-09-02 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (44, 3, TO_DATE('2024-09-04 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (44, 1, TO_DATE('2024-09-06 07:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 45
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (45, 3, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (45, 2, TO_DATE('2024-09-03 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (45, 3, TO_DATE('2024-09-07 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 46
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (46, 3, TO_DATE('2024-09-02 07:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (46, 3, TO_DATE('2024-09-04 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (46, 2, TO_DATE('2024-09-05 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 47
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (47, 3, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (47, 3, TO_DATE('2024-09-03 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (47, 1, TO_DATE('2024-09-06 12:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+-- Cliente 49 omitido porque no existe en la base de datos un cliente con id 49
+-- Cliente 48
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (48, 3, TO_DATE('2024-09-02 06:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (48, 2, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (48, 3, TO_DATE('2024-09-06 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 50
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (50, 3, TO_DATE('2024-09-03 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (50, 3, TO_DATE('2024-09-06 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (50, 3, TO_DATE('2024-09-07 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 51
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (51, 3, TO_DATE('2024-09-01 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (51, 3, TO_DATE('2024-09-02 07:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (51, 3, TO_DATE('2024-09-05 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 52
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (52, 3, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (52, 1, TO_DATE('2024-09-06 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (52, 2, TO_DATE('2024-09-08 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 53
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (53, 3, TO_DATE('2024-09-01 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (53, 1, TO_DATE('2024-09-03 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (53, 1, TO_DATE('2024-09-06 07:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 54
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (54, 3, TO_DATE('2024-09-02 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (54, 3, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (54, 3, TO_DATE('2024-09-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 55
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (55, 3, TO_DATE('2024-09-03 07:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (55, 3, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (55, 2, TO_DATE('2024-09-08 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 56
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (56, 3, TO_DATE('2024-09-02 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (56, 3, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (56, 3, TO_DATE('2024-09-08 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 57
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (57, 3, TO_DATE('2024-09-03 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (57, 3, TO_DATE('2024-09-06 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (57, 3, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 58
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (58, 3, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (58, 3, TO_DATE('2024-09-04 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (58, 3, TO_DATE('2024-09-07 08:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 59
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (59, 3, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (59, 3, TO_DATE('2024-09-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (59, 3, TO_DATE('2024-09-07 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 4 (id 60 al 69)
+-- Cliente 60
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 4, TO_DATE('2024-09-01 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 4, TO_DATE('2024-09-03 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 4, TO_DATE('2024-09-06 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 5, TO_DATE('2024-09-08 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 6, TO_DATE('2024-09-10 07:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (60, 4, TO_DATE('2024-09-12 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 61
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 4, TO_DATE('2024-09-02 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 4, TO_DATE('2024-09-04 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 4, TO_DATE('2024-09-06 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 4, TO_DATE('2024-09-08 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 5, TO_DATE('2024-09-10 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (61, 4, TO_DATE('2024-09-12 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 62
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 4, TO_DATE('2024-09-01 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 4, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 4, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 4, TO_DATE('2024-09-07 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 5, TO_DATE('2024-09-09 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (62, 4, TO_DATE('2024-09-11 08:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 63
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 4, TO_DATE('2024-09-02 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 4, TO_DATE('2024-09-04 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 6, TO_DATE('2024-09-06 07:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 6, TO_DATE('2024-09-08 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 4, TO_DATE('2024-09-10 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (63, 4, TO_DATE('2024-09-12 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 64
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 4, TO_DATE('2024-09-01 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 4, TO_DATE('2024-09-03 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 6, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 4, TO_DATE('2024-09-07 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 4, TO_DATE('2024-09-09 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (64, 6, TO_DATE('2024-09-11 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 65
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-04 08:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-08 07:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-10 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (65, 4, TO_DATE('2024-09-12 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 66
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-03 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-05 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-09 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (66, 4, TO_DATE('2024-09-11 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 67
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 4, TO_DATE('2024-09-02 08:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 5, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 5, TO_DATE('2024-09-06 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 4, TO_DATE('2024-09-08 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 4, TO_DATE('2024-09-10 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (67, 6, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 68
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 4, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 4, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 4, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 6, TO_DATE('2024-09-07 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 6, TO_DATE('2024-09-09 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (68, 6, TO_DATE('2024-09-11 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 69
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-02 07:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-04 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-08 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-10 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (69, 4, TO_DATE('2024-09-12 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 5 (id 70 al 69)
+-- Cliente 70
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-06 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-08 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-11 08:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (70, 5, TO_DATE('2024-09-14 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 71
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 5, TO_DATE('2024-09-02 07:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 5, TO_DATE('2024-09-04 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 4, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 4, TO_DATE('2024-09-09 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 4, TO_DATE('2024-09-12 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (71, 5, TO_DATE('2024-09-15 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 72
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 5, TO_DATE('2024-09-03 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 5, TO_DATE('2024-09-05 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 5, TO_DATE('2024-09-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 5, TO_DATE('2024-09-10 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 4, TO_DATE('2024-09-13 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (72, 5, TO_DATE('2024-09-15 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 73
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 5, TO_DATE('2024-09-01 07:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 5, TO_DATE('2024-09-03 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 5, TO_DATE('2024-09-05 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 5, TO_DATE('2024-09-07 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 6, TO_DATE('2024-09-09 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (73, 6, TO_DATE('2024-09-11 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 74
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 5, TO_DATE('2024-09-02 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 5, TO_DATE('2024-09-04 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 4, TO_DATE('2024-09-06 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 5, TO_DATE('2024-09-09 07:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 5, TO_DATE('2024-09-11 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (74, 5, TO_DATE('2024-09-14 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 75
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 5, TO_DATE('2024-09-01 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 5, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 5, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 5, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 4, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (75, 5, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 76
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 5, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 5, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 5, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 5, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 4, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (76, 5, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 77
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 5, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 6, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 5, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 5, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 4, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (77, 5, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 78
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 5, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 6, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 5, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 5, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 4, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (78, 5, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 79
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 5, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 6, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 5, TO_DATE('2024-09-05 07:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 5, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 4, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (79, 5, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 6 (id 80 al 89)
+-- Cliente 80
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-06 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-11 07:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (80, 6, TO_DATE('2024-09-14 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 81
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-02 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-05 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-07 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-10 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (81, 6, TO_DATE('2024-09-15 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 82
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-03 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-06 07:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-08 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-11 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (82, 6, TO_DATE('2024-09-14 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 83
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-02 08:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-04 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-09 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-11 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (83, 6, TO_DATE('2024-09-13 07:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 84
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-01 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-08 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-11 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (84, 6, TO_DATE('2024-09-14 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 85
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-02 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-05 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-09 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (85, 6, TO_DATE('2024-09-14 07:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 86
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-03 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-06 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-12 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (86, 6, TO_DATE('2024-09-14 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 87
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-02 08:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-05 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-08 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-11 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (87, 6, TO_DATE('2024-09-15 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 88
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-01 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-06 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-09 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (88, 6, TO_DATE('2024-09-14 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 89
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-02 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-05 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-08 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-13 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (89, 6, TO_DATE('2024-09-15 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 7 (id 90 al 99)
+-- Cliente 90
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-01 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-03 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-10 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (90, 7, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 91
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-01 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-07 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-10 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (91, 7, TO_DATE('2024-09-13 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 92
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-04 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-08 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-11 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (92, 7, TO_DATE('2024-09-14 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 93
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-07 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-10 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (93, 7, TO_DATE('2024-09-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 94
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-02 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-04 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-06 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-08 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-11 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (94, 7, TO_DATE('2024-09-14 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 95
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-01 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-03 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-07 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-10 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (95, 7, TO_DATE('2024-09-13 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 96
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-02 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-11 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (96, 7, TO_DATE('2024-09-14 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 97
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-07 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-10 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (97, 7, TO_DATE('2024-09-13 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 98
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-02 08:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-04 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-06 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-08 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-11 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (98, 7, TO_DATE('2024-09-14 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 99
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-03 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-05 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-08 08:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-11 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (99, 7, TO_DATE('2024-09-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 8 (id 100 al 109)
+-- Cliente 100
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 8, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 8, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 9, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 8, TO_DATE('2024-09-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 9, TO_DATE('2024-09-10 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (100, 8, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 101
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 8, TO_DATE('2024-09-01 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 8, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 8, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 9, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 8, TO_DATE('2024-09-11 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (101, 8, TO_DATE('2024-09-14 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 102
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 8, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 8, TO_DATE('2024-09-04 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 9, TO_DATE('2024-09-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 8, TO_DATE('2024-09-08 08:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 8, TO_DATE('2024-09-11 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (102, 8, TO_DATE('2024-09-14 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 103
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 8, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 9, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 8, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 8, TO_DATE('2024-09-07 08:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 8, TO_DATE('2024-09-10 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (103, 8, TO_DATE('2024-09-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 104
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 8, TO_DATE('2024-09-02 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 8, TO_DATE('2024-09-04 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 9, TO_DATE('2024-09-06 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 8, TO_DATE('2024-09-08 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 8, TO_DATE('2024-09-11 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (104, 8, TO_DATE('2024-09-14 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 105
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 8, TO_DATE('2024-09-01 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 8, TO_DATE('2024-09-03 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 8, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 9, TO_DATE('2024-09-08 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 8, TO_DATE('2024-09-10 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (105, 8, TO_DATE('2024-09-13 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 106
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 8, TO_DATE('2024-09-02 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 8, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 9, TO_DATE('2024-09-06 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 8, TO_DATE('2024-09-09 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 8, TO_DATE('2024-09-12 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (106, 8, TO_DATE('2024-09-14 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 107
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 8, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 9, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 8, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 8, TO_DATE('2024-09-08 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 8, TO_DATE('2024-09-11 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (107, 8, TO_DATE('2024-09-14 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 108
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 8, TO_DATE('2024-09-02 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 8, TO_DATE('2024-09-04 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 9, TO_DATE('2024-09-06 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 8, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 8, TO_DATE('2024-09-11 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (108, 8, TO_DATE('2024-09-14 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 109
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 8, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 8, TO_DATE('2024-09-03 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 9, TO_DATE('2024-09-05 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 8, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 8, TO_DATE('2024-09-10 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (109, 8, TO_DATE('2024-09-14 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 9 (id 100 al 119)
+-- Cliente 110
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 9, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 9, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 8, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 9, TO_DATE('2024-09-07 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 9, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (110, 9, TO_DATE('2024-09-12 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 111
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 9, TO_DATE('2024-09-02 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 9, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 8, TO_DATE('2024-09-06 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 9, TO_DATE('2024-09-08 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 9, TO_DATE('2024-09-11 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (111, 9, TO_DATE('2024-09-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 112
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 9, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 9, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 8, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 9, TO_DATE('2024-09-07 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 9, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (112, 9, TO_DATE('2024-09-13 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 113
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 9, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 9, TO_DATE('2024-09-04 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 8, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 9, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 9, TO_DATE('2024-09-11 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (113, 9, TO_DATE('2024-09-14 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 114
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 9, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 9, TO_DATE('2024-09-03 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 8, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 9, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 9, TO_DATE('2024-09-10 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (114, 9, TO_DATE('2024-09-14 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 115
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 9, TO_DATE('2024-09-01 08:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 9, TO_DATE('2024-09-03 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 8, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 9, TO_DATE('2024-09-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 9, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (115, 9, TO_DATE('2024-09-12 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 116
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 9, TO_DATE('2024-09-02 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 9, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 8, TO_DATE('2024-09-06 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 9, TO_DATE('2024-09-08 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 9, TO_DATE('2024-09-10 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (116, 9, TO_DATE('2024-09-13 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 117
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 9, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 9, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 8, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 9, TO_DATE('2024-09-07 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 9, TO_DATE('2024-09-09 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (117, 9, TO_DATE('2024-09-12 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 118
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 9, TO_DATE('2024-09-02 08:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 9, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 8, TO_DATE('2024-09-06 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 9, TO_DATE('2024-09-08 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 9, TO_DATE('2024-09-10 12:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (118, 9, TO_DATE('2024-09-13 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 119
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 9, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 9, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 8, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 9, TO_DATE('2024-09-07 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 9, TO_DATE('2024-09-10 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (119, 9, TO_DATE('2024-09-14 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 10 (id 120 al 129)
+-- Cliente 120
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-07 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (120, 10, TO_DATE('2024-09-12 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 121
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-02 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-06 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-08 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-11 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (121, 10, TO_DATE('2024-09-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 122
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-07 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (122, 10, TO_DATE('2024-09-13 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 123
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-04 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-11 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (123, 10, TO_DATE('2024-09-14 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 124
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-03 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-10 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (124, 10, TO_DATE('2024-09-14 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 125
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-02 08:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-04 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-08 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-11 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (125, 10, TO_DATE('2024-09-13 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 126
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-07 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (126, 10, TO_DATE('2024-09-13 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 127
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-04 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-11 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (127, 10, TO_DATE('2024-09-14 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 128
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-03 08:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-10 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (128, 10, TO_DATE('2024-09-14 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 129
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-02 08:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-04 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-08 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-11 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (129, 10, TO_DATE('2024-09-13 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 11 (id 130 al 139)
+-- Cliente 130
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-07 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-10 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (130, 11, TO_DATE('2024-09-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 131
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-02 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-04 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-08 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-11 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (131, 11, TO_DATE('2024-09-14 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 132
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-07 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-10 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (132, 11, TO_DATE('2024-09-13 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 133
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-02 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-04 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-06 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-08 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-11 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (133, 11, TO_DATE('2024-09-14 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 134
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-03 08:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-07 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (134, 11, TO_DATE('2024-09-12 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 135
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-02 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-06 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-08 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-10 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (135, 11, TO_DATE('2024-09-13 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 136
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-03 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-05 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-07 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-09 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (136, 11, TO_DATE('2024-09-13 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 137
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-02 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-04 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-06 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-08 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (137, 11, TO_DATE('2024-09-12 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 138
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-01 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-03 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-07 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-10 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (138, 11, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 139
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-04 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-08 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-10 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (139, 11, TO_DATE('2024-09-13 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--Clientes sede 12 (id 140 al 149)
+-- Cliente 140
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 12, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 12, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 12, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 12, TO_DATE('2024-09-06 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 12, TO_DATE('2024-09-09 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (140, 13, TO_DATE('2024-09-12 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 141
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 12, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 12, TO_DATE('2024-09-04 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 12, TO_DATE('2024-09-06 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 12, TO_DATE('2024-09-08 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 12, TO_DATE('2024-09-10 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (141, 13, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 142
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 12, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 12, TO_DATE('2024-09-03 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 12, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 12, TO_DATE('2024-09-06 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 12, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (142, 13, TO_DATE('2024-09-12 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 143
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 12, TO_DATE('2024-09-02 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 12, TO_DATE('2024-09-04 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 12, TO_DATE('2024-09-06 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 12, TO_DATE('2024-09-08 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 12, TO_DATE('2024-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (143, 13, TO_DATE('2024-09-13 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 144
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 12, TO_DATE('2024-09-01 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 12, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 12, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 12, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 12, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (144, 13, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 145
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 12, TO_DATE('2024-09-02 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 12, TO_DATE('2024-09-04 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 12, TO_DATE('2024-09-06 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 12, TO_DATE('2024-09-08 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 12, TO_DATE('2024-09-10 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (145, 13, TO_DATE('2024-09-13 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 146
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 12, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 12, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 12, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 12, TO_DATE('2024-09-06 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 12, TO_DATE('2024-09-09 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (146, 13, TO_DATE('2024-09-12 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 147
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 12, TO_DATE('2024-09-02 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 12, TO_DATE('2024-09-04 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 12, TO_DATE('2024-09-06 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 12, TO_DATE('2024-09-08 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 12, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (147, 13, TO_DATE('2024-09-13 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 148
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 12, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 12, TO_DATE('2024-09-03 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 12, TO_DATE('2024-09-05 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 12, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 12, TO_DATE('2024-09-09 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (148, 13, TO_DATE('2024-09-12 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 149
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 12, TO_DATE('2024-09-02 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 12, TO_DATE('2024-09-04 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 12, TO_DATE('2024-09-06 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 12, TO_DATE('2024-09-08 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 12, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (149, 13, TO_DATE('2024-09-13 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--Clientes sede 13 (id 150 al 159)
+-- Cliente 150
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 13, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 13, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 13, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 12, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 13, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (150, 12, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 151
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 13, TO_DATE('2024-09-02 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 13, TO_DATE('2024-09-04 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 12, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 13, TO_DATE('2024-09-08 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 13, TO_DATE('2024-09-10 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (151, 12, TO_DATE('2024-09-13 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 152
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 13, TO_DATE('2024-09-01 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 13, TO_DATE('2024-09-03 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 13, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 12, TO_DATE('2024-09-08 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 13, TO_DATE('2024-09-09 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (152, 12, TO_DATE('2024-09-12 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 153
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 13, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 12, TO_DATE('2024-09-03 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 13, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 13, TO_DATE('2024-09-07 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 12, TO_DATE('2024-09-10 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (153, 13, TO_DATE('2024-09-12 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 154
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 13, TO_DATE('2024-09-02 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 12, TO_DATE('2024-09-04 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 13, TO_DATE('2024-09-06 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 13, TO_DATE('2024-09-08 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 12, TO_DATE('2024-09-10 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (154, 13, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 155
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 13, TO_DATE('2024-09-01 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 13, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 12, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 13, TO_DATE('2024-09-08 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 12, TO_DATE('2024-09-10 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (155, 13, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 156
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 13, TO_DATE('2024-09-02 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 13, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 12, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 13, TO_DATE('2024-09-08 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 12, TO_DATE('2024-09-10 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (156, 13, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 157
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 13, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 13, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 12, TO_DATE('2024-09-05 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 13, TO_DATE('2024-09-08 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 12, TO_DATE('2024-09-10 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (157, 13, TO_DATE('2024-09-12 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 158
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 13, TO_DATE('2024-09-01 12:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 12, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 13, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 13, TO_DATE('2024-09-08 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 12, TO_DATE('2024-09-10 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (158, 13, TO_DATE('2024-09-12 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 159
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 13, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 12, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 13, TO_DATE('2024-09-05 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 13, TO_DATE('2024-09-08 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 12, TO_DATE('2024-09-10 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (159, 13, TO_DATE('2024-09-12 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--Clientes sede 14 (id 160 al 169)
+-- Cliente 160
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 14, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 14, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 15, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 14, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 16, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (160, 14, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 161
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 14, TO_DATE('2024-09-02 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 15, TO_DATE('2024-09-04 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 14, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 14, TO_DATE('2024-09-08 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 16, TO_DATE('2024-09-10 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (161, 14, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 162
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 14, TO_DATE('2024-09-01 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 15, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 14, TO_DATE('2024-09-05 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 14, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 16, TO_DATE('2024-09-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (162, 14, TO_DATE('2024-09-12 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 163
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 14, TO_DATE('2024-09-02 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 15, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 14, TO_DATE('2024-09-06 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 14, TO_DATE('2024-09-08 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 16, TO_DATE('2024-09-10 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (163, 14, TO_DATE('2024-09-12 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 164
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 14, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 15, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 14, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 14, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 16, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (164, 14, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 165
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 14, TO_DATE('2024-09-01 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 15, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 14, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 14, TO_DATE('2024-09-07 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 16, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (165, 14, TO_DATE('2024-09-12 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 166
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 14, TO_DATE('2024-09-01 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 15, TO_DATE('2024-09-03 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 14, TO_DATE('2024-09-05 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 14, TO_DATE('2024-09-07 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 16, TO_DATE('2024-09-09 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (166, 14, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 167
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 14, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 15, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 14, TO_DATE('2024-09-05 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 14, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 16, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (167, 14, TO_DATE('2024-09-12 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 168
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 14, TO_DATE('2024-09-01 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 15, TO_DATE('2024-09-03 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 14, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 14, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 16, TO_DATE('2024-09-09 12:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (168, 14, TO_DATE('2024-09-12 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 169
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 14, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 15, TO_DATE('2024-09-03 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 14, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 14, TO_DATE('2024-09-07 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 16, TO_DATE('2024-09-09 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (169, 14, TO_DATE('2024-09-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--Clientes sede 15 (id 170 al 179)
+-- Cliente 170
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 15, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 14, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 15, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 15, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 16, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (170, 15, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 171
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 15, TO_DATE('2024-09-02 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 14, TO_DATE('2024-09-04 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 15, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 15, TO_DATE('2024-09-08 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 16, TO_DATE('2024-09-10 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (171, 15, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 172
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 15, TO_DATE('2024-09-01 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 14, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 15, TO_DATE('2024-09-05 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 15, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 16, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (172, 15, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 173
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 15, TO_DATE('2024-09-02 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 14, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 15, TO_DATE('2024-09-06 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 15, TO_DATE('2024-09-08 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 16, TO_DATE('2024-09-10 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (173, 15, TO_DATE('2024-09-12 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 174
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 15, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 14, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 15, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 15, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 16, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (174, 15, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 175
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 15, TO_DATE('2024-09-01 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 14, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 15, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 15, TO_DATE('2024-09-07 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 16, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (175, 15, TO_DATE('2024-09-12 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 176
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 15, TO_DATE('2024-09-01 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 14, TO_DATE('2024-09-03 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 15, TO_DATE('2024-09-05 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 15, TO_DATE('2024-09-07 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 16, TO_DATE('2024-09-09 12:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (176, 15, TO_DATE('2024-09-12 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 177
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 15, TO_DATE('2024-09-01 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 14, TO_DATE('2024-09-03 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 15, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 15, TO_DATE('2024-09-07 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 16, TO_DATE('2024-09-09 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (177, 15, TO_DATE('2024-09-12 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 178
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 15, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 14, TO_DATE('2024-09-04 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 15, TO_DATE('2024-09-06 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 15, TO_DATE('2024-09-08 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 16, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (178, 15, TO_DATE('2024-09-12 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 179
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 15, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 14, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 15, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 15, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 16, TO_DATE('2024-09-09 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (179, 15, TO_DATE('2024-09-12 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--Clientes sede 16 (id 180 al 189)
+-- Cliente 180
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 16, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 14, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 16, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 15, TO_DATE('2024-09-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 16, TO_DATE('2024-09-09 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (180, 16, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 181
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 16, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 15, TO_DATE('2024-09-03 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 16, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 14, TO_DATE('2024-09-07 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 16, TO_DATE('2024-09-09 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (181, 16, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 182
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 16, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 14, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 16, TO_DATE('2024-09-05 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 15, TO_DATE('2024-09-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 16, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (182, 16, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 183
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 16, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 15, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 16, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 14, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 16, TO_DATE('2024-09-09 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (183, 16, TO_DATE('2024-09-12 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 184
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 16, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 14, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 16, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 15, TO_DATE('2024-09-07 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 16, TO_DATE('2024-09-09 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (184, 16, TO_DATE('2024-09-12 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 185
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 16, TO_DATE('2024-09-01 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 15, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 16, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 14, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 16, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (185, 16, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 186
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 16, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 15, TO_DATE('2024-09-03 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 16, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 14, TO_DATE('2024-09-07 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 16, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (186, 16, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 187
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 16, TO_DATE('2024-09-01 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 15, TO_DATE('2024-09-03 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 16, TO_DATE('2024-09-05 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 14, TO_DATE('2024-09-07 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 16, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (187, 16, TO_DATE('2024-09-12 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 188
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 16, TO_DATE('2024-09-01 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 15, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 16, TO_DATE('2024-09-05 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 14, TO_DATE('2024-09-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 16, TO_DATE('2024-09-09 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (188, 16, TO_DATE('2024-09-12 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 189
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 16, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 15, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 16, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 14, TO_DATE('2024-09-07 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 16, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (189, 16, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 17 (id 190-199)
+-- Cliente 190
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 17, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 18, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 17, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 17, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 18, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (190, 17, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 191
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 17, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 18, TO_DATE('2024-09-03 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 17, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 17, TO_DATE('2024-09-07 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 18, TO_DATE('2024-09-09 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (191, 17, TO_DATE('2024-09-12 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 192
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 17, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 18, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 17, TO_DATE('2024-09-05 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 17, TO_DATE('2024-09-07 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 18, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (192, 17, TO_DATE('2024-09-12 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 193
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 17, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 18, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 17, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 17, TO_DATE('2024-09-07 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 18, TO_DATE('2024-09-09 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (193, 17, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 194
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 17, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 18, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 17, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 17, TO_DATE('2024-09-07 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 18, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (194, 17, TO_DATE('2024-09-12 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 195
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 17, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 18, TO_DATE('2024-09-03 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 17, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 17, TO_DATE('2024-09-07 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 18, TO_DATE('2024-09-09 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (195, 17, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 196
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 17, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 18, TO_DATE('2024-09-03 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 17, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 17, TO_DATE('2024-09-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 18, TO_DATE('2024-09-09 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (196, 17, TO_DATE('2024-09-12 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 197
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 17, TO_DATE('2024-09-01 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 18, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 17, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 17, TO_DATE('2024-09-07 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 18, TO_DATE('2024-09-09 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (197, 17, TO_DATE('2024-09-12 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 198
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 17, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 18, TO_DATE('2024-09-03 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 17, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 17, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 18, TO_DATE('2024-09-09 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (198, 17, TO_DATE('2024-09-12 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 199
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 17, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 18, TO_DATE('2024-09-03 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 17, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 17, TO_DATE('2024-09-07 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 18, TO_DATE('2024-09-09 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (199, 17, TO_DATE('2024-09-12 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 18 (id 200 al 209)
+-- Cliente 200
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 18, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 17, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 18, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 18, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 17, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (200, 18, TO_DATE('2024-09-12 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 201
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 18, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 17, TO_DATE('2024-09-03 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 18, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 18, TO_DATE('2024-09-07 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 17, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (201, 18, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 202
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 18, TO_DATE('2024-09-01 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 17, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 18, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 18, TO_DATE('2024-09-07 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 17, TO_DATE('2024-09-09 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (202, 18, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 203
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 18, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 17, TO_DATE('2024-09-03 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 18, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 18, TO_DATE('2024-09-07 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 17, TO_DATE('2024-09-09 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (203, 18, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 204
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 18, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 17, TO_DATE('2024-09-03 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 18, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 18, TO_DATE('2024-09-07 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 17, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (204, 18, TO_DATE('2024-09-12 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 205
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 18, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 17, TO_DATE('2024-09-03 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 18, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 18, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 17, TO_DATE('2024-09-09 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (205, 18, TO_DATE('2024-09-12 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 206
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 18, TO_DATE('2024-09-01 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 17, TO_DATE('2024-09-03 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 18, TO_DATE('2024-09-05 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 18, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 17, TO_DATE('2024-09-09 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (206, 18, TO_DATE('2024-09-12 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 207
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 18, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 17, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 18, TO_DATE('2024-09-05 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 18, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 17, TO_DATE('2024-09-09 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (207, 18, TO_DATE('2024-09-12 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 208
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 18, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 17, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 18, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 18, TO_DATE('2024-09-07 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 17, TO_DATE('2024-09-09 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (208, 18, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 209
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 18, TO_DATE('2024-09-01 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 17, TO_DATE('2024-09-03 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 18, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 18, TO_DATE('2024-09-07 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 17, TO_DATE('2024-09-09 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (209, 18, TO_DATE('2024-09-12 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 19 (id 210 al 219)
+-- Cliente 210
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 19, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 20, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 19, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 19, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 21, TO_DATE('2024-09-09 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (210, 19, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 211
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 19, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 20, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 19, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 19, TO_DATE('2024-09-07 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 21, TO_DATE('2024-09-09 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (211, 19, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 212
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 19, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 20, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 19, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 19, TO_DATE('2024-09-07 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 21, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (212, 19, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 213
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 19, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 20, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 19, TO_DATE('2024-09-05 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 19, TO_DATE('2024-09-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 21, TO_DATE('2024-09-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (213, 19, TO_DATE('2024-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 214
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 19, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 20, TO_DATE('2024-09-03 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 19, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 19, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 21, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (214, 19, TO_DATE('2024-09-12 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 215
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 19, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 20, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 19, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 19, TO_DATE('2024-09-07 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 21, TO_DATE('2024-09-09 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (215, 19, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 216
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 19, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 20, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 19, TO_DATE('2024-09-05 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 19, TO_DATE('2024-09-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 21, TO_DATE('2024-09-09 12:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (216, 19, TO_DATE('2024-09-12 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 217
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 19, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 20, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 19, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 19, TO_DATE('2024-09-07 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 21, TO_DATE('2024-09-09 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (217, 19, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 218
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 19, TO_DATE('2024-09-01 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 20, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 19, TO_DATE('2024-09-05 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 19, TO_DATE('2024-09-07 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 21, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (218, 19, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 219
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 19, TO_DATE('2024-09-01 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 20, TO_DATE('2024-09-03 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 19, TO_DATE('2024-09-05 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 19, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 21, TO_DATE('2024-09-09 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (219, 19, TO_DATE('2024-09-12 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 20 (id 220 al 229)
+-- Cliente 220
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 20, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 19, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 20, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 20, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 21, TO_DATE('2024-09-09 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (220, 20, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 221
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 20, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 19, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 20, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 20, TO_DATE('2024-09-07 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 21, TO_DATE('2024-09-09 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (221, 20, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 222
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 20, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 19, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 20, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 20, TO_DATE('2024-09-07 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 21, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (222, 20, TO_DATE('2024-09-12 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 223
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 20, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 19, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 20, TO_DATE('2024-09-05 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 20, TO_DATE('2024-09-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 21, TO_DATE('2024-09-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (223, 20, TO_DATE('2024-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 224
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 20, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 19, TO_DATE('2024-09-03 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 20, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 20, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 21, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (224, 20, TO_DATE('2024-09-12 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 225
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 20, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 19, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 20, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 20, TO_DATE('2024-09-07 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 21, TO_DATE('2024-09-09 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (225, 20, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 226
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 20, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 19, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 20, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 20, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 21, TO_DATE('2024-09-09 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (226, 20, TO_DATE('2024-09-12 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 227
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 20, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 19, TO_DATE('2024-09-03 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 20, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 20, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 21, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (227, 20, TO_DATE('2024-09-12 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 228
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 20, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 19, TO_DATE('2024-09-03 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 20, TO_DATE('2024-09-05 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 20, TO_DATE('2024-09-07 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 21, TO_DATE('2024-09-09 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (228, 20, TO_DATE('2024-09-12 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 229
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 20, TO_DATE('2024-09-01 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 19, TO_DATE('2024-09-03 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 20, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 20, TO_DATE('2024-09-07 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 21, TO_DATE('2024-09-09 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (229, 20, TO_DATE('2024-09-12 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 21 (id 230 al 239)
+-- Cliente 230
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 21, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 20, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 21, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 21, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 19, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (230, 21, TO_DATE('2024-09-12 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 231
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 21, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 20, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 21, TO_DATE('2024-09-05 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 21, TO_DATE('2024-09-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 19, TO_DATE('2024-09-09 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (231, 21, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 232
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 21, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 20, TO_DATE('2024-09-03 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 21, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 21, TO_DATE('2024-09-07 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 19, TO_DATE('2024-09-09 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (232, 21, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 233
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 21, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 20, TO_DATE('2024-09-03 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 21, TO_DATE('2024-09-05 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 21, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 19, TO_DATE('2024-09-09 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (233, 21, TO_DATE('2024-09-12 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 234
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 21, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 20, TO_DATE('2024-09-03 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 21, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 21, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 19, TO_DATE('2024-09-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (234, 21, TO_DATE('2024-09-12 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 235
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 21, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 20, TO_DATE('2024-09-03 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 21, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 21, TO_DATE('2024-09-07 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 19, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (235, 21, TO_DATE('2024-09-12 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 236
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 21, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 20, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 21, TO_DATE('2024-09-05 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 21, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 19, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (236, 21, TO_DATE('2024-09-12 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 237
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 21, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 20, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 21, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 21, TO_DATE('2024-09-07 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 19, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (237, 21, TO_DATE('2024-09-12 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 238
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 21, TO_DATE('2024-09-01 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 20, TO_DATE('2024-09-03 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 21, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 21, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 19, TO_DATE('2024-09-09 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (238, 21, TO_DATE('2024-09-12 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 239
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 21, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 20, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 21, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 21, TO_DATE('2024-09-07 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 19, TO_DATE('2024-09-09 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (239, 21, TO_DATE('2024-09-12 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 22 (id 240 a 249)
+-- Cliente 240
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-03 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-07 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (240, 22, TO_DATE('2024-09-12 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 241
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-03 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-09 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (241, 22, TO_DATE('2024-09-12 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 242
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-03 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-07 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-09 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (242, 22, TO_DATE('2024-09-12 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 243
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-03 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-07 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-09 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (243, 22, TO_DATE('2024-09-12 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 244
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-01 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-03 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-07 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-09 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (244, 22, TO_DATE('2024-09-12 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 245
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-01 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-07 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-09 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (245, 22, TO_DATE('2024-09-12 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 246
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-05 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-07 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-09 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (246, 22, TO_DATE('2024-09-12 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 247
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-05 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-07 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-09 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (247, 22, TO_DATE('2024-09-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 248
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-03 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-07 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-09 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (248, 22, TO_DATE('2024-09-12 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 249
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-01 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-07 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-09 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (249, 22, TO_DATE('2024-09-12 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 23 (id 250 a 259)
+-- Cliente 250
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 23, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 23, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 23, TO_DATE('2024-09-05 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 23, TO_DATE('2024-09-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 23, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (250, 24, TO_DATE('2024-09-10 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 251
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 23, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 23, TO_DATE('2024-09-03 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 23, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 24, TO_DATE('2024-09-08 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 23, TO_DATE('2024-09-09 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (251, 24, TO_DATE('2024-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 252
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 23, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 23, TO_DATE('2024-09-03 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 23, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 24, TO_DATE('2024-09-08 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 23, TO_DATE('2024-09-09 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (252, 24, TO_DATE('2024-09-10 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 253
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 23, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 23, TO_DATE('2024-09-03 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 23, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 24, TO_DATE('2024-09-08 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 23, TO_DATE('2024-09-09 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (253, 24, TO_DATE('2024-09-10 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 254
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 23, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 23, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 23, TO_DATE('2024-09-05 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 24, TO_DATE('2024-09-08 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 23, TO_DATE('2024-09-09 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (254, 24, TO_DATE('2024-09-10 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 255
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 23, TO_DATE('2024-09-01 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 23, TO_DATE('2024-09-03 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 23, TO_DATE('2024-09-05 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 24, TO_DATE('2024-09-08 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 23, TO_DATE('2024-09-09 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (255, 24, TO_DATE('2024-09-10 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 256
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 23, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 23, TO_DATE('2024-09-03 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 23, TO_DATE('2024-09-05 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 24, TO_DATE('2024-09-08 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 23, TO_DATE('2024-09-09 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (256, 24, TO_DATE('2024-09-10 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 257
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 23, TO_DATE('2024-09-01 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 23, TO_DATE('2024-09-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 23, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 24, TO_DATE('2024-09-08 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 23, TO_DATE('2024-09-09 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (257, 24, TO_DATE('2024-09-10 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 258
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 23, TO_DATE('2024-09-01 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 23, TO_DATE('2024-09-03 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 23, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 24, TO_DATE('2024-09-08 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 23, TO_DATE('2024-09-09 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (258, 24, TO_DATE('2024-09-10 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 259
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 23, TO_DATE('2024-09-01 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 23, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 23, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 24, TO_DATE('2024-09-08 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 23, TO_DATE('2024-09-09 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (259, 24, TO_DATE('2024-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 24 (id 260 a 269)
+-- Cliente 260
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 24, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 24, TO_DATE('2024-09-02 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 24, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 24, TO_DATE('2024-09-04 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 24, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (260, 23, TO_DATE('2024-09-07 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 261
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 24, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 24, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 24, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 23, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 24, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (261, 24, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 262
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 24, TO_DATE('2024-09-01 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 24, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 24, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 24, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 23, TO_DATE('2024-09-05 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (262, 24, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 263
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 24, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 24, TO_DATE('2024-09-02 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 24, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 23, TO_DATE('2024-09-04 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 24, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (263, 24, TO_DATE('2024-09-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 264
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 24, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 24, TO_DATE('2024-09-02 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 24, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 24, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 23, TO_DATE('2024-09-05 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (264, 24, TO_DATE('2024-09-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 265
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 24, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 24, TO_DATE('2024-09-02 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 24, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 23, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 24, TO_DATE('2024-09-05 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (265, 24, TO_DATE('2024-09-06 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 266
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 24, TO_DATE('2024-09-01 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 24, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 24, TO_DATE('2024-09-03 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 23, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 24, TO_DATE('2024-09-05 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (266, 24, TO_DATE('2024-09-06 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 267
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 24, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 24, TO_DATE('2024-09-02 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 24, TO_DATE('2024-09-03 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 24, TO_DATE('2024-09-04 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 23, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (267, 24, TO_DATE('2024-09-06 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 268
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 24, TO_DATE('2024-09-01 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 24, TO_DATE('2024-09-02 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 24, TO_DATE('2024-09-03 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 23, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 24, TO_DATE('2024-09-05 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (268, 24, TO_DATE('2024-09-06 12:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 269
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 24, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 24, TO_DATE('2024-09-02 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 24, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 23, TO_DATE('2024-09-04 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 24, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (269, 24, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 25 (id 270 a 279)
+-- Cliente 270
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 25, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 25, TO_DATE('2024-09-02 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 25, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 26, TO_DATE('2024-09-04 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 25, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (270, 25, TO_DATE('2024-09-06 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 271
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 25, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 25, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 25, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 27, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 25, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (271, 25, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 272
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 25, TO_DATE('2024-09-01 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 25, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 25, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 25, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 26, TO_DATE('2024-09-05 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (272, 25, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 273
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 25, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 25, TO_DATE('2024-09-02 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 25, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 27, TO_DATE('2024-09-04 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 25, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (273, 25, TO_DATE('2024-09-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 274
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 25, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 25, TO_DATE('2024-09-02 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 25, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 26, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 25, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (274, 25, TO_DATE('2024-09-06 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 275
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 25, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 25, TO_DATE('2024-09-02 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 25, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 27, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 25, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (275, 25, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 276
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 25, TO_DATE('2024-09-01 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 25, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 25, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 26, TO_DATE('2024-09-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 25, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (276, 25, TO_DATE('2024-09-06 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 277
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 25, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 25, TO_DATE('2024-09-02 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 25, TO_DATE('2024-09-03 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 27, TO_DATE('2024-09-04 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 25, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (277, 25, TO_DATE('2024-09-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 278
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 25, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 25, TO_DATE('2024-09-02 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 25, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 26, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 25, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (278, 25, TO_DATE('2024-09-06 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 279
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 25, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 25, TO_DATE('2024-09-02 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 25, TO_DATE('2024-09-03 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 27, TO_DATE('2024-09-04 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 25, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (279, 25, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 26 (id 280 a 289)
+-- Cliente 280
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 26, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 26, TO_DATE('2024-09-02 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 25, TO_DATE('2024-09-03 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 26, TO_DATE('2024-09-04 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 27, TO_DATE('2024-09-05 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (280, 26, TO_DATE('2024-09-06 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 281
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 26, TO_DATE('2024-09-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 25, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 26, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 27, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 26, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (281, 26, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 282
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 26, TO_DATE('2024-09-01 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 26, TO_DATE('2024-09-02 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 25, TO_DATE('2024-09-03 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 26, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 27, TO_DATE('2024-09-05 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (282, 26, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 283
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 26, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 26, TO_DATE('2024-09-02 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 25, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 26, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 27, TO_DATE('2024-09-05 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (283, 26, TO_DATE('2024-09-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 284
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 26, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 26, TO_DATE('2024-09-02 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 25, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 26, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 27, TO_DATE('2024-09-05 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (284, 26, TO_DATE('2024-09-06 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 285
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 26, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 25, TO_DATE('2024-09-02 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 26, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 27, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 26, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (285, 26, TO_DATE('2024-09-06 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 286
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 26, TO_DATE('2024-09-01 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 26, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 25, TO_DATE('2024-09-03 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 26, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 27, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (286, 26, TO_DATE('2024-09-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 287
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 26, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 25, TO_DATE('2024-09-02 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 26, TO_DATE('2024-09-03 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 27, TO_DATE('2024-09-04 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 26, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (287, 26, TO_DATE('2024-09-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 288
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 26, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 26, TO_DATE('2024-09-02 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 25, TO_DATE('2024-09-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 26, TO_DATE('2024-09-04 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 27, TO_DATE('2024-09-05 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (288, 26, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 289
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 26, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 25, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 26, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 27, TO_DATE('2024-09-04 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 26, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (289, 26, TO_DATE('2024-09-06 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 27 (id 290 a 299)
+-- Cliente 290
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 27, TO_DATE('2024-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 26, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 27, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 25, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 27, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (290, 27, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 291
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 27, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 26, TO_DATE('2024-09-02 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 27, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 25, TO_DATE('2024-09-04 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 27, TO_DATE('2024-09-05 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (291, 27, TO_DATE('2024-09-06 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 292
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 27, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 26, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 27, TO_DATE('2024-09-03 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 25, TO_DATE('2024-09-04 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 27, TO_DATE('2024-09-05 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (292, 27, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 293
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 27, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 26, TO_DATE('2024-09-02 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 27, TO_DATE('2024-09-03 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 25, TO_DATE('2024-09-04 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 27, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (293, 27, TO_DATE('2024-09-06 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 294
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 27, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 26, TO_DATE('2024-09-02 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 27, TO_DATE('2024-09-03 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 25, TO_DATE('2024-09-04 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 27, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (294, 27, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 295
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 27, TO_DATE('2024-09-01 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 26, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 27, TO_DATE('2024-09-03 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 25, TO_DATE('2024-09-04 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 27, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (295, 27, TO_DATE('2024-09-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 296
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 27, TO_DATE('2024-09-01 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 26, TO_DATE('2024-09-02 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 27, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 25, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 27, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (296, 27, TO_DATE('2024-09-06 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 297
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 27, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 26, TO_DATE('2024-09-02 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 27, TO_DATE('2024-09-03 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 25, TO_DATE('2024-09-04 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 27, TO_DATE('2024-09-05 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (297, 27, TO_DATE('2024-09-06 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 298
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 27, TO_DATE('2024-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 26, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 27, TO_DATE('2024-09-03 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 25, TO_DATE('2024-09-04 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 27, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (298, 27, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 299
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 27, TO_DATE('2024-09-01 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 26, TO_DATE('2024-09-02 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 27, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 25, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 27, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (299, 27, TO_DATE('2024-09-06 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 28 (id 300 a 309)
+-- Cliente 300
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 28, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 29, TO_DATE('2024-09-02 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 28, TO_DATE('2024-09-03 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 30, TO_DATE('2024-09-04 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 28, TO_DATE('2024-09-05 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (300, 28, TO_DATE('2024-09-06 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 301
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 28, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 29, TO_DATE('2024-09-02 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 28, TO_DATE('2024-09-03 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 30, TO_DATE('2024-09-04 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 28, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (301, 28, TO_DATE('2024-09-06 09:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 302
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 28, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 29, TO_DATE('2024-09-02 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 28, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 30, TO_DATE('2024-09-04 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 28, TO_DATE('2024-09-05 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (302, 28, TO_DATE('2024-09-06 09:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 303
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 28, TO_DATE('2024-09-01 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 29, TO_DATE('2024-09-02 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 28, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 30, TO_DATE('2024-09-04 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 28, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (303, 28, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 304
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 28, TO_DATE('2024-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 29, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 28, TO_DATE('2024-09-03 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 30, TO_DATE('2024-09-04 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 28, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (304, 28, TO_DATE('2024-09-06 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 305
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 28, TO_DATE('2024-09-01 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 29, TO_DATE('2024-09-02 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 28, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 30, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 28, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (305, 28, TO_DATE('2024-09-06 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 306
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 28, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 29, TO_DATE('2024-09-02 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 28, TO_DATE('2024-09-03 12:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 30, TO_DATE('2024-09-04 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 28, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (306, 28, TO_DATE('2024-09-06 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 307
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 28, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 29, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 28, TO_DATE('2024-09-03 12:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 30, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 28, TO_DATE('2024-09-05 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (307, 28, TO_DATE('2024-09-06 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 308
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 28, TO_DATE('2024-09-01 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 29, TO_DATE('2024-09-02 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 28, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 30, TO_DATE('2024-09-04 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 28, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (308, 28, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 309
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 28, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 29, TO_DATE('2024-09-02 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 28, TO_DATE('2024-09-03 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 30, TO_DATE('2024-09-04 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 28, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (309, 28, TO_DATE('2024-09-06 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 29 (id 310 a 319)
+-- Cliente 310
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 29, TO_DATE('2024-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 28, TO_DATE('2024-09-02 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 29, TO_DATE('2024-09-03 12:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 30, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 29, TO_DATE('2024-09-05 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (310, 29, TO_DATE('2024-09-06 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 311
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 29, TO_DATE('2024-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 28, TO_DATE('2024-09-02 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 29, TO_DATE('2024-09-03 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 30, TO_DATE('2024-09-04 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 29, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (311, 29, TO_DATE('2024-09-06 09:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 312
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 29, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 28, TO_DATE('2024-09-02 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 29, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 30, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 29, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (312, 29, TO_DATE('2024-09-06 09:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 313
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 29, TO_DATE('2024-09-01 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 28, TO_DATE('2024-09-02 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 29, TO_DATE('2024-09-03 11:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 30, TO_DATE('2024-09-04 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 29, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (313, 29, TO_DATE('2024-09-06 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 314
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 29, TO_DATE('2024-09-01 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 28, TO_DATE('2024-09-02 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 29, TO_DATE('2024-09-03 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 30, TO_DATE('2024-09-04 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 29, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (314, 29, TO_DATE('2024-09-06 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 315
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 29, TO_DATE('2024-09-01 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 28, TO_DATE('2024-09-02 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 29, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 30, TO_DATE('2024-09-04 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 29, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (315, 29, TO_DATE('2024-09-06 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 316
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 29, TO_DATE('2024-09-01 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 28, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 29, TO_DATE('2024-09-03 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 30, TO_DATE('2024-09-04 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 29, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (316, 29, TO_DATE('2024-09-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 317
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 29, TO_DATE('2024-09-01 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 28, TO_DATE('2024-09-02 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 29, TO_DATE('2024-09-03 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 30, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 29, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (317, 29, TO_DATE('2024-09-06 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 318
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 29, TO_DATE('2024-09-01 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 28, TO_DATE('2024-09-02 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 29, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 30, TO_DATE('2024-09-04 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 29, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (318, 29, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 319
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 29, TO_DATE('2024-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 28, TO_DATE('2024-09-02 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 29, TO_DATE('2024-09-03 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 30, TO_DATE('2024-09-04 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 29, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (319, 29, TO_DATE('2024-09-06 09:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+--clientes sede 30 (id 320 a 329)
+-- Cliente 320
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 30, TO_DATE('2024-09-01 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 29, TO_DATE('2024-09-02 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 30, TO_DATE('2024-09-03 12:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 28, TO_DATE('2024-09-04 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 30, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (320, 30, TO_DATE('2024-09-06 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 321
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 30, TO_DATE('2024-09-01 09:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 29, TO_DATE('2024-09-02 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 30, TO_DATE('2024-09-03 11:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 28, TO_DATE('2024-09-04 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 30, TO_DATE('2024-09-05 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (321, 30, TO_DATE('2024-09-06 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 322
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 30, TO_DATE('2024-09-01 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 29, TO_DATE('2024-09-02 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 30, TO_DATE('2024-09-03 12:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 28, TO_DATE('2024-09-04 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 30, TO_DATE('2024-09-05 11:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (322, 30, TO_DATE('2024-09-06 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 323
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 30, TO_DATE('2024-09-01 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 29, TO_DATE('2024-09-02 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 30, TO_DATE('2024-09-03 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 28, TO_DATE('2024-09-04 10:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 30, TO_DATE('2024-09-05 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (323, 30, TO_DATE('2024-09-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 324
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 30, TO_DATE('2024-09-01 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 29, TO_DATE('2024-09-02 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 30, TO_DATE('2024-09-03 12:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 28, TO_DATE('2024-09-04 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 30, TO_DATE('2024-09-05 11:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (324, 30, TO_DATE('2024-09-06 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 325
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 30, TO_DATE('2024-09-01 09:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 29, TO_DATE('2024-09-02 10:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 30, TO_DATE('2024-09-03 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 28, TO_DATE('2024-09-04 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 30, TO_DATE('2024-09-05 11:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (325, 30, TO_DATE('2024-09-06 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 326
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 30, TO_DATE('2024-09-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 29, TO_DATE('2024-09-02 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 30, TO_DATE('2024-09-03 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 28, TO_DATE('2024-09-04 10:45:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 30, TO_DATE('2024-09-05 11:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (326, 30, TO_DATE('2024-09-06 09:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 327
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 30, TO_DATE('2024-09-01 09:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 29, TO_DATE('2024-09-02 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 30, TO_DATE('2024-09-03 11:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 28, TO_DATE('2024-09-04 10:35:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 30, TO_DATE('2024-09-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (327, 30, TO_DATE('2024-09-06 10:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 328
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 30, TO_DATE('2024-09-01 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 29, TO_DATE('2024-09-02 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 30, TO_DATE('2024-09-03 12:25:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 28, TO_DATE('2024-09-04 10:20:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 30, TO_DATE('2024-09-05 11:50:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (328, 30, TO_DATE('2024-09-06 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+-- Cliente 329
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 30, TO_DATE('2024-09-01 11:05:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 29, TO_DATE('2024-09-02 10:40:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 30, TO_DATE('2024-09-03 12:10:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 28, TO_DATE('2024-09-04 10:55:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 30, TO_DATE('2024-09-05 11:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+
+INSERT INTO historial_visitas (id_cliente, id_sede, fecha_hora) 
+VALUES (329, 30, TO_DATE('2024-09-06 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 -----------------------------------------------------
 -----------------------------------------------------
@@ -6081,8 +11851,14 @@ VALUES (11, 3, TO_DATE('2024-09-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
 
 -----------------------------------------------------
 -----------------------------------------------------
---venta
+--venta 1
 INSERT INTO venta (id_cliente, id_empleado, total) VALUES (1, 1, 250.00);
+
+--productos_venta
+INSERT INTO productos_venta (id_venta, id_producto_sede, cantidad, total_producto)
+VALUES (1, 1, 5, 250.00);
+
+
 INSERT INTO venta (id_cliente, id_empleado, total) VALUES (2, 2, 300.50);
 INSERT INTO venta (id_cliente, id_empleado, total) VALUES (3, 3, 450.75);
 INSERT INTO venta (id_cliente, id_empleado, total) VALUES (4, 1, 150.25);
@@ -6231,3 +12007,10 @@ INSERT INTO venta (id_cliente, id_empleado, total) VALUES (112, 32, 150.00);
 --Eliminacion de usuarios y roles
 --DROP USER C##gerente CASCADE;
 --DROP ROLE C##rol_administrativo;
+
+--truncar y reiniciar conteo en las tablas historial_visitas y venta
+--TRUNCATE TABLE historial_visitas;
+--ALTER TABLE historial_visitas MODIFY ID GENERATED BY DEFAULT AS IDENTITY (START WITH 1);
+
+--TRUNCATE TABLE venta;
+--ALTER TABLE venta MODIFY ID GENERATED BY DEFAULT AS IDENTITY (START WITH 1);
